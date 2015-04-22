@@ -9,5 +9,5 @@ deploy:
         - s3sync:
             key-id: $KEY
             key-secret: $SECRET
-            bucket-url: s3://tactically-creative.co.uk
+            bucket-url: $BUCKET
             source_dir: public/
