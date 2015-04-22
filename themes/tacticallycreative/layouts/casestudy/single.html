@@ -1,0 +1,23 @@
+{{ template "theme/partials/header.html" . }}
+
+<div class="casestudy__header">
+	<img class="header__icon" src="{{ .Params.image }}">
+	<h1 class="header__header">{{ .Title }}</h1>
+	<h3 class="header__subheader">{{ .Params.subheader}}</h3>
+
+</div>
+
+
+<section class="casestudy">
+
+	<div class="content">
+
+		{{ .Content }}
+
+	<h2 class="casestudy__link">You can find their site at:</h2>
+	<h4><a href="{{ .Params.originurl }}">{{ .Params.sitelink }}</a></h4>
+
+	</div>
+</section>
+
+{{ template "theme/partials/footer.html" }}
