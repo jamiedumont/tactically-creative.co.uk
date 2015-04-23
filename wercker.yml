@@ -1,12 +1,12 @@
 box: wercker/default
 build:
-  steps:
-  - arjen/hugo-build:
-    version: 0.13
+    steps:
+      - arjen/hugo-build:
+          version: 0.13
 deploy:
   steps:
-    - s3sync:
-      key-id: $KEY
-      key-secret: $SECRET
-      bucket-url: $BUCKET
-      source_dir: public/
+        - s3sync:
+            key_id: $KEY
+            key_secret: $SECRET
+            bucket_url: $BUCKET
+            source_dir: public/
