@@ -1,0 +1,82 @@
+html {
+
+}
+body.background--space {
+	background: #01033D;
+  background: url(/images/qtctc_asset_star-background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: $white;
+}
+
+section {
+
+}
+
+.top-banner {
+	position: relative;
+	overflow: hidden;
+	color: $white;
+	padding-bottom: 2em;
+}
+
+.top-image {
+	position: absolute;
+	top:50%;
+  min-height:100%;
+  display:block;
+  left:50%;
+  -webkit-transform: translate(-50%, -50%);
+  min-width:100%;
+  z-index: -1;
+}
+
+.content {
+	@include outer-container();
+	max-width: 90%;
+	
+}
+
+.content--nopadding {
+	padding: 0;
+}
+
+.row {
+	@include row();
+	margin-bottom: 4em;
+}
+
+/*.row--reverse {
+	@include row($direction: RTL)
+}*/
+
+.button {
+	background-color: $bright-blue;
+	color: #000;
+	text-transform: uppercase;
+	padding: 10px;
+	border-radius: 10px;
+	font-weight: 400;
+	@include media($medium-screen-up){
+		margin-left: 2em;
+	}
+	
+}
+
+.some-flex {
+	margin: 3em auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.flex-item {
+	padding-top: 15px;
+}
+
+.one-third {
+	@include media($medium-screen-up){
+		@include span-columns(4);
+	}
+}

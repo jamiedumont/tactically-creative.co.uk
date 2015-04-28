@@ -1,12 +1,22 @@
-{{ partial "header.html" . }}
+{{ partial "head.html" . }}
 
-<div class="casestudy__header">
-	<img class="header__icon" src="{{ .Params.image }}">
-	<h1 class="header__header">{{ .Title }}</h1>
-	<h3 class="header__subheader">{{ .Params.subheader}}</h3>
+<body>
+
+<div class="top-banner">
+
+	<img src="/images/qtctc_asset_star-background.jpg" alt="" class="top-image">
+
+	{{ partial "header.html" . }}
+
+
+
+	<div class="casestudy__header">
+		<img class="header__icon" src="{{ .Params.image }}">
+		<h1 class="header__header">{{ .Title }}</h1>
+		<h3 class="header__subheader">{{ .Params.subheader}}</h3>
+	</div>
 
 </div>
-
 
 <section class="casestudy">
 
