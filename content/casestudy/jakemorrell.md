@@ -20,7 +20,7 @@ solution tough.
 Country roots
 -------------
 
-When Jake Morrell approached us, he was a musician who had recently
+When Jake Morrell approached me, he was a musician who had recently
 decided that his band should start taking their music seriously, and
 start building up a reputation and solid fanbase. Up until that point,
 he had been an enthusiastic and talented musician, but had yet to treat
@@ -34,7 +34,7 @@ to capture everything that was brilliant about their music.
 Templates without soul
 ----------------------
 
-As we’ve already said, finding an off-the-shelf solution for a website
+As I’ve already said, finding an off-the-shelf solution for a website
 as personal as a band’s can be really tough; even more-so when that
 band’s identity & sound is as unique and different as Jake’s. He had
 been finding that none of the templates and themes he had found really
@@ -60,32 +60,32 @@ point, it would need to be simple to update and keep current. The
 existing site also didn’t offer any responsive design elements for
 mobile viewers. Jake had no analytics to confirm that many of his views
 came from portable devices, but was fairly sure that a significant
-percentage would have benefited from it. That instantly told us that we
-needed to incorporate responsive design into our build, but also some
+percentage would have benefited from it. That instantly told me that I
+needed to incorporate responsive design into the build, but also some
 analytics tools to provide data for later optimisation.
 
 A new perspective
 -----------------
 
-Working with a band was a new experience for us. Whilst we were very
-comfortable working with small businesses & their objectives; we were
-left scratching our heads when it came to the music industry.
+Working with a band was a new experience for me. Whilst I'm very
+comfortable working with small businesses and their objectives; I was
+left scratching my head when it came to the music industry.
 
 This is where a strong process and working relationship between clients
-and their designers comes into play. We could have gone away and done
-mounds of research on the music industry & discovered what makes a
-successful website in this industry. That would have given us a very
-broad overview of the issues facing our client, but would have left us
-with exactly that: a broad view. We needed specific, actionable insights
+and their designers comes into play. I could have gone away and done
+mounds of research on the music industry and discovered what makes a
+successful website in this industry. That would have given me a very
+broad overview of the issues facing Jake, but would have left me
+with exactly that: a broad view. I needed specific, actionable insights
 into Jake’s industry, and what issues it was that he saw and needed
 solving.
 
-By working closely with Jake throughout, we were able to use him as the
+By working closely with Jake throughout, I was able to use him as the
 project’s compass. He would indicate a direction or potential problem;
-and we would dig through the available data and come up with a suitable,
-relevant solution. We’ll happily hold our hands up and say that we
-missed the mark on occasions, which only proves why we advocate a close
-and ongoing relationship between us and our clients. Any wrong turns
+and I would dig through the available data and come up with a suitable,
+relevant solution. I’ll happily hold me hands up and say that I
+missed the mark on occasions, which only proves why I advocate a close
+and ongoing relationship with clients. Any wrong turns
 were quickly identified in our regular meetings and conversations, and
 we got back on track with little time or resources lost.
 
@@ -98,10 +98,10 @@ practises based on the financial objectives for the site can inform much
 of the design. The design decisions for a band, or any personal site,
 can be much more arbitrary.
 
-Initially, we were concerned whether we were the right choice for Jake,
+Initially, I was concerned whether I was the right choice for Jake,
 as there are other design companies who concentrate on this sector
 exclusively. However, he already had a very clear vision of what he
-wanted from the site. What he needed from us was the knowledge and
+wanted from the site. What he needed from me was the knowledge and
 experience needed to make the strong visual direction he had decided
 upon a reality.
 
@@ -111,121 +111,121 @@ suited the band down to the ground. It needed to be simple, honest and
 friendly; all sentiments that were captured perfectly because they came
 direct from the original source of the band’s identity: Jake.
 
-Over to Us - Act I
+Over to Me - Act I
 ------------------
 
-This left us focussing heavily on the technical side of the site. When
-Jake initially approached us he was asking for a site based on the
-almost ubiquitous platform, Wordpress. As we had extensive experience
-creating & managing Wordpress sites, we started with earnest.
+This left me focussing heavily on the technical side of the site. When
+Jake initially approached me he was asking for a site based on the
+almost ubiquitous platform, Wordpress. As I had extensive experience
+creating and managing Wordpress sites, I started without a second thought.
 
-Jake’s two key requisites were responsive design, and an easy way of
+Jake’s two key prerequisites were responsive design, and an easy way of
 updating the site regularly. Whilst Wordpress was (and always has) been
-geared around ‘Posts’, we knew that ‘Custom Post Types’ and various
-other plugins would give us the functionality we required for managing
+geared around ‘Posts’, I knew that ‘Custom Post Types’ and various
+other plugins would provide the functionality we required for managing
 content such as a listing of Jake’s upcoming gigs.
 
-Responsive design was something that we had worked with before, but
-never from the ‘ground up’. For this reason we used a popular and well
-documented framework: Foundation. This gave us a good solid system to
+Responsive design was something that I had worked with before, but
+never from the ‘ground up’ on a new build. For this reason I used a popular and well
+documented framework: Foundation. This gave me a good solid system to
 work from, and an array of elements that would cover the initial site
 build, and any future feature requests.
 
-We felt that using two widely available, well established pillars of the
+I felt that using two widely available, well established pillars of the
 web development world would give Jake a future proof website that could
 be easily worked on by almost any developer.
 
 A wrong turn
 ------------
 
-Foundation gave us a very strong framework to begin building on, however
+Foundation provided a very strong framework to begin building on, however
 it was not without it’s problems. Most popular frameworks such as
-Bootstrap and Foundation are quite opinionated as standard, and we found
-ourselves overriding much of Foundation’s default styling. This was, we
+Bootstrap and Foundation are quite opinionated as standard, and I found
+myself overriding much of Foundation’s default styling. This was, I
 felt, was a price worth paying to keep the site’s codebase future proof.
 
-However, once we had completed the site and began testing it, we became
-increasingly upset with what we had made. Whilst Jake was very happy
-with the site, we felt that the code supporting it was heavy,
+However, once I had completed the site and began testing it, I became
+increasingly upset with what I had made. Whilst Jake was very happy
+with the site, I felt that the code supporting it was heavy,
 overworked, and thanks to the number of overrides required; far less
-future-proof than we had hoped.
+future-proof than I had hoped.
 
-To top it off, we felt that Wordpress, as with Foundation, was too
+To top it off, I felt that Wordpress, as with Foundation, was too
 prescriptive for this project. It forced upon us the notion of ‘Posts’,
 when really we wanted nothing of the sort! The editing interface was, as
 with all Wordpress sites, very ‘messy’. Wordpress as standard displays
 far too many options and menu items for someone who wants to update
 their gigs and write the odd blog post. This can of course be hidden
-away, but why should we have to?
+away, but why should we have to distort the system like this?
 
-We knew that Jake was self-hosting the site, and we wouldn’t have any
+I knew that Jake was self-hosting the site, and I likely wouldn’t have any
 input on the site once it was launched. This begged the question of how
-to manage the Wordpress updates. Did we really want to burden our client
+to manage the Wordpress updates. Did I really want to burden Jake
 with updating the install and it’s associated plugins himself, or having
-to get us to do it periodically; just to keep the site secure? All of
+to get me to do it periodically; just to keep the site secure? All of
 this seemed unnecessary for what should be a simple site.
 
-We went back to the drawing board…
+I went back to the drawing board…
 
-Back to Us - Act II
+Back to Me - Act II
 -------------------
 
-The first thing we wanted to resolve was the restrictions that Wordpress
+The first thing I wanted to resolve was the restrictions that Wordpress
 was imposing on the site. It was bloated, complicated and needlessly
-complex for this project; so we set out to find the antithesis of this.
-We were sure that the answer would be found in ditching the database,
+complex for this project; so I set out to find the antithesis of this.
+I was sure that the answer would be found in ditching the database,
 and relying on ‘static’ web pages.
 
-At the time, we had been playing around with the static site generator,
+At the time, I had been playing around with the static site generator,
 Jekyll. For those unfamiliar, Jekyll takes templates written in Liquid,
 combines that with content files written in Markdown, and builds the
 site into flat, static HTML documents. This results in an incredibly
 fast, stable site that can be hosted almost anywhere. Jekyll was always
 considered a blogging tool for ‘hackers’, but it’s press as the basis of
-Obama’s online fundraising campaign caused a resurgence in the
+Obama’s online fundraising campaign has caused a resurgence in the
 popularity of static sites.
 
-We had enough experience building small, quick sites with it to know
+I had enough experience building small, quick sites with it to know
 that it would work well in this situation; the only issue was how to add
 content in a non technical manner. At that time, there was no easy way
 to manage content in non-technical manner, everything was done through
-Markdown files. We needed something with a suitable interface for Jake
-to easily keep the site current.
+Markdown files. I needed something with a suitable interface for Jake
+to easily keep the site current, and manage logic surrounding gig listings.
 
-The solution came in the form of a half-way house between Wordpress &
+The solution came in the form of a half-way house between Wordpress and
 Jekyll: a flat-file CMS called Statamic. Whilst akin to Wordpress in
 functionality, it had a structure far closer to a pre-build Jekyll site;
 using templates, YAML config files and Markdown content files to
 dynamically render the page. Fortunately, Statamic has brilliant
-HTML-rendered caching, effectively allowing us to serve static files to
-users, but with a dynamic twist when required. This gave us the all
+HTML-rendered caching, effectively allowing the site to serve static files to
+users, but with a dynamic twist when required. This provided the all
 important GUI for Jake to work with, and a lightweight system that could
-output static files in most instances, reducing load times & improving
+output static files in most instances, reducing load times and improving
 the user experience.
 
-Our issues with Foundation caused us to take a deeper look at the way we
-build our websites. We no longer considered an all-encompassing
+My concern over Foundation caused me to take a deeper look at the way I
+build my websites. I no longer considered an all-encompassing
 framework to be a universal ally. Foundation, like Bootstrap, works well
-for quick prototyping but, as we found; poorly in production.
+for quick prototyping but, as I found; poorly in production.
 
 The solution came from creating a bespoke, SASS-based framework loosely
-based Harry Robert’s InuitCSS. We used Object-Orientated-CSS (OOCSS)
+based Harry Robert’s InuitCSS. I used Object-Orientated-CSS (OOCSS)
 methodology to build functionality ‘outwards’ from the core of what the
 site needed to do right now; rather than ‘inwards’ from a rather
 speculative position of what the site *might* need to do in the future.
-The result was a lightweight, fast, high extensible and future proof
+The result was a lightweight, fast, highly extensible and future proof
 framework that could support the site for years to come.
 
 A Semi-Static Renaissance
 -------------------------
 
 The results speak for themselves. Not only does Jake prefer the vastly
-simplified user-interface of Statamic, but the performance matches our
+simplified user-interface of Statamic, but the performance meets my
 expectations. We’ve managed to achieve some solid loading times, and
 Statamic has proved incredibly stable, with straightforward development.
-We hope to spend more time with Statamic in the upcoming months to make
-it even faster for our clients and their users, as we feel it has great
-promise as our “go to” solution for small websites.
+I hope to spend more time with Statamic in the upcoming months to make
+it even faster for my clients and their users, as I feel it has great
+promise as my “go to” solution for small websites.
 
 The lack of a database means that the site is far less vulnerable to
 security risks, and whilst theoretically still at risk due to the
@@ -238,21 +238,21 @@ The OOCSS framework has allowed for simple ongoing development of the
 site. Adding new features is simple, as they either extend or modify
 existing ones, or bolt-on with no complications.
 
-What We Learned
+What I Learned
 ---------------
 
 ### Wordpress is not the solution
 
-After exploring various CMS options, we have concluded that Wordpress
-should no longer be our standard solution, as in most cases, it’s
-probably not the best tool for the job. In fact, the more time we spend
+After exploring various CMS options, I have concluded that Wordpress
+should no longer be my standard solution, as in most cases, it’s
+probably not the best tool for the job. In fact, the more time I spend
 with other systems such as Statamic, and static-site-generators (SSGs);
-the more we believe that Wordpress will very rarely be the best tool for
-our projects now, if ever.
+the more I believe that Wordpress will very rarely be the best tool for
+my projects now, if ever.
 
 ### An intelligent CSS architecture is worth it’s weight in gold.
 
-That’s probably not the best way to articulate what we’re trying to say,
+That’s probably not the best way to articulate what I'm trying to say,
 as such an architecture probably weighs next to nothing! However, it
 can’t be denied that a considered approach to writing (S)CSS pays
 dividends the longer you expect a website to last. Having a well written
@@ -263,37 +263,37 @@ accommodate new features.
 
 ### Communication is key
 
-We learnt so much on this project, both generally, but also from Jake.
-We learnt how to deal with the objectives of a website when there’s no
+I learnt so much on this project, both generally, but also from Jake.
+I learnt how to deal with the objectives of a website when there’s no
 direct financial correlation to site performance and it’s traffic.
 
-However, the most important thing we learnt was that our process of
+However, the most important thing I learnt was that my process of
 constant communication and involvement with the client directly, can’t
 be undervalued. Compared to, perhaps more ‘traditional’, methods of
 running a project where the client is kept at arms-length and
-periodically presented to; the new approach saved both us & Jake time,
+periodically presented to; the new approach saved both Jake and I time,
 and meant we were both much happier with the final outcome.
 
 Update: 03 March 2015
 ---------------------
 
-*We thought we’d attach a quick update to this case study. We’ve
+*I thought I’d attach a quick update to this case study. I’ve
 continued work on Jake’s site over the past few months, something
 neither of us thought would happen. This ongoing work is partly due to
-the affinity that we feel towards the project and the band, but also the
-results that we’ve produced.*
+the affinity that I feel towards the project and the band, but also the
+results that I’ve produced.*
 
-After working further on optimising the site and our server setup for
-Statamic, we’ve been able to achieve some incredible page load times
+After working further on optimising the site and the server setup for
+Statamic, I’ve been able to achieve some incredible page load times
 (\~200ms from a cold cache!). This sort of speed increase has
 dramatically improved the UX of the site, and it’s suitability for use
 on mobile devices; even those with slow connections!
 
-Our work with Statamic on subsequent projects has also confirmed that
-Wordpress is no longer a relevant tool for our work. We’ve completely
-fallen for Statamic and other static systems. We’ve since updated all of
-our previous client work to be based on Statamic at zero cost. Replacing
-the legacy Wordpress sites from our portfolio was a large time
-investment for us, but completely worth it. All our clients are
-reporting that they love the new CMS, and it means that we can manage
+My work with Statamic on subsequent projects has also confirmed that
+Wordpress is no longer a relevant tool for my work. I’ve completely
+fallen for Statamic and other static systems. I’ve since updated all of
+my previous client work to be based on Statamic at zero cost. Replacing
+the legacy Wordpress sites from my portfolio was a large time
+investment for me, but completely worth it. All my clients are
+reporting that they love the new CMS, and it means that I can manage
 fewer systems. Everyone wins!

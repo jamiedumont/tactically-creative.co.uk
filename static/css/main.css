@@ -483,7 +483,7 @@ h6 {
   text-align: center; }
 
 p {
-  margin: 0 0 0.75em;
+  margin: 0 0 1.5em;
   text-align: center;
   font-weight: 300; }
 
@@ -536,10 +536,11 @@ html {
 *::before {
   box-sizing: inherit; }
 
-@media screen and (min-width: 40em) {
-  p {
-    text-align: left; } }
-
+/*p {
+	@include media($medium-screen-up){
+    text-align: left;
+  }
+}*/
 @media screen and (min-width: 40em) {
   h1 {
     font-size: 2.5em; } }
@@ -638,6 +639,10 @@ body.background--space {
     clear: both;
     content: "";
     display: table; }
+
+@media screen and (min-width: 40em) {
+  .content--copy {
+    max-width: 40em; } }
 
 .content--nopadding {
   padding: 0; }
@@ -1128,3 +1133,40 @@ html {
 
 .casestudy__header123 {
   margin-top: 5em; }
+
+.longform__header {
+  margin-bottom: 2em; }
+
+.lf-header__icon {
+  max-width: 50%;
+  display: block;
+  margin: 5em auto 1em; }
+  @media screen and (min-width: 40em) {
+    .lf-header__icon {
+      max-width: 20%; } }
+
+.lf-header__header {
+  margin-bottom: 0.25em;
+  margin-top: 4em; }
+
+/*Styles content of .md file*/
+.longform {
+  padding-top: 3em;
+  padding-bottom: 3em; }
+  .longform h2 {
+    margin-top: 2em; }
+  .longform h3 {
+    margin-top: 2em; }
+  .longform h4 {
+    margin-bottom: 2em; }
+
+.longform__data {
+  text-align: center;
+  margin: -1em 0 2em;
+  font-size: 0.8em;
+  font-weight: 700;
+  font-style: italic; }
+
+.lf-data__list-item {
+  display: inline-block;
+  margin-right: 1em; }

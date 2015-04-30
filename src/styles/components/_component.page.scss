@@ -32,9 +32,17 @@ section {
 
 .content {
 	@include outer-container();
-	max-width: 90%;
-	
+	max-width: 90%;	
 }
+
+.content--copy {
+	@include media($medium-screen-up) {
+	max-width: 40em;
+	}
+
+}
+
+
 
 .content--nopadding {
 	padding: 0;
