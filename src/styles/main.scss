@@ -1,27 +1,14 @@
 @charset "utf-8";
 
-/*IMPORT NORMALIZE, BOURBON, NEAR & BITTERS */
+/*
+ *    2 - Tools
+ */
 
-@import "lib/normalize";
+@import "jeet";
 
-@import "../app/_bower_components/bourbon/app/assets/stylesheets/bourbon";
-@import "base/base";
-@import "../app/_bower_components/neat/app/assets/stylesheets/neat";
-@import "base/post-neat";
+/*
+ *    3 - Generic
+ */
 
-/*IMPORT ANY USED REFILLS*/
-
-@import "components/refills.comments";
-/*refills.comments used on casestudy_index.html to list out entries*/
-
-/*IMPORT CUSTOM COMPONENTS*/
-
-/*Some change*/
-
-@import "components/component.page";
-@import "components/component.main-nav";
-@import "components/component.top-bar";
-@import "components/component.homepage";
-@import "components/component.icons";
-@import "components/component.case";
-@import "components/component.long-form";
+@import "3_generic/_generic.normalize";
+@import "3_generic/_generic.box-sizing";

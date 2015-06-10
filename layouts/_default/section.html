@@ -1,0 +1,31 @@
+{{ partial "head.html" . }}
+
+<body>
+
+	{{ partial "header.html" . }}
+
+	<div>
+		<!-- <img class="header__icon" src="/images/persianpursuitslogo.png"> -->
+		<h1>Posts</h1>
+	</div>
+
+
+	<section>
+
+		<div>
+
+			<div>
+
+				<div>
+					{{ range .Data.Pages }}
+					<ul>
+						{{ .Render "li" }}
+					</ul>
+					{{ end }}	
+				</div>
+			</div>
+
+		</div>
+		
+	</section>
+{{ partial "footer.html" . }}

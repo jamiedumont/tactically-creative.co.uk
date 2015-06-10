@@ -2,29 +2,29 @@
 
 <body>
 
-<div class="top-banner">
+<div>
 
-	<img src="/images/qtctc_asset_star-background.jpg" alt="" class="top-image">
+	<img src="/images/qtctc_asset_star-background.jpg" alt="">
 
 	{{ partial "header.html" . }}
 
 
 
-	<div class="casestudy__header">
-		<img class="header__icon" src="{{ .Params.image }}">
-		<h1 class="header__header">{{ .Title }}</h1>
-		<h3 class="header__subheader">{{ .Params.subheader}}</h3>
+	<div>
+		<img src="{{ .Params.image }}">
+		<h1>{{ .Title }}</h1>
+		<h3>{{ .Params.subheader}}</h3>
 	</div>
 
 </div>
 
-<section class="casestudy">
+<section>
 
-	<div class="content content--copy">
+	<div>
 
 		{{ .Content }}
 
-	<h2 class="casestudy__link">You can find their site at:</h2>
+	<h2>You can find their site at:</h2>
 	<h4><a href="{{ .Params.originurl }}">{{ .Params.sitelink }}</a></h4>
 
 	</div>
