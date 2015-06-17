@@ -31,31 +31,38 @@
   }
 }
 
-@include media($tablet) {
 	.topbar.is-fixed {
-		/* when the user scrolls down, we hide the header right above the viewport */
-    position: fixed;
-    top: -80px;
-    background-color: rgba(2, 23, 37, 0.96);
-    -webkit-transition: -webkit-transform 0.3s;
-    -moz-transition: -moz-transform 0.3s;
-    transition: transform 0.3s;
+    @include media($desk){
+  		/* when the user scrolls down, we hide the header right above the viewport */
+      position: fixed;
+      top: -80px;
+      background-color: rgba(2, 23, 37, 0.96);
+      -webkit-transition: -webkit-transform 0.3s;
+      -moz-transition: -moz-transform 0.3s;
+      transition: transform 0.3s;
+    }
 	}
 
 	.topbar.is-visible {
+    @include media($desk){
 		/* if the user changes the scrolling direction, we show the header */
     -webkit-transform: translate3d(0, 100%, 0);
     -moz-transform: translate3d(0, 100%, 0);
     -ms-transform: translate3d(0, 100%, 0);
     -o-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0);
+  }
 	}
 
 	.topbar.menu-is-open {
+    @include media($desk){
 		 /* add a background color to the header when the navigation is open */
     background-color: rgba(2, 23, 37, 0.96);
+  }
 	}
-}
+
+
+
 
 .topbar__logo {
   display: block;
@@ -203,7 +210,7 @@
   }
   .topbar__alpha-nav-trigger .trigger__icon {
     left: auto;
-    right: 1em;
+    right: 0.6em;
     -webkit-transform: translateX(0) translateY(-50%);
     -moz-transform: translateX(0) translateY(-50%);
     -ms-transform: translateX(0) translateY(-50%);
@@ -226,6 +233,7 @@
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   overflow: auto;
+  list-style: none;
   /* this fixes the buggy scrolling on webkit browsers - mobile devices only - when overflow property is applied */
   -webkit-overflow-scrolling: touch;
   -webkit-transform: translateY(-100%);
@@ -297,18 +305,7 @@
   text-indent: 100%;
   white-space: nowrap;
 }
-.alpha-nav .alpha-nav__facebook a {
-  background-position: 0 0;
-}
-.alpha-nav .alpha-nav__instagram a {
-  background-position: -44px 0;
-}
-.alpha-nav .alpha-nav__dribbble a {
-  background-position: -88px 0;
-}
-.alpha-nav .alpha-nav__twitter a {
-  background-position: -132px 0;
-}
+
 .alpha-nav.is-visible {
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);

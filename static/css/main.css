@@ -15,316 +15,72 @@ html {
 /*
  *    3 - Generic
  */
-/*! normalize.css v2.0.1 | MIT License | git.io/normalize */
-/* ==========================================================================
-   HTML5 display definitions
-   ========================================================================== */
+/*------------------------------------*    RESET
+\*------------------------------------*/
 /*
- * Corrects `block` display not defined in IE 8/9.
- */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-nav,
-section,
-summary {
-  display: block; }
-
-/*
- * Corrects `inline-block` display not defined in IE 8/9.
- */
-audio,
-canvas,
-video {
-  display: inline-block; }
-
-/*
- * Prevents modern browsers from displaying `audio` without controls.
- * Remove excess height in iOS 5 devices.
- */
-audio:not([controls]) {
-  display: none;
-  height: 0; }
-
-/*
- * Addresses styling for `hidden` attribute not present in IE 8/9.
- */
-[hidden] {
-  display: none; }
-
-/* ==========================================================================
-   Base
-   ========================================================================== */
-/*
- * 1. Sets default font family to sans-serif.
- * 2. Prevents iOS text size adjust after orientation change, without disabling
- *    user zoom.
- */
-html {
-  font-family: sans-serif;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
-  -ms-text-size-adjust: 100%;
-  /* 2 */ }
-
-/*
- * Removes default margin.
- */
-body {
-  margin: 0; }
-
-/* ==========================================================================
-   Links
-   ========================================================================== */
-/*
- * Addresses `outline` inconsistency between Chrome and other browsers.
- */
-a:focus {
-  outline: thin dotted; }
-
-/*
- * Improves readability when focused and also mouse hovered in all browsers.
- */
-a:active,
-a:hover {
-  outline: 0; }
-
-/* ==========================================================================
-   Typography
-   ========================================================================== */
-/*
- * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
- * Safari 5, and Chrome.
- */
-h1 {
-  font-size: 2em; }
-
-/*
- * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
- */
-abbr[title] {
-  border-bottom: 1px dotted; }
-
-/*
- * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
- */
-b,
-strong {
-  font-weight: bold; }
-
-/*
- * Addresses styling not present in Safari 5 and Chrome.
- */
-dfn {
-  font-style: italic; }
-
-/*
- * Addresses styling not present in IE 8/9.
- */
-mark {
-  background: #ff0;
-  color: #000; }
-
-/*
- * Corrects font family set oddly in Safari 5 and Chrome.
- */
-code,
-kbd,
-pre,
-samp {
-  font-family: monospace, serif;
-  font-size: 1em; }
-
-/*
- * Improves readability of pre-formatted text in all browsers.
- */
-pre {
-  white-space: pre;
-  white-space: pre-wrap;
-  word-wrap: break-word; }
-
-/*
- * Sets consistent quote types.
- */
-q {
-  quotes: "\201C" "\201D" "\2018" "\2019"; }
-
-/*
- * Addresses inconsistent and variable font size in all browsers.
- */
-small {
-  font-size: 80%; }
-
-/*
- * Prevents `sub` and `sup` affecting `line-height` in all browsers.
- */
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline; }
-
-sup {
-  top: -0.5em; }
-
-sub {
-  bottom: -0.25em; }
-
-/* ==========================================================================
-   Embedded content
-   ========================================================================== */
-/*
- * Removes border when inside `a` element in IE 8/9.
- */
-img {
-  border: 0; }
-
-/*
- * Corrects overflow displayed oddly in IE 9.
- */
-svg:not(:root) {
-  overflow: hidden; }
-
-/* ==========================================================================
-   Figures
-   ========================================================================== */
-/*
- * Addresses margin not present in IE 8/9 and Safari 5.
- */
-figure {
-  margin: 0; }
-
-/* ==========================================================================
-   Forms
-   ========================================================================== */
-/*
- * Define consistent border, margin, and padding.
- */
-fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em; }
-
-/*
- * 1. Corrects color not being inherited in IE 8/9.
- * 2. Remove padding so people aren't caught out if they zero out fieldsets.
- */
-legend {
-  border: 0;
-  /* 1 */
-  padding: 0;
-  /* 2 */ }
-
-/*
- * 1. Corrects font family not being inherited in all browsers.
- * 2. Corrects font size not being inherited in all browsers.
- * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
- */
-button,
-input,
-select,
-textarea {
-  font-family: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 2 */
+A more considered reset; more of a restart...
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr,
+a, abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strong, sub, sup, tt, var,
+b, u, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
   margin: 0;
-  /* 3 */ }
-
-/*
- * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
- * the UA stylesheet.
- */
-button,
-input {
-  line-height: normal; }
-
-/*
- * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
- *    and `video` controls.
- * 2. Corrects inability to style clickable `input` types in iOS.
- * 3. Improves usability and consistency of cursor style between image-type
- *    `input` and others.
- */
-button,
-html input[type="button"], input[type="reset"],
-input[type="submit"] {
-  -webkit-appearance: button;
-  /* 2 */
-  cursor: pointer;
-  /* 3 */ }
-
-/*
- * Re-set default cursor for disabled elements.
- */
-button[disabled],
-input[disabled] {
-  cursor: default; }
-
-/*
- * 1. Addresses box sizing set to `content-box` in IE 8/9.
- * 2. Removes excess padding in IE 8/9.
- */
-input[type="checkbox"],
-input[type="radio"] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */ }
-
-/*
- * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
- * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
- *    (include `-moz` to future-proof).
- */
-input[type="search"] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  /* 2 */
-  box-sizing: content-box; }
-
-/*
- * Removes inner padding and search cancel button in Safari 5 and Chrome
- * on OS X.
- */
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none; }
-
-/*
- * Removes inner padding and border in Firefox 4+.
- */
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  border: 0;
   padding: 0; }
 
-/*
- * 1. Removes default vertical scrollbar in IE 8/9.
- * 2. Improves readability and alignment in all browsers.
- */
-textarea {
-  overflow: auto;
-  /* 1 */
-  vertical-align: top;
-  /* 2 */ }
+article, aside, details, figcaption, figure, footer,
+header, hgroup, menu, nav, section {
+  display: block; }
 
-/* ==========================================================================
-   Tables
-   ========================================================================== */
-/*
- * Remove most spacing between table cells.
- */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+strong, b, mark {
+  font-weight: bold;
+  font-style: inherit; }
+
+em, i, cite, q, address, dfn, var {
+  font-style: italic;
+  font-weight: inherit; }
+
+abbr[title], dfn[title] {
+  cursor: help;
+  border-bottom: 1px dotted; }
+
+ins {
+  border-bottom: 1px solid; }
+
+a, u, ins {
+  text-decoration: none; }
+
+del, s {
+  text-decoration: line-through; }
+
+pre, code, samp, kbd {
+  font-family: monospace; }
+
+small {
+  font-size: 0.75em; }
+
+img {
+  border: none;
+  font-style: italic; }
+
+input,
+select,
+textarea {
+  font: inherit; }
 
 html {
   box-sizing: border-box; }
@@ -372,19 +128,23 @@ a {
       -webkit-backface-visibility: hidden;
       backface-visibility: hidden; } }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1170px) {
   .topbar.is-fixed {
     /* when the user scrolls down, we hide the header right above the viewport */
     position: fixed;
     top: -80px;
     background-color: rgba(2, 23, 37, 0.96);
     -webkit-transition: -webkit-transform 0.3s;
-    transition: transform 0.3s; }
+    transition: transform 0.3s; } }
+
+@media screen and (min-width: 1170px) {
   .topbar.is-visible {
     /* if the user changes the scrolling direction, we show the header */
     -webkit-transform: translate3d(0, 100%, 0);
     -ms-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0); }
+    transform: translate3d(0, 100%, 0); } }
+
+@media screen and (min-width: 1170px) {
   .topbar.menu-is-open {
     /* add a background color to the header when the navigation is open */
     background-color: rgba(2, 23, 37, 0.96); } }
@@ -513,7 +273,7 @@ a {
     display: inline-block; }
   .topbar__alpha-nav-trigger .trigger__icon {
     left: auto;
-    right: 1em;
+    right: 0.6em;
     -webkit-transform: translateX(0) translateY(-50%);
     -ms-transform: translateX(0) translateY(-50%);
     transform: translateX(0) translateY(-50%); } }
@@ -532,6 +292,7 @@ a {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   overflow: auto;
+  list-style: none;
   /* this fixes the buggy scrolling on webkit browsers - mobile devices only - when overflow property is applied */
   -webkit-overflow-scrolling: touch;
   -webkit-transform: translateY(-100%);
@@ -595,18 +356,6 @@ a {
   text-indent: 100%;
   white-space: nowrap; }
 
-.alpha-nav .alpha-nav__facebook a {
-  background-position: 0 0; }
-
-.alpha-nav .alpha-nav__instagram a {
-  background-position: -44px 0; }
-
-.alpha-nav .alpha-nav__dribbble a {
-  background-position: -88px 0; }
-
-.alpha-nav .alpha-nav__twitter a {
-  background-position: -132px 0; }
-
 .alpha-nav.is-visible {
   -webkit-transform: translateY(0);
   -ms-transform: translateY(0);
@@ -659,3 +408,37 @@ a {
   .cd-main-content p {
     font-size: 20px;
     font-size: 1.25rem; } }
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 2em; }
+
+.hero__image {
+  position: fixed;
+  top: 50%;
+  min-height: 100%;
+  display: block;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  min-width: 100%;
+  z-index: -10; }
+
+.hero-body__header {
+  margin-bottom: 2em; }
+
+.hero-body__icon {
+  max-width: 50%;
+  display: block;
+  margin: 5em auto 1em; }
+  @media screen and (min-width: 768px) {
+    .hero-body__icon {
+      max-width: 20%; } }
+
+.hero-body__header {
+  margin-bottom: 0.25em; }
+
+.content {
+  background: #fff; }

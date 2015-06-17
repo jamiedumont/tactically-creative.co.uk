@@ -1,0 +1,35 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 2em;
+}
+
+.hero__image {
+  position: fixed;
+  top: 50%;
+  min-height: 100%;
+  display: block;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  z-index: -10;
+}
+
+.hero__body {
+}
+
+.hero-body__header {
+  margin-bottom: 2em;
+}
+.hero-body__icon {
+  max-width: 50%; 
+  display: block;
+  margin: 5em auto 1em;
+  @include media($tablet){
+    max-width: 20%
+  }
+}
+
+.hero-body__header {
+  margin-bottom: 0.25em;
+}

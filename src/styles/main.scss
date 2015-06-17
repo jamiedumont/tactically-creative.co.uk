@@ -18,7 +18,7 @@
  *    3 - Generic
  */
 
-@import "3_generic/_generic.normalize";
+@import "3_generic/_generic.reset";
 @import "3_generic/_generic.box-sizing";
 
 
@@ -26,11 +26,13 @@
  *    4 - Base
  */
 
- @import "4_base/_base.html-elements";
+@import "4_base/_base.html-elements";
 
 
  /*
  *    6 - Components
  */
 
- @import "6_components/_components.topbar";
+@import "6_components/_components.topbar";
+@import "6_components/_components.hero";
+@import "6_components/_components.scratch";
