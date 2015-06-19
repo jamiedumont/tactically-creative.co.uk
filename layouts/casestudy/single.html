@@ -1,33 +1,47 @@
 {{ partial "head.html" . }}
 
 <body>
+<div class="hero">
 
-<div>
+    <img src="{{ .Params.heroimage }}" alt="{{ .Params.heroImgDescription }}" class="hero__image">
+    <!-- Background image at the top of the page -->
 
-	<img src="/images/qtctc_asset_star-background.jpg" alt="">
+    {{ partial "header.html" . }}
+    <!-- Partial 'header.html' includes the floating topbar and slide-over menu -->
 
-	{{ partial "header.html" . }}
+    <div class="hero__body">
+
+      <img class="hero-body__icon" src="{{ .Params.image }}" alt="">
+      <!-- hero-body__icon is currently unused for blog posts, but can be enabled at a later date -->
+
+      <h1 class="hero-body__header">{{ .Title }}</h1>
+      <!-- Post title -->
+
+      <h2 class="hero-body__subheader">{{ .Params.subheader}}</h2>
+      <!-- Post subtitle -->
+
+    </div>
+    <!-- End div.hero__body -->
+
+  </div>
+  <!-- END div.hero -->
 
 
+<section class="longform container container--white">
+<!-- .longform styles HTML elements written from .md files -->
 
-	<div>
-		<img src="{{ .Params.image }}">
-		<h1>{{ .Title }}</h1>
-		<h3>{{ .Params.subheader}}</h3>
-	</div>
+  <div class="content">
+  
+    {{ .Content }}
+    <!-- call content of relevant .md file -->
 
-</div>
+    <h2>You can find their site at:</h2>
+    <h4><a href="{{ .Params.originurl }}">{{ .Params.sitelink }}</a></h4>
 
-<section>
-
-	<div>
-
-		{{ .Content }}
-
-	<h2>You can find their site at:</h2>
-	<h4><a href="{{ .Params.originurl }}">{{ .Params.sitelink }}</a></h4>
-
-	</div>
+  </div>
+  <!-- end div.content -->
+  
 </section>
+<!-- end section .longform -->
 
 {{ partial "footer.html" . }}

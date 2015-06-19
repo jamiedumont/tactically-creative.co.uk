@@ -1,0 +1,28 @@
+.container {
+  padding: 2em;
+  background: $secondary-colour;
+  color: white;
+  @include font-smoothing(on);
+}
+
+.container--white {
+  background: #ECEBE8;
+  color: $secondary-colour;
+  @include font-smoothing(off);
+}
+
+.container--primary {
+  background: $primary-colour;
+  color: $secondary-colour;
+}
+
+.content {
+  @include outer-container();
+}
+
+.content--copy {
+  @include media($tablet) {
+  max-width: 40em;
+  }
+
+}

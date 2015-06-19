@@ -32,7 +32,7 @@
 }
 
 	.topbar.is-fixed {
-    @include media($desk){
+    @include media($tablet){
   		/* when the user scrolls down, we hide the header right above the viewport */
       position: fixed;
       top: -80px;
@@ -44,7 +44,7 @@
 	}
 
 	.topbar.is-visible {
-    @include media($desk){
+    @include media($tablet){
 		/* if the user changes the scrolling direction, we show the header */
     -webkit-transform: translate3d(0, 100%, 0);
     -moz-transform: translate3d(0, 100%, 0);
@@ -298,7 +298,7 @@
   width: 44px;
   height: 44px;
   padding: 0;
-  background-image: url("../img/cd-socials.svg");
+  background-image: url("");
   background-repeat: no-repeat;
   /* image replacement */
   overflow: hidden;

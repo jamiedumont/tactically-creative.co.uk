@@ -1,5 +1,3 @@
-charset "utf-8";
-
 /*
  *    1 - Settings
  */
@@ -13,6 +11,7 @@ charset "utf-8";
 
 @import "bourbon", "neat";
 @import "2_tools/_tools.breakpoints";
+@import "2_tools/_tools.font-rendering";
 
 /*
  *    3 - Generic
@@ -28,6 +27,14 @@ charset "utf-8";
 
 @import "4_base/_base.html-elements";
 
+
+
+/*
+ *    5 - Objects
+ */
+
+@import "5_objects/object.containers.scss";
+@import "5_objects/object.longform-article.scss";
 
  /*
  *    6 - Components

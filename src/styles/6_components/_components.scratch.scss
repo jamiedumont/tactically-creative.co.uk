@@ -1,4 +1,25 @@
-.content {
+.shuttle-launch {
+  min-height: 400px;
+  margin-top: 30em;
+  margin-bottom: -100px;
+  background: url(/images/qtctc_asset_shuttle-launch.png) no-repeat center center;
+  background-size: auto 400px;
+  @include media($tablet) {
+    background-size: cover;
+    margin-top: 3em;
+    min-height: 550px;
+  }
 
-  background: #fff;
+}
+
+.column-third {
+  margin-bottom: 2em;
+  @include media($tablet){
+    @include span-columns(4);
+  }
+}
+
+.row {
+  @include row();
+  margin-bottom: 2em;
 }

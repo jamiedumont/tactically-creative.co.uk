@@ -6,6 +6,8 @@ image = "/images/calummallorylogo.png"
 subheader = "Building an out of the ordinary portfolio"
 originurl = "http://www.calummallory.co.uk"
 sitelink = "www.calummallory.co.uk"
+heroimage = "/images/qtctc_asset_star-background.jpg"
+heroImgDescription = "Stars"
 
 +++
 

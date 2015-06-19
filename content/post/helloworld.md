@@ -2,10 +2,11 @@
 date = "2015-04-30T11:57:08+01:00"
 title = "Hello World"
 author = "Jamie"
-image = ""
-subheader = ""
+image = "/images/jakemorrelllogo.png"
+subheader = "Testing the world"
 summary = ""
-topimage = "/images/qtctc_asset_star-background.jpg"
+heroimage = "/images/qtctc_asset_star-background.jpg"
+heroImgDescription = "Stars"
 +++
 
 Those two immortal words that any developer will know instantly. They symbolise every coffee-fuelled *'Eureka'* moment and every knowing *'A-Ha!'*. They represent learning, understanding and success.

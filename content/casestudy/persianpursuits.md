@@ -5,6 +5,8 @@ image = "/images/persianpursuitslogo.png"
 subheader = "A startup that wants to shakeup adventure travel"
 originurl = "http://www.persianpursuits.co.uk"
 sitelink = "www.persianpursuits.co.uk"
+heroimage = "/images/qtctc_asset_star-background.jpg"
+heroImgDescription = "Stars"
 
 +++
 

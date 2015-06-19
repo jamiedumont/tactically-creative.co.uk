@@ -19,15 +19,12 @@
 
   <section class="container container--white">
 
-    {{ range .Data.Pages.GroupByDate "2006" }}
-    <h2>{{ .Key }}</h2>
     <ul id="list">
-      {{ range .Pages }}
-      {{ .Render "li"}}
+      {{ range .Data.Pages }}
+      {{ .Render "summary"}}
       {{ end }}
     </ul>
-    {{ end }}
-    
+
   </section>
   <!-- end section .longform -->
 

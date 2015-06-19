@@ -5,6 +5,8 @@ image = "/images/jakemorrelllogo.png"
 subheader = "Should a band be treated like a small business?"
 originurl = "http://www.jakemorrell.co.uk"
 sitelink = "www.jakemorrell.co.uk"
+heroimage = "/images/qtctc_asset_star-background.jpg"
+heroImgDescription = "Stars"
 
 +++
 
