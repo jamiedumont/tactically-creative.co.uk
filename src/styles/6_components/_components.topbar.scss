@@ -76,12 +76,14 @@
   transform: translateY(-50%);
   left: .875em;
 
+
   @include media($tablet){
   	 left: 2.6em;
   }
 }
 .topbar__logo img {
   display: block;
+  max-height: 1.4em;
 }
 
 

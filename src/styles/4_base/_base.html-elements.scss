@@ -4,7 +4,7 @@ html, body {
 	height: 100%;
   font-family: $body-font;
   font-weight: 300;
-  @include font-smoothing(off);
+  @include font-smoothing(on);
 
 
 }
@@ -14,6 +14,7 @@ h1 {
   color: $secondary-colour;
   background: #E36767;
   font-family: 'Sansita One';
+  width: auto;
   margin: 0 auto;
   text-shadow: 1px 1px 0px #E36767, 2px 2px 0px #E89E9E;
   transform: rotate(-2deg);
@@ -26,12 +27,15 @@ h2 {
   transform: rotate(-2deg);
   text-align: center;
   margin-bottom: 2em;
+  @include font-smoothing(on);
 
 
 }
 
 p {
   margin: 1em 0;
+  font-size: 1.2em;
+  font-weight: 300;
 }
 
 a {

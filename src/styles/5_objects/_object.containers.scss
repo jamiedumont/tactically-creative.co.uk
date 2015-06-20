@@ -1,8 +1,13 @@
 .container {
   padding: 2em;
+  padding-bottom: 3em;
   background: $secondary-colour;
   color: white;
   @include font-smoothing(on);
+  @include media($tablet){
+    padding: 6em;
+    padding-bottom: 8em;
+  }
 }
 
 .container--white {
