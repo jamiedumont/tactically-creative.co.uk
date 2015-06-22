@@ -91,7 +91,6 @@ html {
 /*
  *    4 - Base
  */
-/*http://somadesign.ca/demos/better-google-fonts/*/
 html, body {
   height: 100%;
   font-family: "Lato", Helvetica, Arial, sans-serif;
@@ -99,13 +98,12 @@ html, body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+/* NOTE: The current behaviour of the h1 background-color of spanning 100% of it's parent is undesirable, but at present not a priority. This is something to be amended at earliest convenience */
 h1 {
   font-size: 2.6em;
   color: #021725;
   background: #E36767;
   font-family: 'Sansita One';
-  width: auto;
-  margin: 0 auto;
   text-shadow: 1px 1px 0px #E36767, 2px 2px 0px #E89E9E;
   -webkit-transform: rotate(-2deg);
       -ms-transform: rotate(-2deg);
@@ -114,23 +112,31 @@ h1 {
 h2 {
   font-family: 'Yellowtail';
   font-weight: 300;
-  font-size: 1.6em;
+  font-size: 2em;
   -webkit-transform: rotate(-2deg);
       -ms-transform: rotate(-2deg);
           transform: rotate(-2deg);
-  text-align: center;
-  margin-bottom: 2em;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  margin-bottom: 1em; }
+  @media screen and (min-width: 768px) {
+    h2 {
+      font-size: 2.4em; } }
+
+h3 {
+  font-size: 1.4em; }
 
 p {
   margin: 1em 0;
-  font-size: 1.2em;
   font-weight: 300; }
+  @media screen and (min-width: 768px) {
+    p {
+      font-size: 1.2em; } }
 
 a {
   text-decoration: none;
-  color: #444; }
+  color: #E36767; }
+
+a:hover {
+  color: #E89E9E; }
 
 /*
  *    5 - Objects
@@ -139,9 +145,7 @@ a {
   padding: 2em;
   padding-bottom: 3em;
   background: #021725;
-  color: white;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  color: white; }
   @media screen and (min-width: 768px) {
     .container {
       padding: 6em;
@@ -149,9 +153,7 @@ a {
 
 .container--white {
   background: #ECEBE8;
-  color: #021725;
-  -webkit-font-smoothing: subpixel-antialiased;
-  -moz-osx-font-smoothing: auto; }
+  color: #021725; }
 
 .container--primary {
   background: #00D1FF;
@@ -190,11 +192,10 @@ a {
   padding-top: 3em;
   padding-bottom: 3em; }
   .longform h2 {
-    margin-top: 2em; }
-  .longform h3 {
-    margin-top: 2em; }
-  .longform h4 {
-    margin-bottom: 2em; }
+    margin-top: 1em;
+    margin-bottom: 0em; }
+  .longform h3, .longform h4 {
+    margin: 1em auto; }
 
 .longform__data {
   text-align: center;
@@ -218,9 +219,7 @@ a {
   height: 50px;
   width: 100%;
   z-index: 3;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); }
   @media screen and (min-width: 768px) {
     .topbar {
       height: 80px;
@@ -437,7 +436,8 @@ a {
   transition: background 0.2s; }
 
 .no-touch .alpha-nav a:hover {
-  background-color: #e36767; }
+  background-color: #e36767;
+  color: #021725; }
 
 .alpha-nav .alpha-nav__label {
   color: #06446e;
@@ -454,85 +454,39 @@ a {
 .alpha-nav .alpha-nav__social {
   display: inline-block;
   margin: 0 0.4em; }
-
-.alpha-nav .alpha-nav__social a {
-  width: 44px;
-  height: 44px;
-  padding: 0;
-  background-image: url("");
-  background-repeat: no-repeat;
-  /* image replacement */
-  overflow: hidden;
-  text-indent: 100%;
-  white-space: nowrap; }
+  .alpha-nav .alpha-nav__social a {
+    padding: 0;
+    border-radius: 100%; }
+    .alpha-nav .alpha-nav__social a i {
+      padding: 0.5em; }
 
 .alpha-nav.is-visible {
   -webkit-transform: translateY(0);
   -ms-transform: translateY(0);
   transform: translateY(0); }
 
-.cd-intro {
-  position: relative;
-  height: 100%;
-  background: url("../img/cd-background-img.jpg") no-repeat center center;
-  background-size: cover;
-  z-index: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-
-.cd-intro h1 {
-  position: absolute;
-  width: 90%;
-  max-width: 1170px;
-  left: 50%;
-  top: 50%;
-  bottom: auto;
-  right: auto;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  color: white;
-  font-size: 20px;
-  font-size: 1.25rem;
-  font-weight: 300;
-  text-align: center; }
-
-@media only screen and (min-width: 768px) {
-  .cd-intro h1 {
-    font-size: 30px;
-    font-size: 1.875rem; } }
-
-@media only screen and (min-width: 1170px) {
-  .cd-intro {
-    height: 700px; } }
-
-.cd-main-content {
-  position: relative;
-  z-index: 1; }
-
-.cd-main-content p {
-  line-height: 1.6;
-  margin: 2em 0; }
-
-@media only screen and (min-width: 1170px) {
-  .cd-main-content p {
-    font-size: 20px;
-    font-size: 1.25rem; } }
-
+/*Please note that this component should be edited with care. As this namespace spans multiple, different usecases, making edits should be treated with caution. Test every page across multiple widths.*/
 .hero {
+  background: #021725;
   position: relative;
   overflow: hidden;
-  padding-bottom: 2em; }
-
-.hero--homepage {
-  position: fixed;
-  background: #021725;
-  z-index: -1;
-  top: 0;
-  width: 100%;
-  height: 100%; }
+  min-height: 30em;
+  padding: 2em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .hero__image {
+  background: #021725;
   position: fixed;
   top: 50%;
   min-height: 100%;
@@ -545,31 +499,50 @@ a {
   z-index: -10; }
 
 .hero__body {
-  min-height: 20em;
   color: white;
-  text-align: center; }
+  text-align: center;
+  width: 100%; }
+  @media screen and (min-width: 768px) {
+    .hero__body {
+      width: 80%; } }
+  @media screen and (min-width: 1170px) {
+    .hero__body {
+      width: 60%; } }
+  .hero__body p {
+    font-size: 1em; }
 
 .hero-body__header {
   margin-bottom: 0.25em; }
 
 .hero-body__subheader {
+  font-size: 1.6em;
   margin-bottom: 0.5em; }
 
 .hero-body__icon {
   max-width: 50%;
   display: block;
-  margin: 2em auto 1em; }
+  margin: 0em auto 1em; }
   @media screen and (min-width: 768px) {
     .hero-body__icon {
-      max-width: 20%; } }
+      max-width: 40%; } }
 
-.dark-on-light {
-  -webkit-font-smoothing: subpixel-antialiased;
-  -moz-osx-font-smoothing: auto; }
+.hero-body__description {
+  max-width: 30em;
+  margin: 2em auto; }
 
-.light-on-dark {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+.hero--fixed {
+  overflow: hidden;
+  position: fixed;
+  background: #021725;
+  z-index: -1;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 2em; }
+  .hero--fixed .hero__body {
+    margin: 0 auto; }
+  .hero--fixed .hero-body__icon {
+    margin-top: 2em; }
 
 .shuttle-launch {
   min-height: 400px;
@@ -594,9 +567,44 @@ a {
         margin-right: 0; } }
 
 .row {
-  display: block;
-  margin-bottom: 2em; }
+  display: block; }
   .row::after {
     clear: both;
     content: "";
     display: table; }
+
+.icon {
+  display: block;
+  margin: 0 auto 2em; }
+
+section.call-to-action {
+  text-align: center;
+  padding-top: 1px; }
+  section.call-to-action a {
+    background: #E36767;
+    color: #021725;
+    padding: 1em 1.4em;
+    border-radius: 12px;
+    font-size: 1.6em;
+    margin-top: 1em; }
+  section.call-to-action a:hover {
+    background: #E89E9E; }
+  section.call-to-action h2 {
+    margin-top: 1em; }
+
+.summary h2 {
+  margin-bottom: 0; }
+
+.summary p {
+  font-size: 1em; }
+
+/*
+ *    7 - Trumps
+ */
+.dark-on-light {
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto; }
+
+.light-on-dark {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }

@@ -4,14 +4,13 @@
 
     {{ partial "header.html" . }}
 
-  <div class="hero container">
+  <div class="hero">
 
-    <div class="hero__body content">
+    <div class="hero__body">
       <!-- <img class="hero-body__icon" src="/images/qtctc_asset_atom.png" alt="Vector icon of an atom"> -->
       
-      <h1 class="hero-body__header light-on-dark">{{ .Title }}</h1>
-      <h2 class="hero-body__subheader light-on-dark">{{ .Params.subheader }}</h2>
-      <p>Websites can (and should) be so much simpler. We help small businesses &amp; professionals get theirs ahead of the pack.</p>
+      <h1 class="hero-body__header">{{ .Title }}</h1>
+      <h2 class="hero-body__subheader">{{ .Params.subheader }}</h2>
     </div>
 
   </div>

@@ -20,5 +20,31 @@
 
 .row {
   @include row();
-  margin-bottom: 2em;
+}
+
+.icon {
+  display: block;
+  margin: 0 auto 2em;
+}
+
+section.call-to-action {
+  text-align: center;
+  padding-top: 1px;
+
+  a {
+    background: $action-colour;
+    color: $secondary-colour;
+    padding: 1em 1.4em;
+    border-radius: 12px;
+    font-size: 1.6em;
+    margin-top: 1em;
+  }
+
+  a:hover {
+    background: $action-colour--light;
+  }
+
+  h2 {
+    margin-top: 1em;
+  }
 }

@@ -5,8 +5,9 @@ image = "/images/persianpursuitslogo.png"
 subheader = "A startup that wants to shakeup adventure travel"
 originurl = "http://www.persianpursuits.co.uk"
 sitelink = "www.persianpursuits.co.uk"
-heroimage = "/images/qtctc_asset_star-background.jpg"
-heroImgDescription = "Stars"
+heroimage = ""
+heroImgDescription = ""
+summary = "Persian Pursuits was a startup when they came to me looking for a website to promote their new business idea. I built a website that is a strong foundation for them to grow their business in the coming years."
 
 +++
 
@@ -225,7 +226,7 @@ place on her upcoming ‘Damavand Winter’ trip in April.
 What I Learnt
 --------------
 
-### Real code is what counts
+#### Real code is what counts
 
 Designing mockups is always great fun. You have a suite of tools readily
 at your disposal that help you create designs quickly and easily, and
@@ -243,7 +244,7 @@ designs into code as quickly as possible. Ideally I would like to get to a
 stage where not only the final few elements are added whilst coding, but
 the vast majority of the site makes it’s debut in code.
 
-### Start small
+#### Start small
 
 This project grew quickly. It actually overtook us, and started to run
 away a little. It was very easy, and tempting, to focus on what the site
@@ -252,7 +253,7 @@ thinking, but one that caused the project to derail. Only by
 coming back to what mattered right in the here and now did I wrest it
 under control again.
 
-### Be bold, rectify mistakes later
+#### Be bold, rectify mistakes later
 
 “Paralysis by over-analysis” is real. I thought when I was at
 Action Challenge that it occurred due to the strung out nature of an
@@ -267,7 +268,7 @@ work, and to prove what did. By avoiding this iteration and trying to
 get it ‘right’ first time whilst in the design stage, the projects just stopped
 making progress; instead going around and around in circles.
 
-### PS: These write-ups matter
+#### PS: These write-ups matter
 
 Writing up my case studies can sometime take a few hours by the time
 it’s been reviewed, edited and uploaded. It would be far easier to just

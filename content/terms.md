@@ -1,7 +1,6 @@
 +++
 date = "2015-04-22T13:23:27+01:00"
 title = "Terms & Conditions"
-type = "casestudy"
 
 +++
 

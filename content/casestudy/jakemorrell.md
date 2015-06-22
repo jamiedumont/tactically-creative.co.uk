@@ -5,8 +5,9 @@ image = "/images/jakemorrelllogo.png"
 subheader = "Should a band be treated like a small business?"
 originurl = "http://www.jakemorrell.co.uk"
 sitelink = "www.jakemorrell.co.uk"
-heroimage = "/images/qtctc_asset_star-background.jpg"
-heroImgDescription = "Stars"
+heroimage = ""
+heroImgDescription = ""
+summary = "I re-designed Jake's existing site and built a future-proof platform that acts as a focal-point for his social media network, and will evolve with the band as they grow."
 
 +++
 
@@ -243,7 +244,7 @@ existing ones, or bolt-on with no complications.
 What I Learned
 ---------------
 
-### Wordpress is not the solution
+#### Wordpress is not the solution
 
 After exploring various CMS options, I have concluded that Wordpress
 should no longer be my standard solution, as in most cases, it’s
@@ -252,7 +253,7 @@ with other systems such as Statamic, and static-site-generators (SSGs);
 the more I believe that Wordpress will very rarely be the best tool for
 my projects now, if ever.
 
-### An intelligent CSS architecture is worth it’s weight in gold.
+#### An intelligent CSS architecture is worth it’s weight in gold.
 
 That’s probably not the best way to articulate what I'm trying to say,
 as such an architecture probably weighs next to nothing! However, it
@@ -263,7 +264,7 @@ initially, but can prove to be cost-saving in the long term, when
 compared to refactoring the CSS over the lifetime of a website to
 accommodate new features.
 
-### Communication is key
+#### Communication is key
 
 I learnt so much on this project, both generally, but also from Jake.
 I learnt how to deal with the objectives of a website when there’s no

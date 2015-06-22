@@ -5,8 +5,8 @@ author = "Jamie"
 image = "/images/jakemorrelllogo.png"
 subheader = "Testing the world"
 summary = ""
-heroimage = "/images/qtctc_asset_star-background.jpg"
-heroImgDescription = "Stars"
+heroimage = ""
+heroImgDescription = ""
 +++
 
 Those two immortal words that any developer will know instantly. They symbolise every coffee-fuelled *'Eureka'* moment and every knowing *'A-Ha!'*. They represent learning, understanding and success.

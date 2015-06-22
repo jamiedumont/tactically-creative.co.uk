@@ -1,44 +1,53 @@
-/*http://somadesign.ca/demos/better-google-fonts/*/
-
 html, body {
 	height: 100%;
   font-family: $body-font;
   font-weight: 300;
   @include font-smoothing(on);
-
-
 }
+
+/* NOTE: The current behaviour of the h1 background-color of spanning 100% of it's parent is undesirable, but at present not a priority. This is something to be amended at earliest convenience */
 
 h1 {
   font-size: 2.6em;
   color: $secondary-colour;
-  background: #E36767;
+  background: $action-colour;
   font-family: 'Sansita One';
-  width: auto;
-  margin: 0 auto;
-  text-shadow: 1px 1px 0px #E36767, 2px 2px 0px #E89E9E;
+  text-shadow: 1px 1px 0px $action-colour, 2px 2px 0px $action-colour--light;
   transform: rotate(-2deg);
 }
+
 
 h2 {
   font-family: 'Yellowtail';
   font-weight: 300;
-  font-size: 1.6em;
+  font-size: 2em;
   transform: rotate(-2deg);
-  text-align: center;
-  margin-bottom: 2em;
-  @include font-smoothing(on);
-
-
+  margin-bottom: 1em;
+  @include media($tablet){
+    font-size: 2.4em;
+  }
 }
+
+h3 {
+  font-size: 1.4em;
+}
+
 
 p {
   margin: 1em 0;
-  font-size: 1.2em;
   font-weight: 300;
+
+  @include media($tablet){
+    font-size: 1.2em;
+  }
 }
+
 
 a {
 	text-decoration: none;
 	color: $action-colour;
+}
+
+a:hover {
+  color: $action-colour--light;
 }

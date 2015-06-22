@@ -6,8 +6,9 @@ image = "/images/calummallorylogo.png"
 subheader = "Building an out of the ordinary portfolio"
 originurl = "http://www.calummallory.co.uk"
 sitelink = "www.calummallory.co.uk"
-heroimage = "/images/qtctc_asset_star-background.jpg"
-heroImgDescription = "Stars"
+heroimage = ""
+heroImgDescription = ""
+summary = "I created a brand to support Calum's fundraising projects and promote him as a climber that's a little different from the rest."
 
 +++
 
@@ -19,7 +20,7 @@ the skills to go with them. He describes himself as a “climber, alpinist
 Everest. I was thrilled when he asked me to help out with this
 journey.
 
-When we met Calum…
+When I met Calum…
 ------------------
 
 I won’t lie, I was a touch disappointed when it turned out he wanted
@@ -173,7 +174,7 @@ no idea just how well the two would gel!
 What I learned
 ---------------
 
-### Have fun!
+#### Have fun!
 
 This project was a chance to have some fun. Calum was incredibly relaxed
 about the project, and was enjoying his first taste of building a
@@ -183,7 +184,7 @@ Calum, as it was hard to get him to be critical of our work.
 What was more apparent was the joy I found in tackling something as
 different as a portfolio website for an ice-climbing adventurer.
 
-### Don’t let business get in the way!
+#### Don’t let business get in the way!
 
 I found that the site definitely felt more like a personal project than
 client work at times. This caused me to stray from the brief on
@@ -195,7 +196,7 @@ the exciting trips he went on; and not a transcription of the various
 fundraising pages he was already using. It was different, and by having
 that ‘portfolio’ to refer to, it made his fundraising pages stronger.
 
-### Let things develop naturally.
+#### Let things develop naturally.
 
 Throwing myself into brand design was a challenge. It was not
 entirely new territory for me, but certainly ground that I wasn't as familiar with. However, by taking the same iterative process
