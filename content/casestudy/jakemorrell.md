@@ -2,7 +2,9 @@
 date: "2015-04-22T15:07:03+01:00"
 title: "Jake Morrell"
 author: "Jamie"
-images: ""
+images: [
+          "/images/qtctc_asset_jakeband.jpg"
+          ]
 videos: ""
 news_keywords: ""
 
