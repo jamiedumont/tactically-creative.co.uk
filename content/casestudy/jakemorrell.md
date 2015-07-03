@@ -28,6 +28,8 @@ The site also has to become the band’s online ‘home’ that grows with
 them. Needing something so personal makes finding an off-the-shelf
 solution tough.
 
+![Jake Morrell](/images/qtctc_asset_jakeband.jpg)
+
 Country roots
 -------------
 
