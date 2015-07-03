@@ -5,21 +5,32 @@
     
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+    <!-- Enable responsive viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     
-
+    <!-- Site the Title attribute -->
     <title>{{ .Site.Title }}</title>
 
+    <!-- Hugo variable displays the page description as defined in the front matter of each content file (.md), where not available (either through lack of content file or not entered), Hugo will create a Summary for the page and use that-->
+    <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}">
+
+    <!-- Partial that brings in various meta tags for Open Graph and Twitter cards -->
     {{ partial "head/seo.html" . }}
 
     <link rel="canonical" href="{{ .Permalink }}">
 
-
+        <!-- Include required CSS sources -->
+    <!-- Google Fonts -->
     <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Yellowtail|Lato:300,700,300italic,700italic|Sansita+One' >
+
+    <!-- Font Awesome Icons (none used at present) -->
     <link rel='stylesheet' type='text/css' href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+
+    <!-- Main style sheet -->
     <link rel='stylesheet' type='text/css' href='/css/main.css'>
 
-
-    <script src="/js/modernizr.js"></script> <!-- Modernizr -->
+    <!-- Modernizr -->
+    <script src="/js/modernizr.js"></script> 
 
   </head>
