@@ -7,15 +7,6 @@
 	<meta property="og:image" content="{{ . }}" />
 {{ end }}{{ end }}
 
-<!-- Optional Open Graph Markup -->
-<meta property="og:updated_time" content="{{ .Date }}"/>
-{{ with .Params.audio }}<meta property="og:audio" content="{{ . }}" />{{ end }}
-{{ with .Params.locale }}<meta property="og:locale" content="{{ . }}" />{{ end }}
-{{ with .Site.Params.title }}<meta property="og:site_name" content="{{ . }}" />{{ end }}
-{{ with .Params.videos }}{{ range . }}
-	<meta property="og:video" content="{{ . }}" />
-{{ end }}{{ end }}
-
 
 <!-- Facebook Page Admin ID for Domain Insights -->
 {{ with .Site.Params.social.facebook_admin }}<meta property="fb:admins" content="{{ . }}" />{{ end }}
