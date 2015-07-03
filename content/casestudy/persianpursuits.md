@@ -2,7 +2,9 @@
 date: "2015-04-22T15:07:16+01:00"
 title: "Persian Pursuits"
 author: "Jamie"
-images: ""
+images: [
+        "images/persianpursuits.jpg"
+        ]
 videos: ""
 news_keywords: ""
 
@@ -48,6 +50,8 @@ media coverage from Western countries.
 She wanted her fledgling business to offer small, personal trips to Iran
 for people to experience it’s mountains, Damavand in particular; and
 show off the wonderful culture to be found in the capital, Tehran.
+
+![Shirin of Persian Pursuits in Iran](/images/qtctc_asset_persianpursuits.jpg)
 
 A Blank Canvas
 --------------

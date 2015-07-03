@@ -2,7 +2,9 @@
 date: "2015-04-22T15:06:50+01:00"
 title: "Calum Mallory"
 author: "Jamie"
-images: ""
+images: [
+          "images/qtctc_asset_calum.jpg",
+         ] 
 videos: ""
 news_keywords: ""
 
@@ -22,6 +24,8 @@ the skills to go with them. He describes himself as a “climber, alpinist
 2013, he has been working towards tackling his biggest challenge: Mount
 Everest. I was thrilled when he asked me to help out with this
 journey.
+
+![Calum Mallory - Climber](/images/qtctc_asset_calum.jpg)
 
 ## When I met Calum…
 
