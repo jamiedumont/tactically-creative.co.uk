@@ -3,7 +3,7 @@
 <body>
 <div class="hero">
 
-    <img src="{{ .Params.heroimage }}" alt="{{ .Params.heroImgDescription }}" class="hero__image">
+    <img src="{{ .Params.herobackground }}" alt="{{ .Params.heroImgDescription }}" class="hero__image">
     <!-- Background image at the top of the page -->
 
     {{ partial "header.html" . }}
@@ -11,12 +11,12 @@
 
     <div class="hero__body">
 
-      <!-- <img class="hero-body__icon" src="{{ .Params.image }}" alt=""> -->
+      <!-- <img class="hero-body__icon" src="{{ .Params.heroimage }}" alt=""> -->
       <!-- hero-body__icon is currently unused for blog posts, but can be enabled at a later date -->
 
       <h1 class="hero-body__header">{{ .Title }}</h1>
       <!-- Post title -->
-
+ 
       <h2 class="hero-body__subheader">{{ .Params.subheader}}</h2>
       <!-- Post subtitle -->
 

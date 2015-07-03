@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     
     <!-- Site the Title attribute -->
-    <title>{{ .Site.Title }}</title>
+    <title>{{ .Title }}</title>
 
     <!-- Hugo variable displays the page description as defined in the front matter of each content file (.md), where not available (either through lack of content file or not entered), Hugo will create a Summary for the page and use that-->
     <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}">

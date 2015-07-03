@@ -1,15 +1,14 @@
 ---
 date: ""
 title: ""
+subheader: ""
+description: ""
 author: ""
 images: ""
 videos: ""
 news_keywords: ""
 
-subheader: ""
-summary: ""
-topimage: ""
-image: ""
 heroimage: ""
+herobackground: ""
 heroimgdescription: ""
 ---

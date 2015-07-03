@@ -3,6 +3,7 @@ title = "Tactically Creative"
 metaDataFormat = "yaml"
 
 [params]
+  description = "Tactically Creative offer a totally different experience for small businesses looking for a website. We specialise in static sites, web apps and breathes of fresh air!"
   [params.social]
     github          = "TacticallyCreative"
     facebook        = "tacticallycreative"

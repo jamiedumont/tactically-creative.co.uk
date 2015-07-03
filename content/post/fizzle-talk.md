@@ -1,14 +1,16 @@
 ---
-author: "Jamie"
 date: "2015-06-25T08:00:00+01:00"
-heroImgDescription: ""
+title: "London Fizzle Meetup - June 2015"
+subheader: "Cutting through noise to deliver web-building signal"
+description: "Recently, I gave a talk for a group of business owners about building their first website. To help attendees and those that couldn't make it, there's now a one-page site with all of that information...plus a bit more!"
+author: "Jamie"
+images: ""
+videos: ""
+news_keywords: ""
+
 heroimage: ""
-image: ""
-subheader: Cutting through noise to deliver web-building signal
-summary: I gave a talk for a group of business owners about building their first website.
-  I wrote an article based on that talk for their, and everyone else's reference.
-title: London Fizzle Meetup - June 2015
-topimage: ""
+herobackground: ""
+heroimgdescription: ""
 ---
 
 ## A Brilliant Evening!
