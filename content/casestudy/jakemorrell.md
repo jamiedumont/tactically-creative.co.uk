@@ -3,7 +3,7 @@ date: "2015-04-22T15:07:03+01:00"
 title: "Jake Morrell"
 author: "Jamie"
 images: [
-          "images/qtctc_asset_jakeband.jpg"
+          "images/qtctc_asset_jakeband.jpeg"
           ]
 videos: ""
 news_keywords: ""
@@ -28,7 +28,7 @@ The site also has to become the band’s online ‘home’ that grows with
 them. Needing something so personal makes finding an off-the-shelf
 solution tough.
 
-![Jake Morrell](/images/qtctc_asset_jakeband.jpg)
+![Jake Morrell](/images/qtctc_asset_jakeband.jpeg)
 
 Country roots
 -------------

@@ -1,7 +1,8 @@
 <!-- Required Open Graph Info -->
 <meta property="og:title" content="{{ .Title }}" />
+<meta property="og:site_name" content="{{ .Site.Title }}"/>
 <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}" />
-
+<meta property="og:type" content="{{ if .Params.type }}{{ .Params.type }}{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 {{ $baseurl := .Site.BaseURL }}
 {{ with .Params.images }}{{ range first 6 . }}
