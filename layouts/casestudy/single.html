@@ -34,8 +34,11 @@
     {{ .Content }}
     <!-- call content of relevant .md file -->
 
+    {{ with .Params.sitelink }}
     <h2>You can find their site at:</h2>
-    <h4><a href="{{ .Params.originurl }}">{{ .Params.sitelink }}</a></h4>
+    <h4><a href="http://{{ . }}">{{ . }}</a></h4>
+    {{ end }}
+
 
   </div>
   <!-- end div.content -->

@@ -1,11 +1,15 @@
-+++
-date = ""
-title = ""
-subheader = ""
-summary = ""
-topimage = ""
-author = ""
-image = ""
-heroimage = ""
-heroImgDescription = ""
-+++
+---
+date: ""
+title: ""
+author: ""
+images: ""
+videos: ""
+news_keywords: ""
+
+subheader: ""
+summary: ""
+topimage: ""
+image: ""
+heroimage: ""
+heroimgdescription: ""
+---

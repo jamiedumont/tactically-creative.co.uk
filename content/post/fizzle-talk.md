@@ -1,15 +1,15 @@
-+++
-author = "Jamie"
-date = "2015-06-25T08:00:00+01:00"
-heroImgDescription = ""
-heroimage = ""
-image = ""
-subheader = "Cutting through noise to deliver web-building signal"
-summary = "I gave a talk for a group of business owners about building their first website. I wrote an article based on that talk for their, and everyone else's reference."
-title = "London Fizzle Meetup - June 2015"
-topimage = ""
-
-+++
+---
+author: Jamie
+date: 2015-06-25T08:00:00+01:00
+heroImgDescription: ""
+heroimage: ""
+image: ""
+subheader: Cutting through noise to deliver web-building signal
+summary: I gave a talk for a group of business owners about building their first website.
+  I wrote an article based on that talk for their, and everyone else's reference.
+title: London Fizzle Meetup - June 2015
+topimage: ""
+---
 
 ## A Brilliant Evening!
 

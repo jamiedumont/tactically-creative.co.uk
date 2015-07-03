@@ -1,15 +1,21 @@
-+++
-date = "2015-04-22T15:07:03+01:00"
-title = "Jake Morrell"
-image = "/images/jakemorrelllogo.png"
-subheader = "Should a band be treated like a small business?"
-originurl = "http://www.jakemorrell.co.uk"
-sitelink = "www.jakemorrell.co.uk"
-heroimage = ""
-heroImgDescription = ""
-summary = "I re-designed Jake's existing site and built a future-proof platform that acts as a focal-point for his social media network, and will evolve with the band as they grow."
+---
+date: "2015-04-22T15:07:03+01:00"
+title: "Jake Morrell"
+author: "Jamie"
+images: ""
+videos: ""
+news_keywords: ""
 
-+++
+subheader: "Should a band be treated like a small business?"
+summary: "I re-designed Jake's existing site and built a future-proof platform that
+acts as a focal-point for his social media network, and will evolve with the band
+as they grow."
+image: "/images/jakemorrelllogo.png"
+heroimage: ""
+heroimgdescription: ""
+originurl: "http://www.jakemorrell.co.uk"
+sitelink: "www.jakemorrell.co.uk"
+---
 
 A band’s need of a website is not uncommon, but finding the right
 website can prove tricky for the uninitiated. A band’s site functions

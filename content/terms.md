@@ -1,8 +1,7 @@
-+++
-date = "2015-04-22T13:23:27+01:00"
-title = "Terms & Conditions"
-
-+++
+---
+date: 2015-04-22T13:23:27+01:00
+title: Terms & Conditions
+---
 
 #### Every project we undertake is subject to our T&Cs. We know it's a bore, but please read them before we work together.
 

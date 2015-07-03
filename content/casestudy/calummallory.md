@@ -1,17 +1,20 @@
-+++
-date = "2015-04-22T15:06:50+01:00"
-title = "Calum Mallory"
-author = ""
-image = "/images/calummallorylogo.png"
-subheader = "Building an out of the ordinary portfolio"
-originurl = "http://www.calummallory.co.uk"
-sitelink = "www.calummallory.co.uk"
-heroimage = ""
-heroImgDescription = ""
-summary = "I created a brand to support Calum's fundraising projects and promote him as a climber that's a little different from the rest."
+---
+date: "2015-04-22T15:06:50+01:00"
+title: "Calum Mallory"
+author: "Jamie"
+images: ""
+videos: ""
+news_keywords: ""
 
-+++
-
+subheader: "Building an out of the ordinary portfolio"
+summary: "I created a brand to support Calum's fundraising projects and promote him
+as a climber that's a little different from the rest."
+image: "/images/calummallorylogo.png"
+heroimage: ""
+heroimgdescription: ""
+originurl: ""
+sitelink: ""
+---
 
 Calum Mallory is an individual with some extraordinary interests, and
 the skills to go with them. He describes himself as a “climber, alpinist
@@ -20,8 +23,8 @@ the skills to go with them. He describes himself as a “climber, alpinist
 Everest. I was thrilled when he asked me to help out with this
 journey.
 
-When I met Calum…
-------------------
+## When I met Calum…
+
 
 I won’t lie, I was a touch disappointed when it turned out he wanted
 me to make a website, and not go on the climb with him! C'est la vie!
@@ -37,8 +40,8 @@ I have experience building websites for charity focussed expeditions
 with Action Challenge, but couldn’t resist taking on such a different
 project.
 
-Getting started…
-----------------
+## Getting started…
+
 
 Whilst the site had the clear purpose of promoting Calum as a climber,
 and raising funds for his expedition, it was also a very personal site.
@@ -78,8 +81,8 @@ Patagonia. I took inspiration from the colours that are now considered
 ‘vintage’ & ‘retro’, and set out to keep the design restrained &
 purposeful, much like the industrial design of the time.
 
-The logo
---------
+## The logo
+
 
 A logo is a logical place to start when designing a brand, and it’s
 always a thought-provoking process. The fundamentals are the same as
@@ -113,8 +116,8 @@ starting with a very simple idea, and slowly (and carefully) refining
 it, only adding what was necessary; we ended up with something that we
 feel represents Calum personality perfectly.
 
-Content
--------
+## Content
+
 
 Calum was really enthusiastic about the website once he saw the brand
 coming together. He began flooding my inbox with photos we could use and
@@ -141,8 +144,8 @@ elements other than photos, which was a point of difference to Calum’s
 competition. Their sites were incredibly image heavy, and felt a little
 bogged down by them both technically and editorially.
 
-Video
------
+## Video
+
 
 One element however would dwarf the rest of the content. Calum had been
 working with his climbing partner, Molly Hughes, and Mark Leary, a video
@@ -162,8 +165,8 @@ developed. Fortunately, we found ourselves on the same page. When Mark
 explained his plan for the video, I couldn’t help but nod my head the
 entire way through!
 
-Bringing it together
---------------------
+## Bringing it together
+
 
 The video was finished just before the launch of the site, and I got
 my first look at it only a day before the site was due to go live.
@@ -171,10 +174,10 @@ After my earlier chat with Mark, I knew there was nothing to worry about,
 and that the website and the video would work well together; but I had
 no idea just how well the two would gel!
 
-What I learned
----------------
+## What I learned
 
-#### Have fun!
+
+### Have fun!
 
 This project was a chance to have some fun. Calum was incredibly relaxed
 about the project, and was enjoying his first taste of building a
@@ -184,7 +187,7 @@ Calum, as it was hard to get him to be critical of our work.
 What was more apparent was the joy I found in tackling something as
 different as a portfolio website for an ice-climbing adventurer.
 
-#### Don’t let business get in the way!
+### Don’t let business get in the way!
 
 I found that the site definitely felt more like a personal project than
 client work at times. This caused me to stray from the brief on
@@ -196,7 +199,7 @@ the exciting trips he went on; and not a transcription of the various
 fundraising pages he was already using. It was different, and by having
 that ‘portfolio’ to refer to, it made his fundraising pages stronger.
 
-#### Let things develop naturally.
+### Let things develop naturally.
 
 Throwing myself into brand design was a challenge. It was not
 entirely new territory for me, but certainly ground that I wasn't as familiar with. However, by taking the same iterative process

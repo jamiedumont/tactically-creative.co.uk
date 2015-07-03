@@ -1,12 +1,16 @@
-+++
-date = ""
-title = ""
-[params]
-	subheader = ""
-	author = ""
-	image = ""
-  heroimage = ""
-  heroImgDescription = ""
-  summary = ""
+---
+date: ""
+title: ""
+author: ""
+images: ""
+videos: ""
+news_keywords: ""
 
-+++
+subheader: ""
+summary: ""
+image: ""
+heroimage: ""
+heroimgdescription: ""
+originurl: ""
+sitelink: ""
+---

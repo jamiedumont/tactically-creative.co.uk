@@ -1,15 +1,22 @@
-+++
-date = "2015-04-22T15:07:16+01:00"
-title = "Persian Pursuits"
-image = "/images/persianpursuitslogo.png"
-subheader = "A startup that wants to shakeup adventure travel"
-originurl = "http://www.persianpursuits.co.uk"
-sitelink = "www.persianpursuits.co.uk"
-heroimage = ""
-heroImgDescription = ""
-summary = "Persian Pursuits was a startup when they came to me looking for a website to promote their new business idea. I built a website that is a strong foundation for them to grow their business in the coming years."
+---
+date: "2015-04-22T15:07:16+01:00"
+title: "Persian Pursuits"
+author: "Jamie"
+images: ""
+videos: ""
+news_keywords: ""
 
-+++
+subheader: "A startup that wants to shakeup adventure travel"
+summary: "Persian Pursuits was a startup when they came to me looking for a website
+to promote their new business idea. I built a website that is a strong foundation
+for them to grow their business in the coming years.
+title: Persian Pursuits"
+image: "/images/persianpursuitslogo.png"
+heroimage: ""
+heroimgdescription: ""
+originurl: "http://www.persianpursuits.co.uk"
+sitelink: "www.persianpursuits.co.uk"
+---
 
 Travel is rightly considered to be one of the most educational and
 liberating experiences a person can pursue. It’s hard to compete with

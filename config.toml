@@ -1,5 +1,30 @@
 baseurl = "http://tactically-creative.co.uk/"
-languageCode = "en-us"
 title = "Tactically Creative"
-metaDataFormat = "toml"
+metaDataFormat = "yaml"
+
+[params]
+  [params.social]
+    github          = "TacticallyCreative"
+    facebook        = "tacticallycreative"
+    facebook_admin  = "jamiedumont0"  # This needs to be a page admin to get domain insights
+    twitter         = "tac_Creative"
+    twitter_domain  = "Tactically Creative" # This domain shows in twitter cards as "View on `twitter_domain`"
+    googleplus      = ""
+    pinterest       = ""
+    instagram       = ""
+    youtube         = ""
+    linkedin        = ""
+  [params.authors]
+    [params.authors.Jamie]
+      name          = "Jamie Dumont"
+      thumbnail     = ""
+      images        = [
+                        "",
+                        "",
+                      ]
+      bio           = "Jamie is the founder of Tactically Creative. He set out to change how small businesses could build websites."
+      email         = "jamie@tactically-creative.co.uk"
+
+      [params.authors.Jamie.social]
+        facebook = "jamiedumont0"
 
