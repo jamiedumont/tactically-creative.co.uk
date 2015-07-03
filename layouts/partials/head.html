@@ -13,7 +13,7 @@
     <title>{{ .Title }}</title>
 
     <!-- Hugo variable displays the page description as defined in the front matter of each content file (.md), where not available (either through lack of content file or not entered), Hugo will create a Summary for the page and use that-->
-    <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}">
+    <meta name="description" content="{{ if .IsPage }}{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary }}{{ end }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 
     <!-- Partial that brings in various meta tags for Open Graph and Twitter cards -->
     {{ partial "head/seo.html" . }}
@@ -31,6 +31,6 @@
     <link rel='stylesheet' type='text/css' href='/css/main.css'>
 
     <!-- Modernizr -->
-    <script src="/js/modernizr.js"></script> 
+    <script src="/js/modernizr-min.js"></script> 
 
   </head>
