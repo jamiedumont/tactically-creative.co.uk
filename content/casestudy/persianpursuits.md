@@ -3,7 +3,7 @@ date: "2015-04-22T15:07:16+01:00"
 title: "Persian Pursuits"
 author: "Jamie"
 images: [
-        "images/persianpursuits.jpg"
+        "images/qtctc_asset_persianpursuits.jpg"
         ]
 videos: ""
 news_keywords: ""
