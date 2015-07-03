@@ -1,12 +1,12 @@
 ---
 date: "2015-04-22T15:06:50+01:00"
-title: "Calum Mallory"
+title: "Case Study: Calum Mallory"
 author: "Jamie"
 images: [
           "images/qtctc_asset_calum.jpg",
          ] 
 videos: ""
-news_keywords: ""
+news_keywords: [ "calum", "mallory", "calum mallory", "climbing", "everest", "alpinist", "portfolio", "static", "statamic" ]
 
 subheader: "Building an out of the ordinary portfolio"
 summary: "I created a brand to support Calum's fundraising projects and promote him

@@ -1,12 +1,12 @@
 ---
 date: "2015-04-22T15:07:16+01:00"
-title: "Persian Pursuits"
+title: "Case Study: Persian Pursuits"
 author: "Jamie"
 images: [
         "images/qtctc_asset_persianpursuits.jpg"
         ]
 videos: ""
-news_keywords: ""
+news_keywords: [ "persian pursuits", "iran", "damavand", "statamic", "charity", "challenge" ]
 
 subheader: "A startup that wants to shakeup adventure travel"
 summary: "Persian Pursuits was a startup when they came to me looking for a website

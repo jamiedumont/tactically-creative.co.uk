@@ -1,12 +1,12 @@
 ---
 date: "2015-04-22T15:07:03+01:00"
-title: "Jake Morrell"
+title: "Case Study: Jake Morrell"
 author: "Jamie"
 images: [
           "images/qtctc_asset_jakeband.jpeg"
           ]
 videos: ""
-news_keywords: ""
+news_keywords: ["jake", "morrell", "jake morrell", "band", "website", "web design", "static site", "statamic", ]
 
 subheader: "Should a band be treated like a small business?"
 summary: "I re-designed Jake's existing site and built a future-proof platform that

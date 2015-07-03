@@ -1,6 +1,6 @@
 ---
-author: Jamie
-date: 2015-06-25T08:00:00+01:00
+author: "Jamie"
+date: "2015-06-25T08:00:00+01:00"
 heroImgDescription: ""
 heroimage: ""
 image: ""

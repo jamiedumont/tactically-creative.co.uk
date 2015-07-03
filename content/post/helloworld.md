@@ -1,6 +1,6 @@
 ---
-author: Jamie
-date: 2015-04-30T11:57:08+01:00
+author: "Jamie"
+date: "2015-04-30T11:57:08+01:00"
 heroImgDescription: ""
 heroimage: ""
 image: /images/jakemorrelllogo.png
