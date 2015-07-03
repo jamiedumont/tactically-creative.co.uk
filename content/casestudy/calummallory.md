@@ -1,6 +1,6 @@
 ---
 date: "2015-04-22T15:06:50+01:00"
-title: "Case Study: Calum Mallory"
+title: "Calum Mallory"
 author: "Jamie"
 images: [
           "images/qtctc_asset_calum.jpg",

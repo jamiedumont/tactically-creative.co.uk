@@ -1,6 +1,6 @@
 ---
 date: "2015-04-22T15:07:16+01:00"
-title: "Case Study: Persian Pursuits"
+title: "Persian Pursuits"
 author: "Jamie"
 images: [
         "images/qtctc_asset_persianpursuits.jpg"

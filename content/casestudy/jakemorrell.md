@@ -1,6 +1,6 @@
 ---
 date: "2015-04-22T15:07:03+01:00"
-title: "Case Study: Jake Morrell"
+title: "Jake Morrell"
 author: "Jamie"
 images: [
           "images/qtctc_asset_jakeband.jpeg"
