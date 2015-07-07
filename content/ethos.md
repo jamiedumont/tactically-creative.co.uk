@@ -36,7 +36,9 @@ We feel an open, honest and trusting collaboration breeds the best results (and 
 
 ### What this collaboration actually means...
 
-I personally treat every client as a friend, which allows us to develop the trusting and honest relationships needed to make the flexible nature of our projects work. We always work together to each others mutual benefit. There's no heavy-handed contracts, no retainers and no funny business. Not everyone will feel comfortable with such a flexible arrangement, and I completely understand. I work this way because not only are the results exponentially better, we have great fun and make life-long friends on these projects. I feel this is the way business *should* be done, even though it rarely is.
+I personally treat every client as a friend, which allows us to develop the trusting and honest relationships needed to make the flexible nature of our projects work. There's no heavy-handed contracts, no retainers and no funny business. Not everyone will feel comfortable with such a flexible arrangement, and I completely understand. I work this way because not only are the results exponentially better, we have great fun and make life-long friends on these projects. I feel this is the way business *should* be done, even though it rarely is.
+
+I love seeing our clients succeed, and by allowing us to assist, we get to play a direct role in making that happen. That's the biggest privilege we know of! Whilst our work can provide immediate benefits, we don't subscribe to the notion of "quick fixes". Building something great takes time and patience, so we're here for the long haul.
 
 ## We're different by design
 

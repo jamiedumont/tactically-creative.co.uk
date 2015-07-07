@@ -2,6 +2,7 @@ html, body {
 	height: 100%;
   font-family: $body-font;
   font-weight: 300;
+  text-align: center;
   @include font-smoothing(on);
 }
 
@@ -36,7 +37,6 @@ h3 {
 p {
   margin: 1em 0;
   font-weight: 300;
-
   @include media($tablet){
     font-size: 1.2em;
   }
@@ -50,4 +50,11 @@ a {
 
 a:hover {
   color: $action-colour--light;
+}
+
+
+li {
+  @include media($tablet){
+    font-size: 1.2em;
+  }
 }

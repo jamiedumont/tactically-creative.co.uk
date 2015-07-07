@@ -106,6 +106,9 @@
 .topbar__beta-nav li {
   display: inline-block;
   margin-left: 2.2em;
+  @include media($tablet){
+    font-size: 1em;
+  }
 }
 .topbar__beta-nav a {
   display: inline-block;
@@ -121,6 +124,7 @@
   height: 100%;
   width: 50px;
   background-color: #03263d;
+  text-align: left;
 }
 .topbar__alpha-nav-trigger .trigger__text {
   color: white;
