@@ -179,7 +179,9 @@ a:hover {
 
 @media screen and (min-width: 768px) {
   .content--copy {
-    max-width: 40em; } }
+    max-width: 40em; }
+    .content--copy p {
+      text-align: left; } }
 
 .longform__header {
   margin-bottom: 2em; }
@@ -218,6 +220,9 @@ a:hover {
 .lf-data__list-item {
   display: inline-block;
   margin-right: 1em; }
+
+ul.no-dec {
+  list-style: none; }
 
 /*
 *    6 - Components
