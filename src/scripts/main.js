@@ -45,3 +45,27 @@ jQuery(document).ready(function($){
 		}
 	});
 });
+
+
+// EXPANDABLE SECTION
+
+$(document).ready(function() {
+  var expanderTrigger = document.getElementById("js-expander-trigger");
+  var expanderContent = document.getElementById("js-expander-content");
+
+  $('#js-expander-trigger-1').click(function(){
+    $(this).toggleClass("expander-hidden expander-line");
+  });
+
+  $('#js-expander-trigger-2').click(function(){
+    $(this).toggleClass("expander-hidden expander-line");
+  });
+
+  $('#js-expander-trigger-3').click(function(){
+    $(this).toggleClass("expander-hidden expander-line");
+  });
+
+	$('#js-expander-trigger-4').click(function(){
+    $(this).toggleClass("expander-hidden expander-line");
+  });
+});

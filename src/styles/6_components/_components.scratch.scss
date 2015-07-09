@@ -22,22 +22,32 @@
   @include row();
 }
 
-.icon {
+
+.icon-block {
+  margin: 2em 0;
+}
+
+.icon-block__icon {
   display: block;
-  margin: 0 auto 2em;
+  margin: 0 auto 0.5em;
+}
+
+.icon-block__heading {
+  margin-bottom: 0.5em;
+}
+
+.icon-block__body {
+  margin:  0;
 }
 
 section.call-to-action {
-  text-align: center;
-  padding-top: 1px;
 
   a {
-    background: $action-colour;
+    background: $off-white-colour;
     color: $secondary-colour;
-    padding: 1em 1.4em;
+    padding: 0.5em 0.7em;
     border-radius: 12px;
     font-size: 1.6em;
-    margin-top: 1em;
   }
 
   a:hover {

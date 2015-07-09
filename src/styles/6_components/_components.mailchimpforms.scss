@@ -1,0 +1,36 @@
+#mce-EMAIL {
+  height: 4rem;
+  width: 90%;
+  margin-bottom: 0.5em;
+  font-family: $body-font;
+  font-size: 1.2em;
+  text-align: center;
+  display: inline-block;
+  @include media($tablet){
+    width: 50%;
+    font-size: 1.4em;
+    text-align: left;
+    padding-left: 20px;
+  }
+}
+
+#mc-embedded-subscribe {
+  padding: 0em 1.4em;
+  height: 4rem;
+  margin-left: -10px;
+  margin-top: -1px;
+  background-color: $primary-colour;
+  color: $secondary-colour;
+  border-radius: 0px;
+  font-size: 1.4em;
+  font-weight: 300;
+  font-family: $body-font;
+  text-transform: uppercase;
+  border: none;
+  display: inline-block;
+}
+
+#mc-embedded-subscribe:hover {
+  background-color: $action-colour;
+  color: $secondary-colour;
+}
