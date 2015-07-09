@@ -34,12 +34,9 @@
 }
 
 .content--copy {
-
+  text-align: left;
   @include media($tablet) {
   max-width: 40em;
-  p {
-    text-align: left;
-  }
   }
 
 }
