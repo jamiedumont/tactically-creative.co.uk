@@ -1,0 +1,26 @@
+#mce-EMAIL {
+  height: 2em;
+  width: 50%;
+  font-family: $body-font;
+  padding-left: 10px;
+  font-size: 1.6em;
+  text-align: center;
+}
+
+#mc-embedded-subscribe {
+  padding: 1em 1.4em;
+  background-color: $primary-colour;
+  color: $secondary-colour;
+  border-radius: 0px;
+  margin: 1em auto;
+  font-size: 1.6em;
+  font-weight: 300;
+  font-family: $body-font;
+  text-transform: uppercase;
+  border: none;
+}
+
+#mc-embedded-subscribe:hover {
+  background-color: $action-colour;
+  color: $secondary-colour;
+}
