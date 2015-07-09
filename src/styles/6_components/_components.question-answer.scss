@@ -1,0 +1,17 @@
+.question-answer {
+  list-style: none;
+  background: $secondary-colour;
+  color: white;
+  padding: 2em;
+  border-radius: 16px;
+}
+
+.question {
+  margin-bottom: 0.2rem;
+}
+
+.answer {
+  font-size: 0.9em;
+  margin-bottom: 1.4rem;
+  text-align: left;
+}

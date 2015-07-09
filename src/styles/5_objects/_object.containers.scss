@@ -19,6 +19,16 @@
   color: $secondary-colour;
 }
 
+.container--action {
+  background: $action-colour;
+  color: $secondary-colour;
+}
+
+.container--post-shuttle {
+  padding-top: 0em;
+  margin-top: -80px;
+}
+
 .content {
   @include outer-container();
 }
