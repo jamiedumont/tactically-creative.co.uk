@@ -46,7 +46,6 @@ jQuery(document).ready(function($){
 	});
 });
 
-
 // EXPANDABLE SECTION
 
 $(document).ready(function() {

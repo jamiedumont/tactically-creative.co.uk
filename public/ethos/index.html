@@ -21,7 +21,7 @@
 <meta property="og:site_name" content="Tactically Creative"/>
 <meta property="og:description" content="We believe design should be better, and this is how we do it." />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://www.tactically-creative.co.uk/ethos/" />
+<meta property="og:url" content="http://localhost:1313/ethos/" />
 
 
 
@@ -60,7 +60,7 @@
 
 
 
-    <link rel="canonical" href="http://www.tactically-creative.co.uk/ethos/">
+    <link rel="canonical" href="http://localhost:1313/ethos/">
 
         
     
@@ -196,5 +196,17 @@
     <script src="/js/modernizr-min.js"></script> 
     
     <script src="/js/main-min.js" type="text/javascript"></script>
-  </body>
+
+    <script>
+    
+    $('#shuttle-rumble').jrumble({
+      x: 1,
+      y: 8,
+      rotation: 0});
+    </script>
+
+  <script data-no-instant>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
   </html>

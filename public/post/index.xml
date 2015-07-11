@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Tactically Creative</title>
-    <link>http://www.tactically-creative.co.uk/post/</link>
+    <link>http://localhost:1313/post/</link>
     <description>Recent content in Posts on Tactically Creative</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 25 Jun 2015 08:00:00 +0100</lastBuildDate>
-    <atom:link href="http://www.tactically-creative.co.uk/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>London Fizzle Meetup - June 2015</title>
-      <link>http://www.tactically-creative.co.uk/post/fizzle-talk/</link>
+      <link>http://localhost:1313/post/fizzle-talk/</link>
       <pubDate>Thu, 25 Jun 2015 08:00:00 +0100</pubDate>
       
-      <guid>http://www.tactically-creative.co.uk/post/fizzle-talk/</guid>
+      <guid>http://localhost:1313/post/fizzle-talk/</guid>
       <description>
 
 &lt;h2 id=&#34;a-brilliant-evening:c9033999b9835a7dfef93e5745ed10aa&#34;&gt;A Brilliant Evening!&lt;/h2&gt;
@@ -40,10 +40,10 @@
     
     <item>
       <title>Hello World</title>
-      <link>http://www.tactically-creative.co.uk/post/helloworld/</link>
+      <link>http://localhost:1313/post/helloworld/</link>
       <pubDate>Thu, 30 Apr 2015 11:57:08 +0100</pubDate>
       
-      <guid>http://www.tactically-creative.co.uk/post/helloworld/</guid>
+      <guid>http://localhost:1313/post/helloworld/</guid>
       <description>
 
 &lt;p&gt;Those two immortal words that any developer will know instantly. They symbolise every coffee-fuelled &lt;em&gt;&amp;lsquo;Eureka&amp;rsquo;&lt;/em&gt; moment and every knowing &lt;em&gt;&amp;lsquo;A-Ha!&amp;rsquo;&lt;/em&gt;. They represent learning, understanding and success.&lt;/p&gt;

@@ -40,6 +40,10 @@
 
 .hero-body__header {
   margin-bottom: 0.25em;
+  font-family: 'Yellowtail';
+  background: none;
+  color: $action-colour;
+  text-shadow: 2px 2px 0px $secondary-colour, 3px 3px 0px $dark-gray;
 }
 
 .hero-body__subheader {
