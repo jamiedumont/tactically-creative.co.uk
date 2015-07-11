@@ -27,6 +27,9 @@
   color: white;
   text-align: center;
   width: 100%;
+  /*p {
+    font-size: 1em;
+  }*/
   @include media($mobile){
     padding-top: 3em;
     p {
@@ -38,9 +41,6 @@
   }
   @include media($desk){
     width: 60%;
-  }
-  p {
-    font-size: 1em;
   }
 }
 
@@ -61,7 +61,7 @@
 }
 
 .hero-body__icon {
-  max-width: 50%; 
+  max-height: 100px; 
   display: block;
   margin: 0em auto 1em;
   @include media($mobile){
