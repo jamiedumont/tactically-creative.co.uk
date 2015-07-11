@@ -2,8 +2,6 @@
 
 <body>
 
-
-
 	{{ partial "header.html" . }}
 
 	<div class="hero--fixed">
@@ -18,8 +16,10 @@
 			<a href="javascript:void(0)"onclick="$('#learn-more').animatescroll({onScrollStart:function(){$('#shuttle-rumble').trigger('startRumble');},onScrollEnd:function(){$('#shuttle-rumble').trigger('stopRumble');}, scrollSpeed:2000,easing:'easeInCirc', padding:50});">Learn more</a>
 
 		</div>
+		<!-- End .hero__body -->
 
 	</div>
+	<!-- End .hero--fixed -->
 
 	<div id="shuttle-rumble">
 
@@ -55,7 +55,7 @@
 				</div>
 				<!-- End .row -->
 
-				<h3>Nail these, and your site becomes an asset and the lifeblood of your business.</h3>
+				<h4>Nail these, and your site becomes an asset and the lifeblood of your business.</h4>
 
 			</div>
 			<!-- End .content -->
@@ -85,13 +85,15 @@
 
 	</section>
 	<!-- End .container -->
-				
+
 	<section class="container container--white">
+
 		<div class="content">
 
 			<div class="row column-halves">
 				
 				<article>
+
 					<h3>Our Mission</h3>
 
 					<p><strong>Build websites in an unconventional way to deliver complete peace of mind.</strong></p>
@@ -117,10 +119,9 @@
 
 		</div>
 		<!-- End .content -->
+
 	</section>
 	<!-- End .container -->
-
-
 
 
 	<section class="container container--action">
@@ -128,16 +129,27 @@
 		<div class="content">
 
 			<div class="cd-testimonials-wrapper cd-container">
+
 				<ul class="cd-testimonials">
+
 					<li>
+
 						<p>I cannot give high enough praise for the work that they have done for me. Work that they still continue to do today. A high recommendation from me, I assure you. You will not be disappointed with their services.</p>
+
 						<div class="cd-author">
+
 							<img src="images/qtctc_asset_jake-avatar.jpeg" alt="Image of Jake Morrell">
+
 							<ul class="cd-author-info">
+
 								<li>Jake Morrell</li>
+
 								<li>Musician</li>
+
 							</ul>
+
 						</div>
+
 					</li>
 					
 				</ul> <!-- cd-testimonials -->
@@ -145,7 +157,70 @@
 			</div> <!-- cd-testimonials-wrapper -->
 
 		</div>
+		<!-- End .content -->
 
+	</section>
+	<!-- End .container -->
+
+
+	<div class="side-image">
+
+		<div class="images-wrapper"></div>
+
+		<div class="side-image-content">
+
+			<h2>Working with Us</h2>
+
+			<h4>Objective-based Design</h4>
+
+			<p>We believe in setting ambitious goals and then knocking them down one-by-one. By breaking down big tasks into smaller cycles of work, we stay focussed on the desired result.</p>
+
+			<p>Working this way allows us to test our ideas and strategies, and back our decisions with solid data. Objective-based Design ensures our clarity of vision remains unhindered.</p>
+
+		</div>
+		<!-- End .side-image-content -->
+
+	</div>
+	<!-- End .side-image -->
+
+	<section class="container container--white container--bullet">
+
+		<div class="content">
+
+			<ul class="bullets">
+
+				<li class="bullet">
+
+					<div class="bullet-icon bullet-icon-1">
+						<i class="fa fa-files-o"></i>
+					</div>
+					<div class="bullet-content">
+						<h2>No-BS Contracts</h2>
+						<p>Heavy-handed contracts don't work in the real world of design; there's simply too many unknowns. Instead, we work on a flexible monthly subscription. Everything's in scope, and there's no change orders or retainers.</p>
+					</div>
+				</li>  
+				<li class="bullet">
+					<div class="bullet-icon bullet-icon-2">
+						<i class="fa fa-scissors"></i>
+					</div>
+					<div class="bullet-content">
+						<h2>Zero Red-tape</h2>
+						<p>We want to spend our time building your site, not ploughing through red-tape. We cut down on paperwork to allow for a faster, more creative process; that is ultimately more enjoyable and cost-effective for both of us.</p>
+					</div>
+				</li>
+				<li class="bullet">
+					<div class="bullet-icon bullet-icon-3">
+						<i class="fa fa-gbp"></i>
+					</div>
+					<div class="bullet-content">
+						<h2>Flexible Pricing</h2>
+						<p>Our services start at £200 per month, and scale with your needs. Start with some simple tweaks to your current site, or the first steps to a complete redesign. We stay completely flexible to help your business' cash flow.</p>
+					</div>
+				</li> 
+			</ul>
+
+
+		</div>
 	</section>
 
 	<section id="enquire" class="container call-to-action">
@@ -177,18 +252,5 @@
 			<!--End mc_embed_signup-->
 		</div>
 	</section>
-
-	<!-- <section class="container container--action call-to-action">
-		<div class="content">
-
-			<h3>Secondary link CTA</h3>
-
-			<a href="/casestudy/">Why go static?</a>
-		</div>
-	</section> -->
-
-</div>
-
-
 
 {{ partial "footer.html" . }}

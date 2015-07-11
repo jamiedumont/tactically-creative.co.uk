@@ -1,11 +1,9 @@
 .container {
   padding: 2em;
-  padding-bottom: 3em;
   background: $secondary-colour;
   color: white;
   @include media($tablet){
     padding: 6em;
-    padding-bottom: 8em;
   }
 }
 
@@ -39,4 +37,11 @@
   max-width: 40em;
   }
 
+}
+
+.container--bullet {
+  padding-bottom: 0;
+  @include media($tablet){
+    padding-bottom: 2em;
+  }
 }

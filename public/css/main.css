@@ -174,36 +174,34 @@ a:hover {
 /* line 1, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/5_objects/_object.containers.scss */
 .container {
   padding: 2em;
-  padding-bottom: 3em;
   background: #021725;
   color: white; }
   @media screen and (min-width: 768px) {
     /* line 1, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/5_objects/_object.containers.scss */
     .container {
-      padding: 6em;
-      padding-bottom: 8em; } }
+      padding: 6em; } }
 
-/* line 12, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/5_objects/_object.containers.scss */
+/* line 10, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/5_objects/_object.containers.scss */
 .container--white {
   background: #ECEBE8;
   color: #021725; }
 
-/* line 17, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/5_objects/_object.containers.scss */
+/* line 15, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/5_objects/_object.containers.scss */
 .container--primary {
   background: #00D1FF;
   color: #021725; }
 
-/* line 22, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/5_objects/_object.containers.scss */
+/* line 20, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/5_objects/_object.containers.scss */
 .container--action {
   background: #E36767;
   color: #021725; }
 
-/* line 27, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/5_objects/_object.containers.scss */
+/* line 25, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/5_objects/_object.containers.scss */
 .container--post-shuttle {
   padding-top: 0em;
   margin-top: -80px; }
 
-/* line 32, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/5_objects/_object.containers.scss */
+/* line 30, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/5_objects/_object.containers.scss */
 .content {
   max-width: 68em;
   margin-left: auto;
@@ -214,13 +212,21 @@ a:hover {
     content: "";
     display: table; }
 
-/* line 36, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/5_objects/_object.containers.scss */
+/* line 34, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/5_objects/_object.containers.scss */
 .content--copy {
   text-align: left; }
   @media screen and (min-width: 768px) {
-    /* line 36, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/5_objects/_object.containers.scss */
+    /* line 34, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/5_objects/_object.containers.scss */
     .content--copy {
       max-width: 40em; } }
+
+/* line 42, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/5_objects/_object.containers.scss */
+.container--bullet {
+  padding-bottom: 0; }
+  @media screen and (min-width: 768px) {
+    /* line 42, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/5_objects/_object.containers.scss */
+    .container--bullet {
+      padding-bottom: 2em; } }
 
 /* line 1, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/5_objects/_object.longform-article.scss */
 .longform__header {
@@ -768,25 +774,176 @@ ul.no-dec {
   font-size: 0.9em;
   max-width: 80%; }
 
-/* line 62, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
-section.call-to-action a {
-  background: #ECEBE8;
-  color: #021725;
-  padding: 0.5em 0.7em;
-  border-radius: 12px;
-  font-size: 1.6em; }
+/* line 60, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+section.call-to-action {
+  padding: 1.5em; }
+  /* line 64, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+  section.call-to-action a {
+    background: #ECEBE8;
+    color: #021725;
+    padding: 0.5em 0.7em;
+    border-radius: 12px;
+    font-size: 1.6em; }
+  /* line 72, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+  section.call-to-action a:hover {
+    background: #E89E9E; }
+  /* line 76, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+  section.call-to-action p {
+    margin-bottom: 2rem; }
+  /* line 80, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+  section.call-to-action h2 {
+    margin-bottom: 0.5rem;
+    margin-top: 0; }
 
-/* line 70, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
-section.call-to-action a:hover {
-  background: #E89E9E; }
-
-/* line 74, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
-section.call-to-action h2 {
-  margin-top: 1em; }
-
-/* line 79, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+/* line 86, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
 .mt-nill {
   margin-top: 0; }
+
+/* line 91, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+.side-image {
+  background: #021725; }
+  @media screen and (min-width: 53.75em) {
+    /* line 91, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+    .side-image {
+      display: table;
+      width: 100%;
+      table-layout: fixed; } }
+  /* line 108, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+  .side-image .images-wrapper {
+    background: url("http://41.media.tumblr.com/tumblr_m0y6izC6J51r9tee7o1_1280.jpg");
+    background-color: #B5EBEB;
+    background-size: cover;
+    border-bottom: 1px solid rgba(38, 74, 38, 0.2);
+    display: block;
+    min-height: 12em;
+    padding: 3em; }
+    @media screen and (min-width: 53.75em) {
+      /* line 108, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+      .side-image .images-wrapper {
+        display: table-cell;
+        width: 33.3333333333%;
+        background-position: bottom;
+        background-size: cover;
+        border-right: 1px solid rgba(38, 74, 38, 0.2); } }
+  /* line 125, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+  .side-image .side-image-content {
+    display: table-cell;
+    width: 100%;
+    padding: 1em 1em 4em 1em; }
+    @media screen and (min-width: 53.75em) {
+      /* line 125, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+      .side-image .side-image-content {
+        display: table-cell;
+        width: 66.6666666667%;
+        padding: 4em 4em 8em 4em; } }
+    /* line 134, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+    .side-image .side-image-content h2 {
+      margin-bottom: 0.9em;
+      color: #ECEBE8; }
+    /* line 139, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+    .side-image .side-image-content h4 {
+      background: #00D1FF;
+      color: #021725;
+      display: inline-block;
+      font-size: 0.75em;
+      font-weight: 800;
+      margin-bottom: 1.3em;
+      padding: 3px 8px;
+      text-transform: uppercase; }
+    /* line 150, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+    .side-image .side-image-content p {
+      color: #ECEBE8;
+      line-height: 1.5em; }
+
+/* line 159, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+.bullets {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 1.5em;
+  overflow: auto;
+  padding: 0; }
+  /* line 172, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+  .bullets .bullet {
+    -webkit-flex-basis: 15em;
+    flex-basis: 15em;
+    -ms-flex-preferred-size: 15em;
+    -webkit-flex-grow: 1;
+    -moz-flex-grow: 1;
+    -webkit-box-flex: 1;
+            flex-grow: 1;
+    -ms-flex-positive: 1;
+    padding: 1em;
+    max-width: 360px;
+    margin: 0 auto; }
+  /* line 181, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+  .bullets .bullet-icon {
+    background: #477DCA;
+    border-radius: 50%;
+    float: left;
+    height: 3.5em;
+    padding: 0.875em;
+    width: 3.5em;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    /* line 191, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+    .bullets .bullet-icon i {
+      font-size: 1.6em;
+      color: white; }
+  /* line 197, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+  .bullets .bullet-icon-1 {
+    background: #E36767; }
+  /* line 201, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+  .bullets .bullet-icon-2 {
+    background: #021725; }
+    /* line 203, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+    .bullets .bullet-icon-2 i {
+      color: white; }
+  /* line 208, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+  .bullets .bullet-icon-3 {
+    background: #00D1FF; }
+  /* line 213, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+  .bullets .bullet-content {
+    margin-left: 0;
+    margin-bottom: 2em; }
+  /* line 218, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+  .bullets h2 {
+    border-bottom: 1px solid rgba(51, 51, 51, 0.2);
+    display: inline-block;
+    font-size: 1.4em;
+    margin: 0 0 0.5833333333em 0;
+    padding-top: 0.5em; }
+  /* line 226, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+  .bullets li {
+    list-style: none; }
+  /* line 230, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+  .bullets p {
+    color: #333;
+    line-height: 1.5em;
+    font-size: 1rem; }
+  /* line 236, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+  .bullets img {
+    max-width: 100%; }
 
 /* line 2, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.summary.scss */
 .summary h2 {
