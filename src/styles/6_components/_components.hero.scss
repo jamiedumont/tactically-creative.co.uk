@@ -28,6 +28,7 @@
   text-align: center;
   width: 100%;
   @include media($mobile){
+    padding-top: 3em;
     p {
       font-size: 0.8em;
     }
@@ -64,7 +65,7 @@
   display: block;
   margin: 0em auto 1em;
   @include media($mobile){
-    max-height: 80px;
+    display: none;
   }
   @include media($tablet){
     max-width: 40%
