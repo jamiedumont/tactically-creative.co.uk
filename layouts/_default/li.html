@@ -1,4 +1,4 @@
 <li class="list-block">
-  <h3 class="list-block__header"><a href="{{ .Permalink }}">{{ .Title }} {{ if .GetParam "draft"}}DRAFT{{end}}</a></h3>
+  <h3 class="list-block__header"><a href="{{ .RelPermalink }}">{{ .Title }} {{ if .GetParam "draft"}}DRAFT{{end}}</a></h3>
   <div class="meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
 </li>
