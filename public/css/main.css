@@ -629,7 +629,7 @@ ul.no-dec {
   /*p {
     font-size: 1em;
   }*/ }
-  @media screen and (max-height: 480px) {
+  @media screen and (max-height: 459px) {
     /* line 26, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.hero.scss */
     .hero__body {
       padding-top: 3em; }
@@ -652,7 +652,7 @@ ul.no-dec {
   background: none;
   color: #E36767;
   text-shadow: 2px 2px 0px #021725, 3px 3px 0px #333; }
-  @media screen and (max-height: 480px) {
+  @media screen and (max-height: 459px) {
     /* line 47, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.hero.scss */
     .hero-body__header {
       font-size: 2em; } }
@@ -664,10 +664,10 @@ ul.no-dec {
 
 /* line 63, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.hero.scss */
 .hero-body__icon {
-  max-height: 100px;
+  max-height: 20vh;
   display: block;
   margin: 0em auto 1em; }
-  @media screen and (max-height: 480px) {
+  @media screen and (max-height: 459px) {
     /* line 63, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.hero.scss */
     .hero-body__icon {
       display: none; } }

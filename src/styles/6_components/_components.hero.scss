@@ -61,14 +61,14 @@
 }
 
 .hero-body__icon {
-  max-height: 100px; 
+  max-height: 20vh;
   display: block;
   margin: 0em auto 1em;
   @include media($mobile){
     display: none;
   }
   @include media($tablet){
-    max-width: 40%
+    max-width: 40%;
   }
 }
 
