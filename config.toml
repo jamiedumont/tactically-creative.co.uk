@@ -2,6 +2,9 @@ baseurl = "http://www.tactically-creative.co.uk/"
 title = "Tactically Creative"
 metaDataFormat = "yaml"
 
+relativeURLs = true
+canonifyURLs = false
+
 [params]
   description = "Tactically Creative offer a totally different experience for small businesses looking for a website. We specialise in static sites, web apps and breathes of fresh air!"
   [params.social]
