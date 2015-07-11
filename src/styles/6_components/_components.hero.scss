@@ -27,7 +27,7 @@
   color: white;
   text-align: center;
   width: 100%;
-    @include media($tablet){
+  @include media($tablet){
     width: 80%;
   }
   @include media($desk){
@@ -55,6 +55,9 @@
   max-width: 50%; 
   display: block;
   margin: 0em auto 1em;
+  @include media($mobile){
+    max-height: 80px;
+  }
   @include media($tablet){
     max-width: 40%
   }
