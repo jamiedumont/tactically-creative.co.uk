@@ -749,9 +749,11 @@ ul.no-dec {
 
 /* line 39, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
 .icon-block__body {
-  margin: 0; }
+  margin: 0 auto;
+  font-size: 0.9em;
+  max-width: 80%; }
 
-/* line 45, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+/* line 47, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
 section.call-to-action a {
   background: #ECEBE8;
   color: #021725;
@@ -759,15 +761,15 @@ section.call-to-action a {
   border-radius: 12px;
   font-size: 1.6em; }
 
-/* line 53, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+/* line 55, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
 section.call-to-action a:hover {
   background: #E89E9E; }
 
-/* line 57, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+/* line 59, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
 section.call-to-action h2 {
   margin-top: 1em; }
 
-/* line 62, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+/* line 64, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
 .mt-nill {
   margin-top: 0; }
 
