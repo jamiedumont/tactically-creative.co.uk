@@ -18,6 +18,20 @@
   }
 }
 
+.column-halves {
+  article {
+    text-align: left;
+    margin-bottom: 2em;
+    @include media($tablet){
+      @include span-columns(6);
+    }
+
+    h2,h3,h4 {
+      text-align: center;
+    }
+  }
+}
+
 .row {
   @include row();
 }
@@ -33,6 +47,7 @@
 }
 
 .icon-block__heading {
+  margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
 
