@@ -27,6 +27,11 @@
   color: white;
   text-align: center;
   width: 100%;
+  @include media($mobile){
+    p {
+      font-size: 0.8em;
+    }
+  }
   @include media($tablet){
     width: 80%;
   }
@@ -44,6 +49,9 @@
   background: none;
   color: $action-colour;
   text-shadow: 2px 2px 0px $secondary-colour, 3px 3px 0px $dark-gray;
+  @include media($mobile){
+    font-size: 2em;
+  }
 }
 
 .hero-body__subheader {
