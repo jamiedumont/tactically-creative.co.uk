@@ -1,8 +1,8 @@
-baseurl = "http://www.tactically-creative.co.uk/"
+baseurl = "http://tactically-creative.co.uk/"
 title = "Tactically Creative"
 metaDataFormat = "yaml"
 
-relativeURLs = true
+relativeURLs = false
 canonifyURLs = false
 
 [params]
