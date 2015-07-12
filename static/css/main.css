@@ -810,7 +810,7 @@ section.call-to-action {
       table-layout: fixed; } }
   /* line 108, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
   .side-image .images-wrapper {
-    background: url("http://41.media.tumblr.com/tumblr_m0y6izC6J51r9tee7o1_1280.jpg");
+    background: url("/images/qtctc_asset_laptop-on-desk.jpg");
     background-color: #B5EBEB;
     background-size: cover;
     border-bottom: 1px solid rgba(38, 74, 38, 0.2);
