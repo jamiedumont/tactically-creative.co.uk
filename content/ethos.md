@@ -4,7 +4,7 @@ date: 2015-07-07T14:06:07+01:00
 description: "We believe design should be better, and this is how we do it."
 images: ""
 news_keywords: ""
-title: "Tactically Creative's Ethos"
+title: "Our Ethos"
 subheader: "We're different by design"
 videos: ""
 ---

@@ -1123,7 +1123,9 @@ section.call-to-action {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 1.2em;
   text-align: center;
-  display: inline-block; }
+  display: inline-block;
+  /* -webkit-appearance: none;
+  -moz-appearance: none;*/ }
   @media screen and (min-width: 768px) {
     /* line 1, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.mailchimpforms.scss */
     #mce-EMAIL {
@@ -1132,12 +1134,12 @@ section.call-to-action {
       text-align: left;
       padding-left: 20px; } }
 
-/* line 17, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.mailchimpforms.scss */
+/* line 19, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.mailchimpforms.scss */
 #mc-embedded-subscribe {
   padding: 0em 1.4em;
   height: 4rem;
-  margin-left: -10px;
-  margin-top: -1px;
+  position: relative;
+  left: -10px;
   background-color: #00D1FF;
   color: #021725;
   border-radius: 0px;
@@ -1146,12 +1148,97 @@ section.call-to-action {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   border: none;
-  display: inline-block; }
+  display: inline-block;
+  /*-webkit-appearance: none;
+  -moz-appearance: none;*/ }
 
-/* line 33, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.mailchimpforms.scss */
+/* line 37, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.mailchimpforms.scss */
 #mc-embedded-subscribe:hover {
-  background-color: #E36767;
-  color: #021725; }
+  background-color: #E36767; }
+
+/* line 1, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.footer.scss */
+.footer {
+  background: #021725;
+  padding: 3em 1.618em;
+  width: 100%; }
+  /* line 13, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.footer.scss */
+  .footer .footer-links {
+    margin-bottom: 1.5em; }
+    /* line 20, /Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+    .footer .footer-links::after {
+      clear: both;
+      content: "";
+      display: table; }
+    @media screen and (min-width: 40em) {
+      /* line 13, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.footer.scss */
+      .footer .footer-links {
+        margin-left: 25.5894128995%; } }
+  /* line 22, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.footer.scss */
+  .footer ul {
+    margin-bottom: 3em;
+    padding: 0; }
+    @media screen and (min-width: 40em) {
+      /* line 22, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.footer.scss */
+      .footer ul {
+        float: left;
+        display: block;
+        margin-right: 2.3576515979%;
+        width: 23.2317613015%; }
+        /* line 89, /Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
+        .footer ul:last-child {
+          margin-right: 0; }
+        /* line 76, /Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_omega.scss */
+        .footer ul:nth-child(3n) {
+          margin-right: 0; }
+        /* line 82, /Applications/CodeKit.app/Contents/Resources/engines/neat/grid/_omega.scss */
+        .footer ul:nth-child(3n+1) {
+          clear: left; }
+        /* line 20, /Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+        .footer ul::after {
+          clear: both;
+          content: "";
+          display: table; } }
+  /* line 33, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.footer.scss */
+  .footer li {
+    line-height: 1.5rem;
+    list-style: none;
+    text-align: center; }
+    @media screen and (min-width: 40em) {
+      /* line 33, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.footer.scss */
+      .footer li {
+        text-align: left; } }
+  /* line 43, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.footer.scss */
+  .footer li a {
+    color: rgba(236, 235, 232, 0.4);
+    text-decoration: none;
+    font-size: 0.9rem; }
+    /* line 49, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.footer.scss */
+    .footer li a:focus,
+    .footer li a:hover {
+      color: #ecebe8; }
+  /* line 54, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.footer.scss */
+  .footer li h3 {
+    color: #ECEBE8;
+    font-size: 1rem;
+    font-weight: 800;
+    margin-bottom: 0.4em; }
+  /* line 61, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.footer.scss */
+  .footer hr {
+    border: 1px solid rgba(236, 235, 232, 0.1);
+    margin: 0 auto 1.5em;
+    width: 12em; }
+  /* line 67, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.footer.scss */
+  .footer p {
+    color: rgba(236, 235, 232, 0.4);
+    font-size: 0.8rem;
+    line-height: 1.5em;
+    margin: auto;
+    max-width: 35em;
+    text-align: center; }
+
+/* line 77, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.footer.scss */
+.fa-footer {
+  padding-right: 0.5rem; }
 
 /*
  *    7 - Trumps

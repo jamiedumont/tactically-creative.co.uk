@@ -6,6 +6,8 @@
   font-size: 1.2em;
   text-align: center;
   display: inline-block;
+ /* -webkit-appearance: none;
+  -moz-appearance: none;*/
   @include media($tablet){
     width: 50%;
     font-size: 1.4em;
@@ -17,8 +19,8 @@
 #mc-embedded-subscribe {
   padding: 0em 1.4em;
   height: 4rem;
-  margin-left: -10px;
-  margin-top: -1px;
+  position: relative;
+  left: -10px;
   background-color: $primary-colour;
   color: $secondary-colour;
   border-radius: 0px;
@@ -28,9 +30,10 @@
   text-transform: uppercase;
   border: none;
   display: inline-block;
+  /*-webkit-appearance: none;
+  -moz-appearance: none;*/
 }
 
 #mc-embedded-subscribe:hover {
   background-color: $action-colour;
-  color: $secondary-colour;
 }
