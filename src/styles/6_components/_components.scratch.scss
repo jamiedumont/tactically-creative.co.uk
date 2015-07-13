@@ -238,3 +238,19 @@ section.call-to-action {
   }
 }
 
+.post-summary__social-icon {
+  background: $secondary-colour;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-summary__social-icon:hover {
+  background: $action-colour;
+  i {
+    color: $secondary-colour;
+  }
+}

@@ -591,7 +591,6 @@ ul.no-dec {
 /*Please note that this component should be edited with care. As this namespace spans multiple, different usecases, making edits should be treated with caution. Test every page across multiple widths.*/
 /* line 3, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.hero.scss */
 .hero {
-  background: #021725;
   position: relative;
   overflow: hidden;
   min-height: 30em;
@@ -609,18 +608,19 @@ ul.no-dec {
       -ms-flex-align: center;
           align-items: center; }
 
-/* line 14, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.hero.scss */
+/* line 13, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.hero.scss */
 .hero__image {
   background: #021725;
   position: fixed;
   top: 50%;
-  min-height: 100%;
+  height: 100%;
   display: block;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   min-width: 100%;
+  min-height: 100%;
   z-index: -10; }
 
 /* line 26, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.hero.scss */
@@ -945,6 +945,32 @@ section.call-to-action {
   .bullets img {
     max-width: 100%; }
 
+/* line 241, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+.post-summary__social-icon {
+  background: #021725;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+/* line 251, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+.post-summary__social-icon:hover {
+  background: #E36767; }
+  /* line 253, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+  .post-summary__social-icon:hover i {
+    color: #021725; }
+
 /* line 2, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.summary.scss */
 .summary h2 {
   margin-bottom: 0; }
@@ -1239,6 +1265,10 @@ section.call-to-action {
 /* line 77, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.footer.scss */
 .fa-footer {
   padding-right: 0.5rem; }
+
+/* line 81, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.footer.scss */
+.fa-share {
+  font-size: 1.4rem; }
 
 /*
  *    7 - Trumps

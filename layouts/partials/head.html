@@ -1,6 +1,6 @@
 <!doctype html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
@@ -20,7 +20,7 @@
 
     <!-- <link rel="canonical" href="{{ .Site.BaseURL }}{{ .URL }}"> -->
 
-        <!-- Include required CSS sources -->
+    <!-- Include required CSS sources -->
     <!-- Google Fonts -->
     <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Yellowtail|Lato:300,700,300italic,700italic|Sansita+One' >
 
@@ -30,26 +30,29 @@
     <!-- Main style sheet -->
     <link rel='stylesheet' type='text/css' href='/css/main.css'>
 
-    <!-- Facebook Conversion Code for Leads - Jamie Dumont 1 -->
-<script>(function() {
-var _fbq = window._fbq || (window._fbq = []);
-if (!_fbq.loaded) {
-var fbds = document.createElement('script');
-fbds.async = true;
-fbds.src = '//connect.facebook.net/en_US/fbds.js';
-var s = document.getElementsByTagName('script')[0];
-s.parentNode.insertBefore(fbds, s);
-_fbq.loaded = true;
-}
-})();
-window._fbq = window._fbq || [];
-window._fbq.push(['track', '6030640054235', {'value':'0.00','currency':'GBP'}]);
-</script>
-<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6030640054235&amp;cd[value]=0.00&amp;cd[currency]=GBP&amp;noscript=1" /></noscript>
 
-<script type="text/javascript">
+    <!-- Facebook Custom Audience Pixel -->
+    <script>(function() {
+        var _fbq = window._fbq || (window._fbq = []);
+        if (!_fbq.loaded) {
+        var fbds = document.createElement('script');
+        fbds.async = true;
+        fbds.src = '//connect.facebook.net/en_US/fbds.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(fbds, s);
+        _fbq.loaded = true;
+        }
+        _fbq.push(['addPixelId', '1478488075777845']);
+        })();
+        window._fbq = window._fbq || [];
+        window._fbq.push(['track', 'PixelInitialized', {}]);
+    </script>
+    <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=1478488075777845&amp;ev=PixelInitialized" /></noscript>
+
+    <!-- Heap Analytics -->
+    <script type="text/javascript">
       window.heap=window.heap||[],heap.load=function(t,e){window.heap.appid=t,window.heap.config=e;var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=("https:"===document.location.protocol?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+t+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(t){return function(){heap.push([t].concat(Array.prototype.slice.call(arguments,0)))}},p=["clearEventProperties","identify","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
       heap.load("1310301182");
     </script>
 
-  </head>
+</head>

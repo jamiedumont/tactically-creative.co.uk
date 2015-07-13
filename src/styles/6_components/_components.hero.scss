@@ -1,7 +1,6 @@
 /*Please note that this component should be edited with care. As this namespace spans multiple, different usecases, making edits should be treated with caution. Test every page across multiple widths.*/
 
 .hero {
-  background: $secondary-colour;
   position: relative;
   overflow: hidden;
   min-height: 30em;
@@ -15,11 +14,12 @@
   background: $secondary-colour;
   position: fixed;
   top: 50%;
-  min-height: 100%;
+  height: 100%;
   display: block;
   left: 50%;
   transform: translate(-50%, -50%);
   min-width: 100%;
+  min-height: 100%;
   z-index: -10;
 }
 
