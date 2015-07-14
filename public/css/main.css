@@ -971,6 +971,10 @@ section.call-to-action {
   .post-summary__social-icon:hover i {
     color: #021725; }
 
+/* line 258, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.scratch.scss */
+.icon-block__body--narrow {
+  max-width: 40em; }
+
 /* line 2, /Users/Jamie/Dropbox/Sites/TacticallyCreative/src/styles/6_components/_components.summary.scss */
 .summary h2 {
   margin-bottom: 0; }

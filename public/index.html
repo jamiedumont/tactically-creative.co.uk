@@ -71,7 +71,11 @@
     } catch (e) {}
 
     if (analytics) {
-         
+
+    
+
+      window.heap=window.heap||[],heap.load=function(t,e){window.heap.appid=t,window.heap.config=e;var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=("https:"===document.location.protocol?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+t+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(t){return function(){heap.push([t].concat(Array.prototype.slice.call(arguments,0)))}},p=["clearEventProperties","identify","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
+      heap.load("2773948349");
 
 
     } else {
@@ -203,9 +207,14 @@
 			<div class="icon-block">
 				<img class="icon-block__icon" src="/images/qtctc_asset_peace-of-mind-icon.png" alt="Peace of Mind">
 				<h2 class="icon-block__heading">Peace of Mind</h2>
-				<p>You know your website is important, that's why your probably spend so much time, energy and money on it. Instead, wouldn't it be better if you could devote the same resources to growing your business?</p>
+				<div class="icon-block__body icon-block__body--narrow">
+					
+					<p>You know your website is important, that's why your probably spend so much time, energy and money on it. Instead, wouldn't it be better if you could devote the same resources to growing your business?</p>
 
-				<p>Working with Tactically Creative gives you the peace of mind to focus on your business; we'll take care of your site.</p>
+					<p>Working with Tactically Creative gives you the peace of mind to focus on your business; we'll take care of your site.</p>
+				
+				</div>
+				
 
 			</div>
 			
@@ -380,6 +389,7 @@
 			</div>
 
 			
+
 		</div>
 	</section>
 
