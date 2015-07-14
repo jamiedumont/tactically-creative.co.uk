@@ -1,0 +1,22 @@
+<!-- Conditional Analytics & Tracking Scripts -->
+
+<script>
+    var analytics = true;
+    try {
+        if(
+            'localStorage' in window && 
+            window['localStorage'] !== null && 
+            localStorage["analytics"] == 'no'
+        ) {
+            analytics = false;
+        }
+    } catch (e) {}
+
+    if (analytics) {
+        /* PASTE YOUR GOOGLE ANALYTICS' SCRIPT HERE */
+
+
+    } else {
+        console.log('Tracking has been disabled');
+    }
+</script>
