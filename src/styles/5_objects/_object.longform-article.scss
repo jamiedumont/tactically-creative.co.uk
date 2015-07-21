@@ -1,55 +1,45 @@
 .longform__header {
-  margin-bottom: 2em;
+    margin-bottom: 2em;
 }
-
 .lf-header__icon {
-  max-width: 50%;
-  display: block;
-  margin: 5em auto 1em;
-  @include media($tablet){
-    max-width: 20%
-  }
+    max-width: 50%;
+    display: block;
+    margin: 5em auto 1em;
+    @include media($tablet) {
+        max-width: 20%
+    }
 }
-
 .lf-header__header {
-  margin-bottom: 0.25em;
-  margin-top: 4em;
+    margin-bottom: 0.25em;
+    margin-top: 4em;
 }
 
 /*Styles content of .md file*/
+
 .longform {
-  padding-top: 3em;
-  padding-bottom: 3em;
-
-  img {
-    max-width: 100%;
-  }
-
-
-  h2 {
-    margin-top: 1em;
-    margin-bottom: 0em;
-  }
-
-
-  h3, h4 {
-    margin: 1em auto;
-  }
+    padding-top: 3em;
+    padding-bottom: 3em;
+    img {
+        max-width: 100%;
+    }
+    h2 {
+        margin-top: 1em;
+        margin-bottom: 0em;
+    }
+    h3,
+    h4 {
+        margin: 1em auto;
+    }
 }
-
 .longform__data {
-  text-align: center;
-  margin: -1em 0 2em;
-  font-size: 0.8em;
-  font-weight: 700;
-  font-style: italic;
+    text-align: center;
+    margin: -1em 0 2em;
+    font-size: 0.8em;
+    font-weight: 700;
+    font-style: italic;
 }
-
-.lf-data__list {
-
-}
-
+.lf-data__list {}
 .lf-data__list-item {
-  display: inline-block;
-  margin-right: 1em;
+    display: inline-block;
+    margin-right: 1em;
 }

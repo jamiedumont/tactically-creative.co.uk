@@ -1,58 +1,49 @@
-html, body {
-	height: 100%;
-  font-family: $body-font;
-  font-weight: 300;
-  text-align: center;
-  @include font-smoothing(on);
+html,
+body {
+    height: 100%;
+    font-family: $body-font;
+    font-weight: 300;
+    text-align: center;
+    @include font-smoothing(on);
 }
 
 /* NOTE: The current behaviour of the h1 background-color of spanning 100% of it's parent is undesirable, but at present not a priority. This is something to be amended at earliest convenience */
 
 h1 {
-  font-size: 2.6em;
-  color: $secondary-colour;
-  background: $action-colour;
-  font-family: 'Sansita One';
-  text-shadow: 1px 1px 0px $action-colour, 2px 2px 0px $action-colour--light;
-  transform: rotate(-2deg);
+    font-size: 2.6em;
+    color: $secondary-colour;
+    background: $action-colour;
+    font-family: 'Sansita One';
+    text-shadow: 1px 1px 0px $action-colour, 2px 2px 0px $action-colour--light;
+    transform: rotate(-2deg);
 }
-
-
 h2 {
-  font-family: 'Yellowtail';
-  font-weight: 300;
-  font-size: 2em;
-  transform: rotate(-2deg);
-  margin: 2em 0em 0.5em;
-  @include media($tablet){
-    font-size: 2.4em;
-  }
+    font-family: 'Yellowtail';
+    font-weight: 300;
+    font-size: 2em;
+    transform: rotate(-2deg);
+    margin: 2em 0em 0.5em;
+    @include media($tablet) {
+        font-size: 2.4em;
+    }
 }
-
 h3 {
-  font-size: 1.4em;
-  margin-bottom: 1em;
+    font-size: 1.4em;
+    margin-bottom: 1em;
 }
-
-
 p {
-  margin: 1em 0;
-  font-weight: 300;
+    margin: 1em 0;
+    font-weight: 300;
 }
-
-
 a {
-	text-decoration: none;
-	color: $action-colour;
+    text-decoration: none;
+    color: $action-colour;
 }
-
 a:hover {
-  color: $action-colour--light;
+    color: $action-colour--light;
 }
-
-
 li {
-  @include media($tablet){
-    font-size: 1.2em;
-  }
+    @include media($tablet) {
+        font-size: 1.2em;
+    }
 }

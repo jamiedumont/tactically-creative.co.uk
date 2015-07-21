@@ -1,41 +1,35 @@
 .expander {
-  $expander-arrow-width: 0.7em;
-  $expander-toggle-size: 1em;
-  $expander-toggle-arrow-size: $expander-toggle-size;
-  $expander-toggle-margin: 1em;
-
-  width: 70%;
-  margin: 0 auto;
-
-  .expander-trigger {
-    @include user-select(none);
-    color: $primary-colour;
-    cursor: pointer;
-    display: block;
-    font-size: $expander-toggle-size;
-    margin-bottom: $expander-toggle-size;
-    padding-bottom: $expander-toggle-size / 4;
-    text-decoration: none;
-
-    &:before {
-      font-size: $expander-arrow-width;
-      content: "\25BC";
-      margin-right: 0.5em;
+    $expander-arrow-width: 0.7em;
+    $expander-toggle-size: 1em;
+    $expander-toggle-arrow-size: $expander-toggle-size;
+    $expander-toggle-margin: 1em;
+    width: 70%;
+    margin: 0 auto;
+    .expander-trigger {
+        @include user-select(none);
+        color: $primary-colour;
+        cursor: pointer;
+        display: block;
+        font-size: $expander-toggle-size;
+        margin-bottom: $expander-toggle-size;
+        padding-bottom: $expander-toggle-size / 4;
+        text-decoration: none;
+        &:before {
+            font-size: $expander-arrow-width;
+            content: "\25BC";
+            margin-right: 0.5em;
+        }
     }
-  }
-
-  .expander-line {
-    border-bottom: 1px solid $light-gray;
-  }
-
-  .expander-hidden {
-    &:before {
-      font-size: $expander-arrow-width;
-      content: "\25BA";
+    .expander-line {
+        border-bottom: 1px solid $light-gray;
     }
-  }
-
-  .expander-hidden + .expander-content {
-    display: none;
-  }
+    .expander-hidden {
+        &:before {
+            font-size: $expander-arrow-width;
+            content: "\25BA";
+        }
+    }
+    .expander-hidden + .expander-content {
+        display: none;
+    }
 }
