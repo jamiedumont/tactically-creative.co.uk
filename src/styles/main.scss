@@ -1,45 +1,38 @@
 /*
  *    1 - Settings
  */
-
 @import "1_settings/_settings.colour-variables";
 @import "1_settings/_settings.font-stacks";
 
 /*
  *    2 - Tools
  */
-
-@import "bourbon",
-"neat";
+@import "bourbon", "neat";
 @import "2_tools/_tools.breakpoints";
 @import "2_tools/_tools.font-rendering";
 
 /*
  *    3 - Generic
  */
-
-@import "3_generic/_generic.reset";
 @import "3_generic/_generic.box-sizing";
+@import "3_generic/_generic.reset";
 
 /*
  *    4 - Base
  */
-
 @import "4_base/_base.html-elements";
 
 /*
  *    5 - Objects
  */
-
-@import "5_objects/object.containers.scss";
-@import "5_objects/object.longform-article.scss";
 @import "5_objects/object.base-modifiers.scss";
+@import "5_objects/object.containers.scss";
 @import "5_objects/object.list-block.scss";
+@import "5_objects/object.longform-article.scss";
 
 /*
  *    6 - Components
  */
-
 @import "6_components/_components.bullets";
 @import "6_components/_components.expandable";
 @import "6_components/_components.footer";
@@ -55,5 +48,4 @@
 /*
  *    7 - Trumps
  */
-
 @import "7_trumps/_trump.font-smoothing";

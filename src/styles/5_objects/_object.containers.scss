@@ -1,3 +1,6 @@
+// GENERAL CONTAINERS
+// Mapped to <section>
+
 .container {
     padding: 2em;
     background: $secondary-colour;
@@ -22,6 +25,20 @@
     padding-top: 0em;
     margin-top: -80px;
 }
+
+.container--bullet {
+    padding-bottom: 0;
+    @include media($tablet) {
+        padding-bottom: 2em;
+    }
+}
+
+
+
+
+
+// CONTENT CONTAINERS
+// Mapped to <div>
 .content {
     @include outer-container();
 }
@@ -29,11 +46,5 @@
     text-align: left;
     @include media($tablet) {
         max-width: 40em;
-    }
-}
-.container--bullet {
-    padding-bottom: 0;
-    @include media($tablet) {
-        padding-bottom: 2em;
     }
 }
