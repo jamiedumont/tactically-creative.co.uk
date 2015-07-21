@@ -1,49 +1,48 @@
 {{ partial "head.html" . }}
 
 <body>
-<div class="hero">
+    <div class="hero">
 
-    <img src="{{ .Params.heroimage }}" alt="{{ .Params.heroImgDescription }}" class="hero__image">
-    <!-- Background image at the top of the page -->
+        <img src="{{ .Params.heroimage }}" alt="{{ .Params.heroImgDescription }}" class="hero__image">
+        <!-- Background image at the top of the page -->
 
-    {{ partial "header.html" . }}
-    <!-- Partial 'header.html' includes the floating topbar and slide-over menu -->
+        {{ partial "header.html" . }}
+        <!-- Partial 'header.html' includes the floating topbar and slide-over menu -->
 
-    <div class="hero__body">
+        <div class="hero__body">
 
-      <img class="hero-body__icon" src="{{ .Params.image }}" alt="">
+            <img class="hero-body__icon" src="{{ .Params.image }}" alt="">
 
-      <h1 class="hero-body__header">{{ .Title }}</h1>
-      <!-- Post title -->
+            <h1 class="hero-body__header">{{ .Title }}</h1>
+            <!-- Post title -->
 
-      <h2 class="hero-body__subheader">{{ .Params.subheader}}</h2>
-      <!-- Post subtitle -->
+            <h2 class="hero-body__subheader">{{ .Params.subheader}}</h2>
+            <!-- Post subtitle -->
+
+        </div>
+        <!-- End div.hero__body -->
 
     </div>
-    <!-- End div.hero__body -->
-
-  </div>
-  <!-- END div.hero -->
+    <!-- END div.hero -->
 
 
-<section class="longform container container--white">
-<!-- .longform styles HTML elements written from .md files -->
+    <section class="longform container container--white">
+        <!-- .longform styles HTML elements written from .md files -->
 
-  <div class="content content--copy">
-  
-    {{ .Content }}
-    <!-- call content of relevant .md file -->
+        <div class="content content--copy">
 
-    {{ with .Params.sitelink }}
-    <h2>You can find their site at:</h2>
-    <h4><a href="http://{{ . }}">{{ . }}</a></h4>
-    {{ end }}
+            {{ .Content }}
+            <!-- call content of relevant .md file -->
+
+            {{ with .Params.sitelink }}
+            <h2>You can find their site at:</h2>
+            <h4><a href="http://{{ . }}">{{ . }}</a></h4> {{ end }}
 
 
-  </div>
-  <!-- end div.content -->
-  
-</section>
-<!-- end section .longform -->
+        </div>
+        <!-- end div.content -->
 
-{{ partial "footer.html" . }}
+    </section>
+    <!-- end section .longform -->
+
+    {{ partial "footer.html" . }}

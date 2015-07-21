@@ -2,35 +2,33 @@
 
 <body>
 
-<img src="{{ .Params.herobackground }}" alt="{{ .Params.heroImgDescription }}" class="hero__image">
+    <img src="{{ .Params.herobackground }}" alt="{{ .Params.heroImgDescription }}" class="hero__image">
     <!-- Background image at the top of the page -->
 
     {{ partial "header.html" . }}
 
-  <div class="hero">
+    <div class="hero">
 
-    <div class="hero__body">
-      <!-- <img class="hero-body__icon" src="/images/qtctc_asset_atom.png" alt="Vector icon of an atom"> -->
-      
-      <h1 class="hero-body__header">{{ .Title }}</h1>
-      <h2 class="hero-body__subheader">{{ .Params.subheader }}</h2>
+        <div class="hero__body">
+            <!-- <img class="hero-body__icon" src="/images/qtctc_asset_atom.png" alt="Vector icon of an atom"> -->
+
+            <h1 class="hero-body__header">{{ .Title }}</h1>
+            <h2 class="hero-body__subheader">{{ .Params.subheader }}</h2>
+        </div>
+
     </div>
 
-  </div>
 
+    <section class="container container--white">
 
-  <section class="container container--white">
+        {{ range .Data.Pages.GroupByDate "2006" }}
+        <h2 class="mt-nill">{{ .Key }}</h2>
+        <ul class="no-dec">
+            {{ range .Pages }} {{ .Render "li"}} {{ end }}
+        </ul>
+        {{ end }}
 
-    {{ range .Data.Pages.GroupByDate "2006" }}
-    <h2 class="mt-nill">{{ .Key }}</h2>
-    <ul class="no-dec">
-      {{ range .Pages }}
-      {{ .Render "li"}}
-      {{ end }}
-    </ul>
-    {{ end }}
-    
-  </section>
-  <!-- end section .longform -->
+    </section>
+    <!-- end section .longform -->
 
-  {{ partial "footer.html" . }}
+    {{ partial "footer.html" . }}

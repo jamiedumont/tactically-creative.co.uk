@@ -2,33 +2,31 @@
 
 <body>
 
-<img src="{{ .Params.herobackground }}" alt="{{ .Params.heroImgDescription }}" class="hero__image">
+    <img src="{{ .Params.herobackground }}" alt="{{ .Params.heroImgDescription }}" class="hero__image">
     <!-- Background image at the top of the page -->
 
     {{ partial "header.html" . }}
 
-  <div class="hero">
+    <div class="hero">
 
-    <div class="hero__body">
-      <!-- <img class="hero-body__icon" src="/images/qtctc_asset_atom.png" alt="Vector icon of an atom"> -->
-      
-      <h1 class="hero-body__header">{{ .Title }}</h1>
-      <h2 class="hero-body__subheader">{{ .Params.subheader }}</h2>
-      <p class="hero-body__description">I strongly believe that analysing your past projects help inform your next one. Only by scrutinising what I got right, and more importantly what I got wrong; can I improve. These case studies can be long, so I suggest grabbing a hot cup of something, and settling in.</p>
+        <div class="hero__body">
+            <!-- <img class="hero-body__icon" src="/images/qtctc_asset_atom.png" alt="Vector icon of an atom"> -->
+
+            <h1 class="hero-body__header">{{ .Title }}</h1>
+            <h2 class="hero-body__subheader">{{ .Params.subheader }}</h2>
+            <p class="hero-body__description">I strongly believe that analysing your past projects help inform your next one. Only by scrutinising what I got right, and more importantly what I got wrong; can I improve. These case studies can be long, so I suggest grabbing a hot cup of something, and settling in.</p>
+        </div>
+
     </div>
 
-  </div>
 
+    <section class="container container--white">
 
-  <section class="container container--white">
+        <ul>
+            {{ range .Data.Pages }} {{ .Render "summary"}} {{ end }}
+        </ul>
 
-    <ul>
-      {{ range .Data.Pages }}
-      {{ .Render "summary"}}
-      {{ end }}
-    </ul>
+    </section>
+    <!-- end section .longform -->
 
-  </section>
-  <!-- end section .longform -->
-
-  {{ partial "footer.html" . }}
+    {{ partial "footer.html" . }}

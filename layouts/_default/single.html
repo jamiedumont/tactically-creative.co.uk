@@ -1,37 +1,37 @@
 {{ partial "head.html" . }}
 
 <body>
-<div class="hero">
+    <div class="hero">
 
-    <img src="{{ .Params.herobackground }}" alt="{{ .Params.heroImgDescription }}" class="hero__image">
-    <!-- Background image at the top of the page -->
+        <img src="{{ .Params.herobackground }}" alt="{{ .Params.heroImgDescription }}" class="hero__image">
+        <!-- Background image at the top of the page -->
 
-    {{ partial "header.html" . }}
-    <!-- Partial 'header.html' includes the floating topbar and slide-over menu -->
+        {{ partial "header.html" . }}
+        <!-- Partial 'header.html' includes the floating topbar and slide-over menu -->
 
 
-    <div class="hero__body">
+        <div class="hero__body">
 
-      <!-- <img class="hero-body__icon" src="{{ .Params.heroimage }}" alt=""> -->
-      <!-- hero-body__icon is currently unused for blog posts, but can be enabled at a later date -->
+            <!-- <img class="hero-body__icon" src="{{ .Params.heroimage }}" alt=""> -->
+            <!-- hero-body__icon is currently unused for blog posts, but can be enabled at a later date -->
 
-      <h1 class="hero-body__header">{{ .Title }}</h1>
-      <!-- Post title -->
- 
-      <h2 class="hero-body__subheader">{{ .Params.subheader}}</h2>
-      <!-- Post subtitle -->
+            <h1 class="hero-body__header">{{ .Title }}</h1>
+            <!-- Post title -->
+
+            <h2 class="hero-body__subheader">{{ .Params.subheader}}</h2>
+            <!-- Post subtitle -->
+
+        </div>
+        <!-- End div.hero__body -->
 
     </div>
-    <!-- End div.hero__body -->
-
-  </div>
-  <!-- END div.hero -->
+    <!-- END div.hero -->
 
 
-<section class="longform container container--white">
-<!-- .longform styles HTML elements written from .md files -->
+    <section class="longform container container--white">
+        <!-- .longform styles HTML elements written from .md files -->
 
-  <!-- <div class="longform__data">
+        <!-- <div class="longform__data">
 
     <ul class="lf-data__list">
       <li class="lf-data__list-item">Posted: {{ .Date.Format "2006-01-02" }}</li>
@@ -41,16 +41,16 @@
   </div>
   <!-- end .longform__data -->
 
-  <div class="content content--copy">
-  
+        <div class="content content--copy">
 
-    {{ .Content }}
-    <!-- call content of relevant .md file -->
 
-  </div>
-  <!-- end .content/.content-copy -->
-  
-</section>
-<!-- end section .longform -->
+            {{ .Content }}
+            <!-- call content of relevant .md file -->
 
-{{ partial "footer.html" . }}
+        </div>
+        <!-- end .content/.content-copy -->
+
+    </section>
+    <!-- end section .longform -->
+
+    {{ partial "footer.html" . }}

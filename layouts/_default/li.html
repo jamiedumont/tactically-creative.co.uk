@@ -1,13 +1,12 @@
 <li class="list-block">
 
-  <!-- <img src="{{ .Params.herobackground }}" alt="{{ .Params.heroImgDescription }}" class="list-block__image"> -->
+    <!-- <img src="{{ .Params.herobackground }}" alt="{{ .Params.heroImgDescription }}" class="list-block__image"> -->
 
-  <h3 class="list-block__header"><a href="{{ .RelPermalink }}">{{ .Title }} {{ if .GetParam "draft"}}DRAFT{{end}}</a></h3>
-  <div class="meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
+    <h3 class="list-block__header"><a href="{{ .RelPermalink }}">{{ .Title }} {{ if .GetParam "draft"}}DRAFT{{end}}</a></h3>
+    <div class="meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
 
-  <!-- <a class="post-summary__social-icon" target="_blank" rel="nofollow" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Ftactically-creative.co.uk%2Fpost%2F{{ .LinkTitle }}&via=tac_Creative&text={{ .Title }}&"><i class="fa fa-share fa-twitter"></i></a>
+    <!-- <a class="post-summary__social-icon" target="_blank" rel="nofollow" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Ftactically-creative.co.uk%2Fpost%2F{{ .LinkTitle }}&via=tac_Creative&text={{ .Title }}&"><i class="fa fa-share fa-twitter"></i></a>
 
   <a class="post-summary__social-icon" target="_blank" rel="nofollow" href="http://www.facebook.com/share.php?u=http%3A%2F%2Ftactically-creative.co.uk%2Fpost%2F{{ .LinkTitle }}&t={{ .Title }}"><i class="fa fa-share fa-facebook"></i></a> -->
 
 </li>
-
