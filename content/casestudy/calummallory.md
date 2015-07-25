@@ -1,6 +1,7 @@
 ---
 date: "2015-04-22T15:06:50+01:00"
 title: "Calum Mallory"
+linktitle: "calummallory"
 author: "Jamie"
 images: [
           "images/qtctc_asset_calum.jpg",
@@ -12,7 +13,7 @@ subheader: "Building an out of the ordinary portfolio"
 summary: "I created a brand to support Calum's fundraising projects and promote him
 as a climber that's a little different from the rest."
 image: "/images/calummallorylogo.png"
-heroimage: ""
+herobackground: "/images/qtctc_asset_calum.jpg"
 heroimgdescription: ""
 originurl: ""
 sitelink: ""

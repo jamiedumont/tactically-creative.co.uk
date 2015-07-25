@@ -1,6 +1,7 @@
 ---
 date: "2015-04-22T15:07:03+01:00"
 title: "Jake Morrell"
+linktitle: "jakemorrell"
 author: "Jamie"
 images: [
           "images/qtctc_asset_jakeband.jpeg"
@@ -13,7 +14,7 @@ summary: "I re-designed Jake's existing site and built a future-proof platform t
 acts as a focal-point for his social media network, and will evolve with the band
 as they grow."
 image: "/images/jakemorrelllogo.png"
-heroimage: ""
+herobackground: "/images/qtctc_asset_jakeband.jpeg"
 heroimgdescription: ""
 originurl: "http://www.jakemorrell.co.uk"
 sitelink: "www.jakemorrell.co.uk"

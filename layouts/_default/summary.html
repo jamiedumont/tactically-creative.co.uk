@@ -1,5 +1,28 @@
 <article class="list-block summary">
-    <header>
-        <h2 class="mt-nill"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2></header>
-    <p>{{ .Params.summary }}</p>
+    <img src="{{ .Params.herobackground }}" alt="{{ .Params.heroImgDescription }}" class="list-block__image">
+
+      <div class="list-block__content">
+
+        <h3 class="list-block__header"><a href="{{ .RelPermalink }}">{{ .Title }} {{ if .GetParam "draft"}}DRAFT{{end}}</a></h3>
+
+        <!-- <div class="meta">
+          <p class="list-block__meta-item">
+            {{ .Date.Format "Mon, Jan 2, 2006" }}
+          </p>
+        </div> -->
+
+        <p class="list-block__description">
+          {{ .Params.summary }}
+        </p>
+
+        <ul class="social-share-buttons no-dec">
+          <li class="ssb__li">
+            <a class="post-summary__social-icon" target="_blank" rel="nofollow" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Ftactically-creative.co.uk%2Fcasestudy%2F{{ .LinkTitle }}&via=tac_Creative&text={{ .Title }}&"><i class="fa fa-share fa-twitter"></i></a></li>
+          <li class="ssb__li">
+            <a class="post-summary__social-icon" target="_blank" rel="nofollow" href="http://www.facebook.com/share.php?u=http%3A%2F%2Ftactically-creative.co.uk%2Fcasestudy%2F{{ .LinkTitle }}&t={{ .Title }}"><i class="fa fa-share fa-facebook"></i></a>
+          </li>
+          <li class="ssb__li"><a href="{{ .RelPermalink }}" class="ps__learn-more">Learn More</a></li>
+        </ul>
+
+      </div>
 </article>

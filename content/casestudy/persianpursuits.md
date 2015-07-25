@@ -1,6 +1,7 @@
 ---
 date: "2015-04-22T15:07:16+01:00"
 title: "Persian Pursuits"
+linktitle: "persianpursuits"
 author: "Jamie"
 images: [
         "images/qtctc_asset_persianpursuits.jpg"
@@ -14,7 +15,7 @@ to promote their new business idea. I built a website that is a strong foundatio
 for them to grow their business in the coming years.
 title: Persian Pursuits"
 image: "/images/persianpursuitslogo.png"
-heroimage: ""
+herobackground: "/images/qtctc_asset_persianpursuits.jpg"
 heroimgdescription: ""
 originurl: "http://www.persianpursuits.co.uk"
 sitelink: "www.persianpursuits.co.uk"

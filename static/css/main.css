@@ -891,11 +891,12 @@ section.call-to-action {
       color: #ECEBE8;
       line-height: 1.5em; }
 
-.summary h2 {
-  margin-bottom: 0; }
-
-.summary p {
-  font-size: 1em; }
+.summary {
+  max-width: 50em; }
+  .summary h2 {
+    margin-bottom: 0; }
+  .summary p {
+    font-size: 1em; }
 
 .social-share-buttons {
   display: block;
