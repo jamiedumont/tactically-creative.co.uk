@@ -11,7 +11,6 @@
 
         <div class="hero__body">
             <!-- <img class="hero-body__icon" src="/images/qtctc_asset_atom.png" alt="Vector icon of an atom"> -->
-
             <h1 class="hero-body__header">{{ .Title }}</h1>
             <h2 class="hero-body__subheader">{{ .Params.subheader }}</h2>
         </div>
@@ -19,16 +18,27 @@
     </div>
 
 
-    <section class="container container--white">
+    <section class="container--white">
 
-        {{ range .Data.Pages.GroupByDate "2006" }}
-        <h2 class="mt-nill">{{ .Key }}</h2>
+    <div class="post-container">
+
+    
+    <article class="post-index">
+         {{ range .Data.Pages.GroupByDate "2006" }}
         <ul class="no-dec">
             {{ range .Pages }} {{ .Render "li"}} {{ end }}
         </ul>
         {{ end }}
+    </article>
+    
+  
+    <aside class="post-sidebar">
+        <h4>About</h4>
+        <p>We publish our ideas, thoughts and commentary on the 'subject du jour' within the design &amp; development industry. Ours is a workspace that moves and changes incredibly quickly and is rarely predictable; this journal is our way of keeping pace!</p>
+    </aside>
 
-    </section>
-    <!-- end section .longform -->
+    </div>
+
+    </section>  
 
     {{ partial "footer.html" . }}

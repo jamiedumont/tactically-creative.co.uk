@@ -6,3 +6,27 @@
         font-size: 1em;
     }
 }
+
+.social-share-buttons {
+  display: block;
+  text-align: right;
+}
+
+.ssb__li {
+  display: inline-flex;
+  margin-right: 0.5rem;
+}
+
+.ps__learn-more {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.3rem 0.5rem;
+  text-transform: uppercase;
+  border-radius: 6px;
+  border: solid 1px;
+  margin-top: -4px;
+}
+
+.ps__learn-more:hover {
+  color: $secondary-colour;
+}

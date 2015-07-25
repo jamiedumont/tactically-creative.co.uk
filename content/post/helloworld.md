@@ -10,8 +10,8 @@ videos: ""
 news_keywords: ""
 
 heroimage: ""
-herobackground: ""
-heroimgdescription: ""
+herobackground: "/images/post/qtctc_asset_post_stock2.jpg"
+heroimgdescription: "Stock Image"
 ---
 
 Those two immortal words that any developer will know instantly. They symbolise every coffee-fuelled *'Eureka'* moment and every knowing *'A-Ha!'*. They represent learning, understanding and success.

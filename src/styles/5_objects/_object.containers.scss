@@ -33,6 +33,14 @@
     }
 }
 
+.post-container {
+    @include media($tablet) {
+        
+        @include outer-container;
+
+    }
+}
+
 
 
 

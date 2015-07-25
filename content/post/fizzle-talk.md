@@ -10,8 +10,8 @@ videos: ""
 news_keywords: ""
 
 heroimage: ""
-herobackground: "/images/post/qtctc_asset_post_fizzle-london.jpg"
-heroimgdescription: "The Fizzle Guys"
+herobackground: "/images/post/qtctc_asset_post_stock1.jpg"
+heroimgdescription: "Stock Image"
 ---
 
 ## A Brilliant Evening!

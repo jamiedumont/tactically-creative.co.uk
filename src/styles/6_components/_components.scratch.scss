@@ -49,7 +49,7 @@
     max-width: 80%
 }
 section.call-to-action {
-    padding: 1.5em;
+    padding: 3em 1.5em;
     a {
         background: $off-white-colour;
         color: $secondary-colour;
@@ -68,13 +68,10 @@ section.call-to-action {
         margin-top: 0;
     }
 }
-.mt-nill {
-    margin-top: 0;
-}
 .post-summary__social-icon {
     background: $secondary-colour;
-    width: 32px;
-    height: 32px;
+    width: 24px;
+    height: 24px;
     border-radius: 100%;
     display: flex;
     align-items: center;
@@ -88,4 +85,31 @@ section.call-to-action {
 }
 .icon-block__body--narrow {
     max-width: 40em;
+}
+
+.post-index {
+    @include media($tablet) {
+        padding-right: 2em;
+        @include span-columns(12);
+    }
+    @include media($desk) {
+        @include span-columns(9);
+    }
+}
+
+.post-sidebar {
+    display: none;
+    text-align: left;
+    padding-top: 2em;
+    @include media($desk){
+        display: block;
+        @include span-columns(3);
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+    h4 {
+        margin-bottom: 0.5em;
+    }
 }
