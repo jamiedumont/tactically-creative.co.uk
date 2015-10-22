@@ -92,7 +92,7 @@ purposeful, much like the industrial design of the time.
 A logo is a logical place to start when designing a brand, and it’s
 always a thought-provoking process. The fundamentals are the same as
 copy-writing. You condense everything about the company or person, into
-as few visual elements as possible, whilst still communicating as much
+as fewer elements as possible, whilst still communicating as much
 as possible. This distillation process results in simplicity, which has
 a far greater chance of being understood.
 
@@ -102,7 +102,7 @@ presents itself as wit or humour, and rewards the passer-by for their
 attention, and prompts them to engage further.
 
 Whilst there are similarities between brand and website design, they are
-also wildly different! It’s fair to say that logos are not my cup of
+also wildly different! It’s fair to say that logos are not my normal cup of
 coffee…
 
 However, rather than consult a logo designer, Calum opted for me to have
@@ -152,13 +152,13 @@ bogged down by them both technically and editorially.
 ## Video
 
 
-One element however would dwarf the rest of the content. Calum had been
+One element however would come to dwarf the rest of the content. Calum had been
 working with his climbing partner, Molly Hughes, and Mark Leary, a video
 director; to create a short video to summarise the team, their
 personality and the challenge that they faced.
 
 It was clear as soon as the video was mentioned that it would play a
-large role in the site’s experience. I knew that the two would have to
+large role in a user's experience of the site. I knew that the two would have to
 compliment each other and work together. If we ended up with a video
 that fought with the website around it, the experience could be
 confusing and all the good work we had done with Calum in developing his

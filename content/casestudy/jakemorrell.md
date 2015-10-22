@@ -56,7 +56,7 @@ felt ‘right’ for his band, and the designer in him kept thinking there
 must be a better alternative.
 
 He wanted to avoid becoming ‘just another band’, and blending in with
-the herd. Jake’s music instantly solves that issue in the flesh, but how
+the herd. Jake’s music instantly stands out the moment you hear it, but how
 could he stand out online? After looking through his options, he was
 confidant that a theme or template, no matter how well designed and
 built could never quite capture the band’s identity and their
@@ -64,7 +64,7 @@ aspirations for the future.
 
 Jake wanted a site that would act as a hub for all his online
 communication with his fanbase. Social media was working well in
-generating interest, but without a focal point it was lacking impact.
+generating interest, but without a focal point it struggled to create any real traction.
 Consolidating his band’s identity into a central site would allow him to
 manage and cultivate the band’s image as it grew.
 
@@ -97,7 +97,7 @@ solving.
 By working closely with Jake throughout, I was able to use him as the
 project’s compass. He would indicate a direction or potential problem;
 and I would dig through the available data and come up with a suitable,
-relevant solution. I’ll happily hold me hands up and say that I
+relevant solution. I’ll happily hold my hands up and say that I
 missed the mark on occasions, which only proves why I advocate a close
 and ongoing relationship with clients. Any wrong turns
 were quickly identified in our regular meetings and conversations, and
@@ -158,11 +158,11 @@ Bootstrap and Foundation are quite opinionated as standard, and I found
 myself overriding much of Foundation’s default styling. This was, I
 felt, was a price worth paying to keep the site’s codebase future proof.
 
-However, once I had completed the site and began testing it, I became
-increasingly upset with what I had made. Whilst Jake was very happy
+However, once I had completed portions of the site and began testing them, I became
+increasingly upset with what I had built. Whilst Jake was very happy
 with the site, I felt that the code supporting it was heavy,
-overworked, and thanks to the number of overrides required; far less
-future-proof than I had hoped.
+overworked, and thanks to the amount I had altered Foundation; far less
+future-proof or standardised than I had hoped.
 
 To top it off, I felt that Wordpress, as with Foundation, was too
 prescriptive for this project. It forced upon us the notion of ‘Posts’,
@@ -170,7 +170,7 @@ when really we wanted nothing of the sort! The editing interface was, as
 with all Wordpress sites, very ‘messy’. Wordpress as standard displays
 far too many options and menu items for someone who wants to update
 their gigs and write the odd blog post. This can of course be hidden
-away, but why should we have to distort the system like this?
+away, but why should we have to force the system to do less like this?
 
 I knew that Jake was self-hosting the site, and I likely wouldn’t have any
 input on the site once it was launched. This begged the question of how
@@ -191,8 +191,8 @@ I was sure that the answer would be found in ditching the database,
 and relying on ‘static’ web pages.
 
 At the time, I had been playing around with the static site generator,
-Jekyll. For those unfamiliar, Jekyll takes templates written in Liquid,
-combines that with content files written in Markdown, and builds the
+Jekyll. For those unfamiliar, Jekyll takes templates written in a language called Liquid,
+and combines those with content files written in Markdown, and builds the
 site into flat, static HTML documents. This results in an incredibly
 fast, stable site that can be hosted almost anywhere. Jekyll was always
 considered a blogging tool for ‘hackers’, but it’s press as the basis of
@@ -211,7 +211,7 @@ Jekyll: a flat-file CMS called Statamic. Whilst akin to Wordpress in
 functionality, it had a structure far closer to a pre-build Jekyll site;
 using templates, YAML config files and Markdown content files to
 dynamically render the page. Fortunately, Statamic has brilliant
-HTML-rendered caching, effectively allowing the site to serve static files to
+HTML caching, effectively allowing the site to serve static files to
 users, but with a dynamic twist when required. This provided the all
 important GUI for Jake to work with, and a lightweight system that could
 output static files in most instances, reducing load times and improving
@@ -249,7 +249,7 @@ simple as replacing some files in a directory, which is the work of 10
 minutes!
 
 The OOCSS framework has allowed for simple ongoing development of the
-site. Adding new features is simple, as they either extend or modify
+site. Adding new features is simple, as they extend
 existing ones, or bolt-on with no complications.
 
 What I Learned
@@ -306,7 +306,7 @@ on mobile devices; even those with slow connections!
 My work with Statamic on subsequent projects has also confirmed that
 Wordpress is no longer a relevant tool for my work. I’ve completely
 fallen for Statamic and other static systems. I’ve since updated all of
-my previous client work to be based on Statamic at zero cost. Replacing
+my previous client work to be based on Statamic (at zero cost to my clients). Replacing
 the legacy Wordpress sites from my portfolio was a large time
 investment for me, but completely worth it. All my clients are
 reporting that they love the new CMS, and it means that I can manage

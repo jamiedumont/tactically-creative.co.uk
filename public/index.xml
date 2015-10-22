@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tactically Creative</title>
+    <title>Jamie Dumont</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Tactically Creative</description>
+    <description>Recent content on Jamie Dumont</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 07 Jul 2015 14:06:07 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
@@ -202,288 +202,6 @@ We feel this is how service relationships &lt;em&gt;should&lt;/em&gt; work, even
     </item>
     
     <item>
-      <title>Persian Pursuits</title>
-      <link>http://localhost:1313/casestudy/persianpursuits/</link>
-      <pubDate>Wed, 22 Apr 2015 15:07:16 +0100</pubDate>
-      
-      <guid>http://localhost:1313/casestudy/persianpursuits/</guid>
-      <description>
-
-&lt;p&gt;Travel is rightly considered to be one of the most educational and
-liberating experiences a person can pursue. It’s hard to compete with
-exploring a new, unfamiliar place and the excitement that brings;
-particularly when that travel takes you away from the hotel complexes
-and far off the beaten track.&lt;/p&gt;
-
-&lt;p&gt;Charity challenges and the publicity surrounding them such as the Sport
-Relief climb of Kilimanjaro a few years ago and more recently Alex
-Jones’ ascent Moonlight Buttress in Yosemite National Park, have
-prompted companies offering treks to far flung places to up their game.
-There is now huge competition in the marketplace, and everyone has been
-forced to come up with new, exotic and sometimes weirdly themed treks
-and adventures for the traveller with wanton wanderlust.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m very familiar with these adventures, having taken
-part in a few for charity, and possessing the same insatiable urge to
-travel. When I was approached by Shirin Shabestari to help build the
-website for her new idea, Persian Pursuits; I was instantly intrigued.&lt;/p&gt;
-
-&lt;p&gt;As an Iranian woman now living in the UK, she wanted to promote Iran and
-it’s wonderful mountains as a destination for the adventurous traveller.
-Rather than compete with the much larger trekking companies and their
-machine gun approach to adventure, she wanted to offer a more restrained
-and personal experience of her country. She wanted people to experience
-and understand Iran the way she did, and balance the often negative
-media coverage from Western countries.&lt;/p&gt;
-
-&lt;p&gt;She wanted her fledgling business to offer small, personal trips to Iran
-for people to experience it’s mountains, Damavand in particular; and
-show off the wonderful culture to be found in the capital, Tehran.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/qtctc_asset_persianpursuits.jpg&#34; alt=&#34;Shirin of Persian Pursuits in Iran&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;a-blank-canvas:70204a93cd31b77ad138ccbf296b4331&#34;&gt;A Blank Canvas&lt;/h2&gt;
-
-&lt;p&gt;Having worked for Action Challenge, a company offering charity treks and
-challenges; I was extremely familiar with the concept, and what the
-counter movement that Shirin was proposing meant. However, my work
-building websites at Action Challenge was going to be far removed from
-the blank slate that Persian Pursuits offered. I was used to building
-sites with very tight restrictions, and with CMSs that were already very mature.&lt;/p&gt;
-
-&lt;p&gt;Once again, the prospect of creating something new and different got me
-really excited about the project’s potential. It was a chance to promote
-a beautiful country that had yet to be spoilt by large amounts of
-tourism, and offer the chance to experience it in a genuine and
-sustainable way. This was completely in-keeping with my views on travel,
-that I couldn’t wait to get started!&lt;/p&gt;
-
-&lt;p&gt;I knew that successfully creating a site that did Persian Pursuits
-justice would require me to focus on the specific needs of the business,
-rather than what has already been done before.&lt;/p&gt;
-
-&lt;h2 id=&#34;different-needs:70204a93cd31b77ad138ccbf296b4331&#34;&gt;Different needs&lt;/h2&gt;
-
-&lt;p&gt;The site would require all the standard trappings of a travel business.
-There would need to be a way to easily add information about upcoming
-trips, and easily organise them. The trip listings would need to be
-standardised in a template to ensure that there was consistency between
-listings, and to assist the clarity of communication. This was nothing
-out of the ordinary.&lt;/p&gt;
-
-&lt;p&gt;However, unlike many well known trekking destinations, Iran is quite
-unfamiliar to most people. They know very little about it generally, and
-even less about what’s required to travel there. Shirin also informed me
-that the process of obtaining a visa to travel is complex, and subject
-to illogical and unexplained change at short notice. This can be
-off-putting to many potential visitors.&lt;/p&gt;
-
-&lt;p&gt;It was clear that there was room to establish a good knowledge base of
-information about traveling to Iran to support Persian Pursuits’ treks,
-and provide reassurance to those unsure about making it their
-destination of choice.&lt;/p&gt;
-
-&lt;p&gt;We also decided quite early on that a blog documenting past trips would
-be a very useful tool. It would allow the knowledge base to remain 100%
-factual and quite dry, with more anecdotal advice being published in the
-blog. It would also act as key selling point when potential customers
-were browsing the site if there were detailed write-ups of past trips to
-compliment the information about upcoming ones. Most importantly, it
-would allow Shirin to develop Persian Pursuits as an authority on the
-subject of traveling to Iran; something the young business would benefit
-from hugely should the established travel companies make a move into
-Iran.&lt;/p&gt;
-
-&lt;h2 id=&#34;old-v-new:70204a93cd31b77ad138ccbf296b4331&#34;&gt;Old v New&lt;/h2&gt;
-
-&lt;p&gt;When working at Action Challenge, these sorts of sites had always been
-supported by a heavily modified Wordpress installation with lots of
-plugins, or a completely bespoke CMS. I wanted to explore whether I
-could build something to offer the same functionality with my new CMS
-of choice, Statamic. For those who don’t know Statamic, it&amp;rsquo;s a flat-file
-CMS; meaning that it doesn’t require a database. This makes it a much
-simpler system to work with, both in the development stages, but also
-further down the line when changes, or ammendments to content is
-required. However, it doesn’t allow for the complex arranging and
-filtering of information that a database does.&lt;/p&gt;
-
-&lt;p&gt;I knew Statamic was more than capable of the project, but I had yet to
-build anything of this nature with it. Previously, I had reserved it
-for smaller publishing or blogging websites, but had been impressed by
-it’s capabilities. It was time to see what Statamic could do!&lt;/p&gt;
-
-&lt;h2 id=&#34;focus-on-templates-build-from-there:70204a93cd31b77ad138ccbf296b4331&#34;&gt;Focus on templates…build from there&lt;/h2&gt;
-
-&lt;p&gt;It was clear that this website would need to sustain the company through
-it’s early years, and once it was online; would receive very little
-attention. Shirin was a busy woman, and just running the trips was a
-full-time job in itself. Promoting the business as well would leave her
-extremely pushed for time. I needed to ensure that the site wouldn’t
-slow her down, and make adding and editing content a breeze.&lt;/p&gt;
-
-&lt;p&gt;I aimed to make it as modular as possible so that it scaled easily,
-both horizontally and vertically; and ensure that once it was released
-it was ‘right’. Whilst I usually advocate a process of slow, constant
-refinement; it was clear that this wasn’t the correct approach for
-Persian Pursuits. Once it was live, that was it!&lt;/p&gt;
-
-&lt;h2 id=&#34;stumbling-block-future-proof:70204a93cd31b77ad138ccbf296b4331&#34;&gt;Stumbling block - future proof&lt;/h2&gt;
-
-&lt;p&gt;My desire to make it future proof meant that I focussed heavily on
-building templates that were relevant to the future of the company, as
-well as their current needs. Just because Persian Pursuits current trips
-ran once a year, I wanted to ensure that multiple dates could be added.
-I examined not only the content that Shirin might need to publish now,
-but the content she would need to publish in the years to come. This was
-quite a difficult process, as not only was I speculating the future
-needs of the business, I was doing so with almost zero legacy
-information to base my decisions on. With hindsight, this was a
-mistake, as both Shirin and I became sidetracked by the
-‘possible’, rather than the ‘actual’ needs of the business; and
-generating strong, engaging content and experiences got sidelined.&lt;/p&gt;
-
-&lt;p&gt;This is something that became a problem at Action Challenge too. It
-might be the nature of the travel industry, where it’s requirements of a
-website are very focussed on the future. Whether it’s an inherent trait
-or not, we recognised that we had become victim of the dreaded
-“paralysis by over-analysis”. This had entirely derailed projects at
-Action Challenge, where no one had the experience to stop them, analyse
-the situation and put a plan of action in place to resolve it.&lt;/p&gt;
-
-&lt;p&gt;At this point, I hadn’t written a great deal of code, and all of the
-concepts were static mockups made in Photoshop and Sketch. I decided
-that the solution to this situation was revert to the iterative process
-I usually use, and in a moment of madness had abandoned for this
-project.&lt;/p&gt;
-
-&lt;h2 id=&#34;design-in-code:70204a93cd31b77ad138ccbf296b4331&#34;&gt;Design in code&lt;/h2&gt;
-
-&lt;p&gt;I immediately transcribed our latest mockup into code, and worked from
-there. This initial prototype was certainly far from perfect and barely
-functional in places. Many problems with the user-interface became
-apparent as soon as we started working with dynamic prototypes, and we
-realised that we had made some of the templates too constrained.&lt;/p&gt;
-
-&lt;p&gt;Whilst areas of the site such as the trip listings benefitted from the
-highly structured templates we had made; others such as the knowledge
-base didn’t. As I was uncertain about the nature of the content, I
-had struggled to build these templates without resorting to guesswork.
-The result was a set of templates for the knowledge base that were
-highly opinionated, yet didn’t match the actual content Shirin wanted
-published for launch. The answer was to scrap the highly opinionated
-templates for this area of the site, and move forward with a far more
-open and generic method of inputing content that would allow greater
-flexibility. Perhaps, once the knowledge base was more established, less
-generic templates would be of benefit, but for the time being; they
-proved to be ideal solution.&lt;/p&gt;
-
-&lt;p&gt;The project&amp;rsquo;s codebase became highly modular, and built outwards from the core
-functionality of the site. New features either extended or modified
-pre-existing styles. This was a process I had used when developing
-previous sites when there was very little data to support decisions.&lt;/p&gt;
-
-&lt;p&gt;Instantly, the site became more cohesive with a better sense of
-identity. This is the advantage of designing in the browser with code.
-Everything becomes bound together, so you lose disparate elements that
-fight with each other.&lt;/p&gt;
-
-&lt;p&gt;Even when I coded features that were later rejected, the code that was
-written for these features usually became of use elsewhere. Unlike
-design that is highly specific, code (when written well) can be
-extremely modular and recycled for use outside it’s original intent.&lt;/p&gt;
-
-&lt;p&gt;This intervention and the return to my preferred process took a
-floundering project that was falling behind schedule, and gave it
-the direction to get it back on track.&lt;/p&gt;
-
-&lt;h2 id=&#34;results:70204a93cd31b77ad138ccbf296b4331&#34;&gt;Results&lt;/h2&gt;
-
-&lt;p&gt;Whilst the purpose of the site was always to act as a resource of
-information for Persian Pursuits’ trips to Iran, and get people booked
-on to trips; it actually accomplished much more as the public face of
-the company. Shirin had previously had great success using just Facebook
-to represent her company, but it always lacked a sense of authority, and
-lots of interest in trips would fizzle out. By creating a focal point
-for her thriving Facebook page to direct leads to, she gave Persian
-Pursuits far more credibility and a louder voice with which to promote
-travel to Iran.&lt;/p&gt;
-
-&lt;p&gt;It’s also been very successful as a tool to promote Shirin and the work
-that she does. The site, along with her monumental persistence, gave her
-a credibility that allowed her to be chosen as a speaker for the Royal
-Geographical Society, and receive sponsorship and support from a number
-of outdoor equipment manufacturers. Even more impressively, she has a
-video in the pipeline in conjunction with Hot Aches productions taking
-place on her upcoming ‘Damavand Winter’ trip in April.&lt;/p&gt;
-
-&lt;h2 id=&#34;what-i-learnt:70204a93cd31b77ad138ccbf296b4331&#34;&gt;What I Learnt&lt;/h2&gt;
-
-&lt;h4 id=&#34;real-code-is-what-counts:70204a93cd31b77ad138ccbf296b4331&#34;&gt;Real code is what counts&lt;/h4&gt;
-
-&lt;p&gt;Designing mockups is always great fun. You have a suite of tools readily
-at your disposal that help you create designs quickly and easily, and
-don’t hinder the flow of your ideas. Code slows down this process, and
-makes it less natural; which is why it’s tempting to do as much design
-as possible before hitting the code editor.&lt;/p&gt;
-
-&lt;p&gt;The issue is that sometime problems with the design don’t surface until
-you get code into the browser. You can end up redesigning a lot of
-features that have previously been signed off as ‘done’. Not only is it
-demoralising, it’s a waste of time.&lt;/p&gt;
-
-&lt;p&gt;Unless I find a clear reason against it, I will continue getting my
-designs into code as quickly as possible. Ideally I would like to get to a
-stage where not only the final few elements are added whilst coding, but
-the vast majority of the site makes it’s debut in code.&lt;/p&gt;
-
-&lt;h4 id=&#34;start-small:70204a93cd31b77ad138ccbf296b4331&#34;&gt;Start small&lt;/h4&gt;
-
-&lt;p&gt;This project grew quickly. It actually overtook us, and started to run
-away a little. It was very easy, and tempting, to focus on what the site
-‘could’ do; rather than what it ‘should’. It’s a subtle change in
-thinking, but one that caused the project to derail. Only by
-coming back to what mattered right in the here and now did I wrest it
-under control again.&lt;/p&gt;
-
-&lt;h4 id=&#34;be-bold-rectify-mistakes-later:70204a93cd31b77ad138ccbf296b4331&#34;&gt;Be bold, rectify mistakes later&lt;/h4&gt;
-
-&lt;p&gt;“Paralysis by over-analysis” is real. I thought when I was at
-Action Challenge that it occurred due to the strung out nature of an
-inexperienced in-house team trying to collaborate with a design agency
-based hundreds of miles away. As it turns out, it can strike in much
-smaller teams, and is just as dangerous to a project.&lt;/p&gt;
-
-&lt;p&gt;I had previously worked in ways that avoided this paralysis by making
-decisions, putting them in code and testing them out as fast as
-possible. I aimed to fail as fast as possible to rule out what didn’t
-work, and to prove what did. By avoiding this iteration and trying to
-get it ‘right’ first time whilst in the design stage, the projects just stopped
-making progress; instead going around and around in circles.&lt;/p&gt;
-
-&lt;h4 id=&#34;ps-these-write-ups-matter:70204a93cd31b77ad138ccbf296b4331&#34;&gt;PS: These write-ups matter&lt;/h4&gt;
-
-&lt;p&gt;Writing up my case studies can sometime take a few hours by the time
-it’s been reviewed, edited and uploaded. It would be far easier to just
-add a few photos of my work to a portfolio with a quick paragraph
-explaining what I did.&lt;/p&gt;
-
-&lt;p&gt;However, I’ve found that these longer, more insightful case studies
-help me refine and develop my process. They highlight what parts were
-successful and should be incorporated into my next project, and which
-parts caused any issues I had encountered. I got this project back on
-track when I revisited Jake Morrell’s project and had to amend my
-writeup. What I found in that writeup informed my choices in this
-project, and allowed me to identify the steps that I needed to take to get
-it back on course.&lt;/p&gt;
-
-&lt;p&gt;Writing this particular case study has highlighted more failures than
-successes in my process, but it had also allowed me to learn from them.
-Sometimes to only way to improve is to pick yourself back up, and work
-out why you fell over in the first place.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Jake Morrell</title>
       <link>http://localhost:1313/casestudy/jakemorrell/</link>
       <pubDate>Wed, 22 Apr 2015 15:07:03 +0100</pubDate>
@@ -525,7 +243,7 @@ felt ‘right’ for his band, and the designer in him kept thinking there
 must be a better alternative.&lt;/p&gt;
 
 &lt;p&gt;He wanted to avoid becoming ‘just another band’, and blending in with
-the herd. Jake’s music instantly solves that issue in the flesh, but how
+the herd. Jake’s music instantly stands out the moment you hear it, but how
 could he stand out online? After looking through his options, he was
 confidant that a theme or template, no matter how well designed and
 built could never quite capture the band’s identity and their
@@ -533,7 +251,7 @@ aspirations for the future.&lt;/p&gt;
 
 &lt;p&gt;Jake wanted a site that would act as a hub for all his online
 communication with his fanbase. Social media was working well in
-generating interest, but without a focal point it was lacking impact.
+generating interest, but without a focal point it struggled to create any real traction.
 Consolidating his band’s identity into a central site would allow him to
 manage and cultivate the band’s image as it grew.&lt;/p&gt;
 
@@ -565,7 +283,7 @@ solving.&lt;/p&gt;
 &lt;p&gt;By working closely with Jake throughout, I was able to use him as the
 project’s compass. He would indicate a direction or potential problem;
 and I would dig through the available data and come up with a suitable,
-relevant solution. I’ll happily hold me hands up and say that I
+relevant solution. I’ll happily hold my hands up and say that I
 missed the mark on occasions, which only proves why I advocate a close
 and ongoing relationship with clients. Any wrong turns
 were quickly identified in our regular meetings and conversations, and
@@ -623,11 +341,11 @@ Bootstrap and Foundation are quite opinionated as standard, and I found
 myself overriding much of Foundation’s default styling. This was, I
 felt, was a price worth paying to keep the site’s codebase future proof.&lt;/p&gt;
 
-&lt;p&gt;However, once I had completed the site and began testing it, I became
-increasingly upset with what I had made. Whilst Jake was very happy
+&lt;p&gt;However, once I had completed portions of the site and began testing them, I became
+increasingly upset with what I had built. Whilst Jake was very happy
 with the site, I felt that the code supporting it was heavy,
-overworked, and thanks to the number of overrides required; far less
-future-proof than I had hoped.&lt;/p&gt;
+overworked, and thanks to the amount I had altered Foundation; far less
+future-proof or standardised than I had hoped.&lt;/p&gt;
 
 &lt;p&gt;To top it off, I felt that Wordpress, as with Foundation, was too
 prescriptive for this project. It forced upon us the notion of ‘Posts’,
@@ -635,7 +353,7 @@ when really we wanted nothing of the sort! The editing interface was, as
 with all Wordpress sites, very ‘messy’. Wordpress as standard displays
 far too many options and menu items for someone who wants to update
 their gigs and write the odd blog post. This can of course be hidden
-away, but why should we have to distort the system like this?&lt;/p&gt;
+away, but why should we have to force the system to do less like this?&lt;/p&gt;
 
 &lt;p&gt;I knew that Jake was self-hosting the site, and I likely wouldn’t have any
 input on the site once it was launched. This begged the question of how
@@ -655,8 +373,8 @@ I was sure that the answer would be found in ditching the database,
 and relying on ‘static’ web pages.&lt;/p&gt;
 
 &lt;p&gt;At the time, I had been playing around with the static site generator,
-Jekyll. For those unfamiliar, Jekyll takes templates written in Liquid,
-combines that with content files written in Markdown, and builds the
+Jekyll. For those unfamiliar, Jekyll takes templates written in a language called Liquid,
+and combines those with content files written in Markdown, and builds the
 site into flat, static HTML documents. This results in an incredibly
 fast, stable site that can be hosted almost anywhere. Jekyll was always
 considered a blogging tool for ‘hackers’, but it’s press as the basis of
@@ -675,7 +393,7 @@ Jekyll: a flat-file CMS called Statamic. Whilst akin to Wordpress in
 functionality, it had a structure far closer to a pre-build Jekyll site;
 using templates, YAML config files and Markdown content files to
 dynamically render the page. Fortunately, Statamic has brilliant
-HTML-rendered caching, effectively allowing the site to serve static files to
+HTML caching, effectively allowing the site to serve static files to
 users, but with a dynamic twist when required. This provided the all
 important GUI for Jake to work with, and a lightweight system that could
 output static files in most instances, reducing load times and improving
@@ -712,7 +430,7 @@ simple as replacing some files in a directory, which is the work of 10
 minutes!&lt;/p&gt;
 
 &lt;p&gt;The OOCSS framework has allowed for simple ongoing development of the
-site. Adding new features is simple, as they either extend or modify
+site. Adding new features is simple, as they extend
 existing ones, or bolt-on with no complications.&lt;/p&gt;
 
 &lt;h2 id=&#34;what-i-learned:07494fbbad1e8cf758051057f3ca914f&#34;&gt;What I Learned&lt;/h2&gt;
@@ -767,7 +485,7 @@ on mobile devices; even those with slow connections!&lt;/p&gt;
 &lt;p&gt;My work with Statamic on subsequent projects has also confirmed that
 Wordpress is no longer a relevant tool for my work. I’ve completely
 fallen for Statamic and other static systems. I’ve since updated all of
-my previous client work to be based on Statamic at zero cost. Replacing
+my previous client work to be based on Statamic (at zero cost to my clients). Replacing
 the legacy Wordpress sites from my portfolio was a large time
 investment for me, but completely worth it. All my clients are
 reporting that they love the new CMS, and it means that I can manage
@@ -853,7 +571,7 @@ purposeful, much like the industrial design of the time.&lt;/p&gt;
 &lt;p&gt;A logo is a logical place to start when designing a brand, and it’s
 always a thought-provoking process. The fundamentals are the same as
 copy-writing. You condense everything about the company or person, into
-as few visual elements as possible, whilst still communicating as much
+as fewer elements as possible, whilst still communicating as much
 as possible. This distillation process results in simplicity, which has
 a far greater chance of being understood.&lt;/p&gt;
 
@@ -863,7 +581,7 @@ presents itself as wit or humour, and rewards the passer-by for their
 attention, and prompts them to engage further.&lt;/p&gt;
 
 &lt;p&gt;Whilst there are similarities between brand and website design, they are
-also wildly different! It’s fair to say that logos are not my cup of
+also wildly different! It’s fair to say that logos are not my normal cup of
 coffee…&lt;/p&gt;
 
 &lt;p&gt;However, rather than consult a logo designer, Calum opted for me to have
@@ -911,13 +629,13 @@ bogged down by them both technically and editorially.&lt;/p&gt;
 
 &lt;h2 id=&#34;video:9f49f445d8a41d1d3051ced2b46d627c&#34;&gt;Video&lt;/h2&gt;
 
-&lt;p&gt;One element however would dwarf the rest of the content. Calum had been
+&lt;p&gt;One element however would come to dwarf the rest of the content. Calum had been
 working with his climbing partner, Molly Hughes, and Mark Leary, a video
 director; to create a short video to summarise the team, their
 personality and the challenge that they faced.&lt;/p&gt;
 
 &lt;p&gt;It was clear as soon as the video was mentioned that it would play a
-large role in the site’s experience. I knew that the two would have to
+large role in a user&amp;rsquo;s experience of the site. I knew that the two would have to
 compliment each other and work together. If we ended up with a video
 that fought with the website around it, the experience could be
 confusing and all the good work we had done with Calum in developing his
@@ -983,33 +701,33 @@ will be evidence of that care and attention.&lt;/p&gt;
       <guid>http://localhost:1313/terms/</guid>
       <description>
 
-&lt;h4 id=&#34;every-project-we-undertake-is-subject-to-our-t-cs-we-know-it-s-a-bore-but-please-read-them-before-we-work-together:9b10c1f64082d3869fd4cb1f85809430&#34;&gt;Every project we undertake is subject to our T&amp;amp;Cs. We know it&amp;rsquo;s a bore, but please read them before we work together.&lt;/h4&gt;
+&lt;h4 id=&#34;every-project-i-undertake-is-subject-to-my-t-cs-i-know-it-s-a-bore-but-please-read-them-before-we-work-together:9b10c1f64082d3869fd4cb1f85809430&#34;&gt;Every project I undertake is subject to my T&amp;amp;Cs. I know it&amp;rsquo;s a bore, but please read them before we work together.&lt;/h4&gt;
 
-&lt;p&gt;Whilst we would really rather go about our business without any terms &amp;amp; conditions, we regrettably have to put some in place. If you feel any of the following prevent you from working with us, get in touch and we’ll talk about it. Any amendments to these T&amp;amp;Cs must be made in advance and agreed upon in writing.&lt;/p&gt;
+&lt;p&gt;Whilst I would really rather go about my business without any terms &amp;amp; conditions, I regrettably have to put some in place. If you feel any of the following prevent you from working with me, get in touch and we’ll talk about it. Any amendments to these T&amp;amp;Cs must be made in advance and agreed upon in writing.&lt;/p&gt;
 
-&lt;p&gt;The following terms &amp;amp; conditions apply to all services provided by Tactically Creative, and by ordering any of our services; you are agreeing to adhere to the following T&amp;amp;C’s.&lt;/p&gt;
+&lt;p&gt;The following terms &amp;amp; conditions apply to all services provided by Jamie Dumont, and by ordering any of my services; you are agreeing to adhere to the following T&amp;amp;C’s.&lt;/p&gt;
 
 &lt;h3 id=&#34;1-contract-commencement:9b10c1f64082d3869fd4cb1f85809430&#34;&gt;1 - Contract Commencement&lt;/h3&gt;
 
-&lt;p&gt;It is likely that some of our work together will occur before we agree on a suitable contract for our engagement. If any of this work is to be charged for, we will notify you before proceeding; and our temporary engagement shall be subject to all the terms and conditions listed below.&lt;/p&gt;
+&lt;p&gt;It is likely that some of our work together will occur before we agree on a suitable contract for our engagement. If any of this work is to be charged for, I will notify you before proceeding; and our temporary engagement shall be subject to all the terms and conditions listed below.&lt;/p&gt;
 
 &lt;p&gt;Once we have agreed the nature of our project together, a suitable contract shall be put in place detailing the parties subject to the contract, the work to be carried out, an estimated price, predicted completion dates and a payment schedule. It should be understood that any requests for changes or additions outside the original agreement shall be subject to a change order.&lt;/p&gt;
 
 &lt;p&gt;Any price estimates are valid for thirty days only, and all predicted completion dates shall be subject to change, based on when the project commenced.&lt;/p&gt;
 
-&lt;p&gt;Whilst we aim to have both parties sign this contract to confirm their agreement to it, we recognise this is not always possible. In this instance, a clear written confirmation (via email or otherwise) of agreement to the contract and its adjoining terms &amp;amp; conditions, along with payment of the initial deposit; shall constitute commencement of the contract and a contractual agreement between the client and Tactically Creative shall exist based on the quotation with its specifications and these terms and conditions.&lt;/p&gt;
+&lt;p&gt;Whilst I aim to have both parties sign this contract to confirm their agreement to it, I recognise this is not always possible. In this instance, a clear written confirmation (via email or otherwise) of agreement to the contract and it&amp;rsquo;s adjoining terms &amp;amp; conditions, along with payment of the initial deposit; shall constitute commencement of the contract and a contractual agreement between the client and Jamie Dumont shall exist based on the quotation with its specifications and these terms and conditions.&lt;/p&gt;
 
-&lt;p&gt;Tactically Creative cannot always guarantee to start work immediately on a project but will arrange a date with the client as to when work can commence. An anticipated finishing date will be agreed and Tactically Creative will endeavour to adhere to it, but cannot guarantee to do so in the light of circumstances outside of our control.&lt;/p&gt;
+&lt;p&gt;I cannot always guarantee to start work immediately on a project but will arrange a date with you (the client) as to when work can commence. An anticipated finishing date will be agreed and I will endeavour to adhere to it, but cannot guarantee to do so in the light of circumstances outside of my control.&lt;/p&gt;
 
-&lt;p&gt;Where in the instance that a time scale has been agreed, Tactically Creative will not be responsible for any consequential losses to the client if the deadline is not met.&lt;/p&gt;
+&lt;p&gt;Where in the instance that a time scale has been agreed, I will not be responsible for any consequential losses to the client if the deadline is not met.&lt;/p&gt;
 
 &lt;h3 id=&#34;2-our-process:9b10c1f64082d3869fd4cb1f85809430&#34;&gt;2 - Our Process&lt;/h3&gt;
 
-&lt;p&gt;We will work with you closely in a collaborative process from the very start of the project. Much of our work requires us to have an intimate knowledge of your products or services, and the goals you want to achieve.&lt;/p&gt;
+&lt;p&gt;I will work with you closely in a collaborative process from the very start of the project. Much of my work requires me to have an intimate knowledge of your products or services, and the goals you want to achieve.&lt;/p&gt;
 
-&lt;p&gt;As we work in a collaborative, ‘Agile’ manner, we require that you are available to work directly with us on a number of occasions. Our style of work means that we work together ‘with you’, rather than ‘for you’; which ultimately will lead to greater benefits for your business.&lt;/p&gt;
+&lt;p&gt;As I prefer to work together in a collaborative, ‘Agile’ manner, I require that you are available to work directly with me on a number of occasions if suitable. My style of work means that I work together ‘with you’, rather than ‘for you’; which ultimately will lead to greater benefits for your business.&lt;/p&gt;
 
-&lt;p&gt;Whilst this style of project can produce brilliant results, it can be very hard to distinguish developments of an idea that is within scope, from a change or new feature that exists outside our agreement. When this occurs, we will make you aware of the feature or change that we feel falls outside our agreement before starting work on it; and offer to include it as part of a change order.&lt;/p&gt;
+&lt;p&gt;Whilst this style of project can produce brilliant results, it can be very hard to distinguish developments of an idea that is within scope, from a change or new feature that exists outside our agreement. When this occurs, I will make you aware of the feature or change that I feel falls outside our agreement before starting work on it; and offer to include it as part of a change order.&lt;/p&gt;
 
 &lt;p&gt;When a particular element, feature or functionality within our agreement requires lots of ongoing development and refinement beyond what could be considered reasonable, we will propose a process where we discuss and re-evaluate the item that is causing delays. This is to either clarify our understanding of the item’s purpose, or to ascertain whether it is actually necessary at all!&lt;/p&gt;
 

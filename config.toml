@@ -1,18 +1,18 @@
-baseurl = "http://tactically-creative.co.uk/"
-title = "Tactically Creative"
+baseurl = "http://jamiedumont.co.uk/"
+title = "Jamie Dumont"
 metaDataFormat = "yaml"
 
 relativeURLs = false
 canonifyURLs = false
 
 [params]
-  description = "Tactically Creative offer a totally different experience for small businesses looking for a website. We specialise in static sites, web apps and breathes of fresh air!"
+  description = "Jamie Dumont is a Full-Stack Developer and UX Designer who builds websites big and small and advises on how to build high performance websites to support your business."
   [params.social]
-    github          = "TacticallyCreative"
+    github          = "jamiedumont"
     facebook        = "tacticallycreative"
     facebook_admin  = "jamiedumont0"  # This needs to be a page admin to get domain insights
-    twitter         = "tac_Creative"
-    twitter_domain  = "Tactically Creative" # This domain shows in twitter cards as "View on `twitter_domain`"
+    twitter         = "jamiedumont"
+    twitter_domain  = "Jamie Dumont" # This domain shows in twitter cards as "View on `twitter_domain`"
     googleplus      = ""
     pinterest       = ""
     instagram       = ""

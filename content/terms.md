@@ -3,34 +3,34 @@ date: 2015-04-22T13:23:27+01:00
 title: Terms & Conditions
 ---
 
-#### Every project we undertake is subject to our T&Cs. We know it's a bore, but please read them before we work together.
+#### Every project I undertake is subject to my T&Cs. I know it's a bore, but please read them before we work together.
 
-Whilst we would really rather go about our business without any terms & conditions, we regrettably have to put some in place. If you feel any of the following prevent you from working with us, get in touch and we’ll talk about it. Any amendments to these T&Cs must be made in advance and agreed upon in writing.
+Whilst I would really rather go about my business without any terms & conditions, I regrettably have to put some in place. If you feel any of the following prevent you from working with me, get in touch and we’ll talk about it. Any amendments to these T&Cs must be made in advance and agreed upon in writing.
 
-The following terms & conditions apply to all services provided by Tactically Creative, and by ordering any of our services; you are agreeing to adhere to the following T&C’s.
+The following terms & conditions apply to all services provided by Jamie Dumont, and by ordering any of my services; you are agreeing to adhere to the following T&C’s.
 
 ### 1 - Contract Commencement
 
-It is likely that some of our work together will occur before we agree on a suitable contract for our engagement. If any of this work is to be charged for, we will notify you before proceeding; and our temporary engagement shall be subject to all the terms and conditions listed below.
+It is likely that some of our work together will occur before we agree on a suitable contract for our engagement. If any of this work is to be charged for, I will notify you before proceeding; and our temporary engagement shall be subject to all the terms and conditions listed below.
 
 Once we have agreed the nature of our project together, a suitable contract shall be put in place detailing the parties subject to the contract, the work to be carried out, an estimated price, predicted completion dates and a payment schedule. It should be understood that any requests for changes or additions outside the original agreement shall be subject to a change order.
 
 Any price estimates are valid for thirty days only, and all predicted completion dates shall be subject to change, based on when the project commenced.
 
-Whilst we aim to have both parties sign this contract to confirm their agreement to it, we recognise this is not always possible. In this instance, a clear written confirmation (via email or otherwise) of agreement to the contract and its adjoining terms & conditions, along with payment of the initial deposit; shall constitute commencement of the contract and a contractual agreement between the client and Tactically Creative shall exist based on the quotation with its specifications and these terms and conditions.
+Whilst I aim to have both parties sign this contract to confirm their agreement to it, I recognise this is not always possible. In this instance, a clear written confirmation (via email or otherwise) of agreement to the contract and it's adjoining terms & conditions, along with payment of the initial deposit; shall constitute commencement of the contract and a contractual agreement between the client and Jamie Dumont shall exist based on the quotation with its specifications and these terms and conditions.
 
-Tactically Creative cannot always guarantee to start work immediately on a project but will arrange a date with the client as to when work can commence. An anticipated finishing date will be agreed and Tactically Creative will endeavour to adhere to it, but cannot guarantee to do so in the light of circumstances outside of our control.
+I cannot always guarantee to start work immediately on a project but will arrange a date with you (the client) as to when work can commence. An anticipated finishing date will be agreed and I will endeavour to adhere to it, but cannot guarantee to do so in the light of circumstances outside of my control.
 
-Where in the instance that a time scale has been agreed, Tactically Creative will not be responsible for any consequential losses to the client if the deadline is not met.
+Where in the instance that a time scale has been agreed, I will not be responsible for any consequential losses to the client if the deadline is not met.
 
 ### 2 - Our Process
 
 
-We will work with you closely in a collaborative process from the very start of the project. Much of our work requires us to have an intimate knowledge of your products or services, and the goals you want to achieve.
+I will work with you closely in a collaborative process from the very start of the project. Much of my work requires me to have an intimate knowledge of your products or services, and the goals you want to achieve.
 
-As we work in a collaborative, ‘Agile’ manner, we require that you are available to work directly with us on a number of occasions. Our style of work means that we work together ‘with you’, rather than ‘for you’; which ultimately will lead to greater benefits for your business.
+As I prefer to work together in a collaborative, ‘Agile’ manner, I require that you are available to work directly with me on a number of occasions if suitable. My style of work means that I work together ‘with you’, rather than ‘for you’; which ultimately will lead to greater benefits for your business.
 
-Whilst this style of project can produce brilliant results, it can be very hard to distinguish developments of an idea that is within scope, from a change or new feature that exists outside our agreement. When this occurs, we will make you aware of the feature or change that we feel falls outside our agreement before starting work on it; and offer to include it as part of a change order.
+Whilst this style of project can produce brilliant results, it can be very hard to distinguish developments of an idea that is within scope, from a change or new feature that exists outside our agreement. When this occurs, I will make you aware of the feature or change that I feel falls outside our agreement before starting work on it; and offer to include it as part of a change order.
 
 When a particular element, feature or functionality within our agreement requires lots of ongoing development and refinement beyond what could be considered reasonable, we will propose a process where we discuss and re-evaluate the item that is causing delays. This is to either clarify our understanding of the item’s purpose, or to ascertain whether it is actually necessary at all!
 
