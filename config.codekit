@@ -107,27 +107,6 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/content\/casestudy\/persianpursuits.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/content\/casestudy\/persianpursuits.md",
-		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/content\/casestudy\/persianpursuits.html",
-		"outputFormat": 0,
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
-		},
 	"\/content\/ethos.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
@@ -274,6 +253,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/layouts\/casestudy\/single.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/layouts\/index copy.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/layouts\/index copy.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -480,6 +468,17 @@
 		"initialSize": 11830,
 		"inputAbbreviatedPath": "\/public\/images\/jakemorrelllogo.png",
 		"outputAbbreviatedPath": "\/public\/images\/jakemorrelllogo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14907,
+		"inputAbbreviatedPath": "\/public\/images\/logo.png",
+		"outputAbbreviatedPath": "\/public\/images\/logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1245,6 +1244,17 @@
 		"initialSize": 11830,
 		"inputAbbreviatedPath": "\/static\/images\/jakemorrelllogo.png",
 		"outputAbbreviatedPath": "\/static\/images\/jakemorrelllogo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14907,
+		"inputAbbreviatedPath": "\/static\/images\/logo.png",
+		"outputAbbreviatedPath": "\/static\/images\/logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
