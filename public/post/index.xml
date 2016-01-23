@@ -5,8 +5,46 @@
     <link>http://tactically-creative.co.uk/post/</link>
     <description>Recent content in Posts on Tactically Creative</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 25 Jun 2015 08:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 23 Jan 2016 21:57:13 +0000</lastBuildDate>
     <atom:link href="http://tactically-creative.co.uk/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Why this isn&#39;t &#34;The Top 10 Languages for 2016!&#34;</title>
+      <link>http://tactically-creative.co.uk/post/languages/</link>
+      <pubDate>Sat, 23 Jan 2016 21:57:13 +0000</pubDate>
+      
+      <guid>http://tactically-creative.co.uk/post/languages/</guid>
+      <description>
+
+&lt;h2 id=&#34;how-has-this-happened:774e757a50a2b25ab233124fd503800c&#34;&gt;How has this happened?&lt;/h2&gt;
+
+&lt;p&gt;First I&amp;rsquo;ll start with a short side-note, but a relevant one! It&amp;rsquo;s plain to see that this site hasn&amp;rsquo;t seen an update in quite a while. I&amp;rsquo;m sure most other developers will agree that their own site often goes neglected, sometimes for years at a time! Working on your own site can be hard to prioritise when you spend all day starring at a screen.&lt;/p&gt;
+
+&lt;p&gt;So what stirred me from my slumber? How, after 6 months of not posting, did I muster some hastily cobbled together words on a Saturday evening? What prompted such a reaction, and why was Twitter not enough of an outlet?&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ll tell you: I realised that &amp;ldquo;Web Developers&amp;rdquo; are screwed.&lt;/p&gt;
+
+&lt;h2 id=&#34;really:774e757a50a2b25ab233124fd503800c&#34;&gt;Really?&lt;/h2&gt;
+
+&lt;p&gt;Yes, really! I&amp;rsquo;m not talking about myself, or any of you out there that already convert the coffee in your bloodstream to code on the screen; and thus money in the bank. I&amp;rsquo;m talking about &amp;ldquo;Web Developers&amp;rdquo; as a whole, because when viewed through a proper perspective; those previously or currently building things with code are a miniscule percentage of those that &lt;em&gt;will go on to&lt;/em&gt; build something with code.&lt;/p&gt;
+
+&lt;p&gt;That means that the people who will be building our technological future have to wade through bullshit like this &lt;a href=&#34;https://www.google.co.uk/search?client=safari&amp;amp;rls=en&amp;amp;q=development+languages+and+their+best+uses&amp;amp;ie=UTF-8&amp;amp;oe=UTF-8&amp;amp;gfe_rd=cr&amp;amp;ei=Cf2jVo31FcyFOvC-u6gN&#34;&gt;page&lt;/a&gt; of Google results.&lt;/p&gt;
+
+&lt;h2 id=&#34;an-innocent-question:774e757a50a2b25ab233124fd503800c&#34;&gt;An innocent question&lt;/h2&gt;
+
+&lt;p&gt;I recently had someone wanting to get into development ask me the perfectly innocent and fair question: &lt;em&gt;&amp;ldquo;Where should I start?&amp;rdquo;&lt;/em&gt; Trawling my brain, I remembered a good (albeit, old) infographic breaking down the main options. To Google&amp;rsquo;s credit, that infographic was in my list of results; but so were some newer articles. This is where it all went wrong!&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ll spare the long rant, as I already feel like the grumpy old man telling the kids to get off his grass; but there enough articles that follow the &amp;ldquo;Top {i} Languages for {year}&amp;rdquo; formula for my heart to sink. When I opened them up, my fears were concerned. All were link bait, all consisted of generic, uninformed content. I&amp;rsquo;m surprised I didn&amp;rsquo;t see: &lt;strong&gt;&amp;ldquo;His boss hates him! Developer reinvents the internet with this one weird trick!&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;preventing-confusion:774e757a50a2b25ab233124fd503800c&#34;&gt;Preventing confusion&lt;/h2&gt;
+
+&lt;p&gt;I don&amp;rsquo;t have a problem with this sort of psuedo-informative style of writing in principle. It obviously get hits, which I&amp;rsquo;ve decided to test with this page&amp;rsquo;s title. The issue is when someone with little knowledge can&amp;rsquo;t distinguish between sound advice, and hyperbole based on the flavour of the month. I know when I started out, my options were confusing enough, and that was when I was trying to learn standardised, stable languages. The constantly shifting landscape of the &lt;del&gt;current&lt;/del&gt; development world makes it hard enough without the fanboy lists of &amp;ldquo;Hot new shiny!&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m disappointed that &amp;ldquo;Listicles&amp;rdquo; have made their way into once-useful journalism. I&amp;rsquo;ve made a note to check the magazine my Doctor reads next time I go to see her, just in case she&amp;rsquo;s learning about &amp;ldquo;6 treatments your patients will love this month&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Sigh&amp;hellip;&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>London Fizzle Meetup - June 2015</title>
