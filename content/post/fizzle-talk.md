@@ -8,6 +8,7 @@ author: "Jamie"
 images: ""
 videos: ""
 news_keywords: ""
+draft: true
 
 heroimage: ""
 herobackground: "/images/post/qtctc_asset_post_stock1.jpg"

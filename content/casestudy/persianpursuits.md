@@ -19,6 +19,7 @@ herobackground: "/images/qtctc_asset_persianpursuits.jpg"
 heroimgdescription: ""
 originurl: "http://www.persianpursuits.co.uk"
 sitelink: "www.persianpursuits.co.uk"
+draft: true
 ---
 
 Travel is rightly considered to be one of the most educational and
@@ -300,4 +301,3 @@ Writing this particular case study has highlighted more failures than
 successes in my process, but it had also allowed me to learn from them.
 Sometimes to only way to improve is to pick yourself back up, and work
 out why you fell over in the first place.
-

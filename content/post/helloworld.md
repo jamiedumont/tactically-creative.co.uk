@@ -8,6 +8,7 @@ author: "Jamie"
 images: ""
 videos: ""
 news_keywords: ""
+draft: true
 
 heroimage: ""
 herobackground: "/images/post/qtctc_asset_post_stock2.jpg"
@@ -19,7 +20,7 @@ Those two immortal words that any developer will know instantly. They symbolise 
 ## Fact #1
 '*Hello World'* first came about when Brian Kernighan instructed would-be programmers on how to create a simple program, whose only purpose is to output those two little words. The phrase originates from a passage in his book; *'A Tutorial to the Language B'*. That was in 1972, and since then, *'Hello World'* has come represent many programmers and developers first steps.
 
-It has become the de-facto result that novices create when learning basic computer science principles, or even when experienced professionals are learning a new language. It is the proof of concept, and a gateway to ever-increasing knowledge. 
+It has become the de-facto result that novices create when learning basic computer science principles, or even when experienced professionals are learning a new language. It is the proof of concept, and a gateway to ever-increasing knowledge.
 
 I remember my first *'HW'* was written in Visual Basic, which my uncle taught me as a child. Once I had that cracked, it was a short step to building a calculator, mimicking Microsoft's own; and then onto larger, complex database driven systems. That *'Hello World'* became the starting point for the rest of my professional life!
 

@@ -7,6 +7,7 @@ news_keywords: ""
 title: "Our Ethos"
 subheader: "We're different by design"
 videos: ""
+draft: true
 ---
 
 Working with Tactically Creative is a different experience for many of our new clients, because we hold two values above everything else: genuine progress and genuine relationships.
@@ -23,8 +24,8 @@ We chose to implement Objective Based Design for this sole reason, because it ma
 
 We feel an open, honest and trusting collaboration breeds the best results . Working relationships shouldn't stop looking like friendships because there's money involved.
 
-We approach every new client as a new friendship, as this allows us to make the flexible nature of our projects work. There's no heavy-handed contracts, no retainers and no funny business. 
+We approach every new client as a new friendship, as this allows us to make the flexible nature of our projects work. There's no heavy-handed contracts, no retainers and no funny business.
 
-Not everyone will feel comfortable with such a flexible arrangement, and we completely understand. We work this way because not only are the results exponentially better, we have great fun and make life-long friends on these projects. 
+Not everyone will feel comfortable with such a flexible arrangement, and we completely understand. We work this way because not only are the results exponentially better, we have great fun and make life-long friends on these projects.
 su
 We feel this is how service relationships *should* work, even though they rarely do.

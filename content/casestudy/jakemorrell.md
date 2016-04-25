@@ -18,6 +18,7 @@ herobackground: "/images/qtctc_asset_jakeband.jpeg"
 heroimgdescription: ""
 originurl: "http://www.jakemorrell.co.uk"
 sitelink: "www.jakemorrell.co.uk"
+draft: true
 ---
 
 A band’s need of a website is not uncommon, but finding the right

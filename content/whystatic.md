@@ -6,6 +6,7 @@ description: "Why switch to static sites? Many very good reasons! That's why!"
 images: ""
 news_keywords: ""
 videos: ""
+draft: true
 ---
 
 ## TL;DR
@@ -14,7 +15,7 @@ In short, static sites are fast, lightweight, reliable and they scale well. They
 
 The biggest problem is allowing non-technical people a method of updating static sites...so we fixed that too!
 
-Static sites are a much better **asset** to your business than Wordpress ever could be. 
+Static sites are a much better **asset** to your business than Wordpress ever could be.
 
 ## Why serve your users static web pages?
 
@@ -95,6 +96,4 @@ Static web pages are those consisting of just HTML, CSS and JS. They sit on a se
 
 Dynamic web pages aren't quite so prepared. When you make a request to a server for a dynamic page, that 'end result' doesn't actually exist yet. It exists only as a skeleton, with a list of parts needed to flesh it out. When the page is requested, the server consults the framework to discover what parts it needs for that particular page. It then sets about finding those parts, and replacing the framework with the proper content, piece by piece, until the entire framework of the page is now filled with the end content. Only now is it ready to send the page your requested to your browser!
 
-Many of the drawback of sites based around dynamic web pages stem from this requirement to rebuild pages upon every request. There are ways to mitigate or reduce the effects, but static will always be faster, safer and more reliable; that's why it's our tool of choice. 
-
-
+Many of the drawback of sites based around dynamic web pages stem from this requirement to rebuild pages upon every request. There are ways to mitigate or reduce the effects, but static will always be faster, safer and more reliable; that's why it's our tool of choice.

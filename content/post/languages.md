@@ -1,7 +1,7 @@
 ---
 author: "Jamie Dumont"
 date: 2016-01-23T21:57:13Z
-description: "A question from a young developer about what language to start with prompted a quick Google search, which delivered the most telling 'State of the Union' report possible. A pages of results delivering nothing but utter drivel!"
+description: "A question from a young developer about what language to start with prompted a quick Google search, which delivered the most telling 'State of the Union' report possible. A page of results delivering nothing but utter drivel!"
 herobackground: "/images/post/qtctc_asset_post_keyboard.jpg"
 heroimage: ""
 heroimgdescription: "A developer...developing..."
@@ -10,6 +10,7 @@ news_keywords: ""
 subheader: "That moment when you realise why, as web developers, we're in deep s!*t."
 title: Why this isn't "The Top 10 Languages for 2016!"
 videos: ""
+draft: true
 ---
 
 ## How has this happened?

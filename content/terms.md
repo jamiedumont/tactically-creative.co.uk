@@ -1,6 +1,7 @@
 ---
 date: 2015-04-22T13:23:27+01:00
 title: Terms & Conditions
+draft: true
 ---
 
 #### Every project we undertake is subject to our T&Cs. We know it's a bore, but please read them before we work together.
@@ -108,7 +109,7 @@ Additional costs incurred in the provision of: stock photography; electronic com
 
 First, the client guarantees that all elements of text, images or other artwork they provide are either owned by themselves, or that they’ve permission to use them from the rightful owner.
 
-When the client’s final payment has cleared, copyright will be automatically assigned as follows: 
+When the client’s final payment has cleared, copyright will be automatically assigned as follows:
 -The client will own the visual elements that Tactically Creative creates for this project. TC will give the client finished files and the client should keep them somewhere safe as Tactically Creative is not required to keep a copy.
 -The client will own all elements of text, images and data they provided, unless a third-party owns them.
 -Tactically Creative will own the unique combination of these elements that constitutes a complete design and will license that to the client, exclusively and in perpetuity for this project only, unless agreed otherwise. It should be noted that Tactically Creative reserve the right to use any code written throughout any of our projects, elsewhere on the understanding that the result is visually distinct from the original.
@@ -213,5 +214,3 @@ Neither party shall be deemed in default of this agreement or the contract to th
 
 
 Any notice, approval, request, authorisation, direction or other communication in connection with this agreement and the client (‘Notice’) must be made to Tactically Creative, by email to jamiedumont@icloud.com. All communication and Notice to the client by Tactically Creative, shall be considered delivered and therefore, given for all purposes; if sent to the email address provided by client.
-
-

@@ -5,7 +5,7 @@ linktitle: "calummallory"
 author: "Jamie"
 images: [
           "images/qtctc_asset_calum.jpg",
-         ] 
+         ]
 videos: ""
 news_keywords: [ "calum", "mallory", "calum mallory", "climbing", "everest", "alpinist", "portfolio", "static", "statamic" ]
 
@@ -17,6 +17,7 @@ herobackground: "/images/qtctc_asset_calum.jpg"
 heroimgdescription: ""
 originurl: ""
 sitelink: ""
+draft: true
 ---
 
 Calum Mallory is an individual with some extraordinary interests, and
@@ -215,4 +216,3 @@ goal develop slowly. This careful approach posed many more questions
 than I had anticipated, and brought to light some interesting ideas
 that I had not considered previously. Take your time, and the result
 will be evidence of that care and attention.
-
