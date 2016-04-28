@@ -413,9 +413,11 @@ ul.no-dec {
     -webkit-box-flex: 1;
             flex-grow: 1;
     -ms-flex-positive: 1;
-    padding: 1em;
     max-width: 360px;
     margin: 0 auto; }
+    @media screen and (min-width: 768px) {
+      .bullets .bullet {
+        padding: 1em; } }
   .bullets .bullet-icon {
     background: #477DCA;
     border-radius: 50%;
@@ -578,6 +580,10 @@ ul.no-dec {
       -ms-flex-align: center;
           align-items: center; }
 
+.thanks {
+  background: #021725;
+  max-height: 0%; }
+
 .hero__image {
   background: #021725;
   width: 100%;
@@ -612,7 +618,7 @@ ul.no-dec {
   margin-bottom: 0.25em;
   font-family: 'Yellowtail';
   background: none;
-  color: #E36767;
+  color: #00D1FF;
   text-shadow: 2px 2px 0px #021725, 3px 3px 0px #333; }
   @media screen and (max-height: 459px) {
     .hero-body__header {
@@ -685,7 +691,7 @@ ul.no-dec {
   /*-webkit-appearance: none;
   -moz-appearance: none;*/ }
 
-#mc-embedded-subscribe:hover {
+#subscribe:hover {
   background-color: #E36767; }
 
 .question-answer {

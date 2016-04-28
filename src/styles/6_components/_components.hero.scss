@@ -10,9 +10,8 @@
     align-items: center;
 }
 .thanks {
-      background: $secondary-colour;
-      width: 100%;
-      height: 100%;
+  background: $secondary-colour;
+  max-height: 0%;
 }
 .hero__image {
     background: $secondary-colour;
