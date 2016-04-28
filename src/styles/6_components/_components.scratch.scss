@@ -31,6 +31,7 @@
 }
 .row {
     @include row();
+    margin-bottom: 1em;
 }
 .icon-block {
     margin: 2em 0;
@@ -46,7 +47,7 @@
 .icon-block__body {
     margin: 0 auto;
     font-size: 0.9em;
-    max-width: 80%
+    // max-width: 80%
 }
 section.call-to-action {
     padding: 3em 1.5em;

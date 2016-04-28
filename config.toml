@@ -11,7 +11,7 @@ canonifyURLs = false
     github          = "TacticallyCreative"
     facebook        = "tacticallycreative"
     facebook_admin  = "jamiedumont0"  # This needs to be a page admin to get domain insights
-    twitter         = "tac_Creative"
+    twitter         = "jamiedumont"
     twitter_domain  = "Tactically Creative" # This domain shows in twitter cards as "View on `twitter_domain`"
     googleplus      = ""
     pinterest       = ""
@@ -31,4 +31,3 @@ canonifyURLs = false
 
       [params.authors.Jamie.social]
         facebook = "jamiedumont0"
-

@@ -1,4 +1,4 @@
-#mce-EMAIL {
+#email {
     height: 4rem;
     width: 90%;
     margin-bottom: 0.5em;
@@ -15,7 +15,7 @@
         padding-left: 20px;
     }
 }
-#mc-embedded-subscribe {
+#subscribe {
     padding: 0em 1.4em;
     height: 4rem;
     position: relative;
@@ -32,6 +32,6 @@
     /*-webkit-appearance: none;
   -moz-appearance: none;*/
 }
-#mc-embedded-subscribe:hover {
+#subscribe:hover {
     background-color: $action-colour;
 }

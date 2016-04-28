@@ -1,56 +1,11 @@
 {{ partial "head.html" . }}
 
-<body>
-    <div class="hero">
+<body class="thanks">
 
-        <img src="{{ .Params.herobackground }}" alt="{{ .Params.heroImgDescription }}" class="hero__image">
-        <!-- Background image at the top of the page -->
+  <h1 style="margin-top: 50%;" class="hero-body__header">Message received Captain!</h1>
 
-        {{ partial "header.html" . }}
-        <!-- Partial 'header.html' includes the floating topbar and slide-over menu -->
+  <h3 style="color: white;">I'll be in touch shortly</h3>
 
+  <h4><a href="/">Return home...</a></h4>
 
-        <div class="hero__body">
-
-            <!-- <img class="hero-body__icon" src="{{ .Params.heroimage }}" alt=""> -->
-            <!-- hero-body__icon is currently unused for blog posts, but can be enabled at a later date -->
-
-            <h1 class="hero-body__header">{{ .Title }}</h1>
-            <!-- Post title -->
-
-            <h2 class="hero-body__subheader">{{ .Params.subheader}}</h2>
-            <!-- Post subtitle -->
-
-        </div>
-        <!-- End div.hero__body -->
-
-    </div>
-    <!-- END div.hero -->
-
-
-    <section class="longform container container--white">
-        <!-- .longform styles HTML elements written from .md files -->
-
-        <!-- <div class="longform__data">
-
-    <ul class="lf-data__list">
-      <li class="lf-data__list-item">Posted: {{ .Date.Format "2006-01-02" }}</li>
-      <li class="lf-data__list-item">By: {{ .Params.author }}</li>
-    </ul>
-    
-  </div>
-  <!-- end .longform__data -->
-
-        <div class="content content--copy">
-
-
-            {{ .Content }}
-            <!-- call content of relevant .md file -->
-
-        </div>
-        <!-- end .content/.content-copy -->
-
-    </section>
-    <!-- end section .longform -->
-
-    {{ partial "footer.html" . }}
+</body>
